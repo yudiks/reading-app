@@ -41,6 +41,35 @@ if (!passage) {
       : [];
   const prompts = Array.isArray(passage.prompts) ? passage.prompts : [];
   const questions = Array.isArray(passage.questions) ? passage.questions : [];
+  const keywords = Array.isArray(passage.keywords) ? passage.keywords : [];
+
+  const underlineClasses = [
+    "vocab-highlight vocab-highlight--1",
+    "vocab-highlight vocab-highlight--2",
+    "vocab-highlight vocab-highlight--3",
+    "vocab-highlight vocab-highlight--4"
+  ];
+
+  const keywordPatterns = keywords
+    .map((word, index) => ({
+      word,
+      className: underlineClasses[index % underlineClasses.length]
+    }))
+    .sort((a, b) => b.word.length - a.word.length)
+    .map(entry => ({
+      regex: new RegExp(`\\b${escapeRegExp(entry.word)}\\b`, "gi"),
+      className: entry.className
+    }));
+
+  function escapeRegExp(value) {
+    return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  function highlightText(text) {
+    return keywordPatterns.reduce((current, pattern) => (
+      current.replace(pattern.regex, match => `<span class="${pattern.className}">${match}</span>`)
+    ), text);
+  }
 
   const wordCount = passage.wordCount ?? countWords(bodyParagraphs);
   const metaParts = [`${wordCount} words`, passage.readingLevel, `By ${passage.author}`].filter(Boolean);
@@ -60,7 +89,7 @@ if (!passage) {
     if (bodyParagraphs.length) {
       bodyParagraphs.forEach(paragraph => {
         const p = document.createElement("p");
-        p.textContent = paragraph;
+        p.innerHTML = keywordPatterns.length ? highlightText(paragraph) : paragraph;
         passageBody.appendChild(p);
       });
     } else {

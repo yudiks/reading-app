@@ -49,6 +49,13 @@ export const passages = [
         explanation: "Marie traveled in X-ray vans to help doctors see broken bones."
       }
     ],
+    keywords: [
+      "radioactivity",
+      "Sorbonne",
+      "elements",
+      "experiments",
+      "Nobel"
+    ],
     prompts: [
       "Why do you think Marie was called brave?",
       "What big question would you ask if you visited her lab?"
@@ -95,6 +102,13 @@ export const passages = [
         answer: 1,
         explanation: "Plants keep extra sugar in roots, seeds, or fruits."
       }
+    ],
+    keywords: [
+      "photosynthesis",
+      "chloroplasts",
+      "chlorophyll",
+      "carbon dioxide",
+      "droplets"
     ],
     prompts: [
       "Which foods do you eat that come from plant sugar?",
@@ -151,6 +165,12 @@ export const passages = [
         explanation: "The hare bragged about winning easily."
       }
     ],
+    keywords: [
+      "bragged",
+      "steady",
+      "careful",
+      "confidence"
+    ],
     prompts: [
       "Think of a time you kept going even when something was hard. What happened?",
       "How would the story change if the hare encouraged the tortoise instead?"
@@ -206,6 +226,12 @@ export const passages = [
         explanation: "Leonardo explored many fields because he was curious about everything."
       }
     ],
+    keywords: [
+      "Renaissance",
+      "curiosity",
+      "invention",
+      "muscles"
+    ],
     prompts: [
       "Which of Leonardo's talents would you like to try?",
       "How can curiosity help you solve a problem today?"
@@ -257,6 +283,12 @@ export const passages = [
         explanation: "Rainwater can flow into rivers or soak into soil."
       }
     ],
+    keywords: [
+      "evaporation",
+      "condensation",
+      "precipitation",
+      "vapor"
+    ],
     prompts: [
       "Draw the path of a raindrop through the water cycle.",
       "How does the water cycle help living things?"
@@ -307,6 +339,12 @@ export const passages = [
         answer: 0,
         explanation: "The wall stands as a symbol of teamwork and determination."
       }
+    ],
+    keywords: [
+      "invaders",
+      "watchtowers",
+      "determination",
+      "traders"
     ],
     prompts: [
       "Imagine sending a signal from one tower to another. What would you tell them?",
