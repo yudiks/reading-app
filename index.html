@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ready to Read! | Comprehension Adventures</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__text">
+      <h1>Ready to Read!</h1>
+      <p>Five short adventures in science and biography, written just for curious 3rd graders.</p>
+      <button class="hero__button" id="startReading">Start Reading</button>
+    </div>
+    <img class="hero__illustration" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='160'%3E%3Crect width='220' height='160' fill='%23fef6e4' rx='24'/%3E%3Cpath d='M32 40h156v90H32z' fill='%23fce38a' stroke='%23ff8fb4' stroke-width='4' rx='12'/%3E%3Cpath d='M60 62h100' stroke='%236246ea' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M60 84h72' stroke='%236246ea' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M60 106h88' stroke='%236246ea' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M150 26l16-16 16 16' stroke='%23ff8fb4' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E" alt="Illustration of an open book" />
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <div class="filter-group">
+        <label for="categoryFilter">Choose a theme:</label>
+        <select id="categoryFilter">
+          <option value="all">All Passages</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="lengthFilter">Reading length:</label>
+        <select id="lengthFilter">
+          <option value="all">Any</option>
+          <option value="short">Quick (≤ 220 words)</option>
+          <option value="medium">Just Right (221–260 words)</option>
+          <option value="long">Longer (261+ words)</option>
+        </select>
+      </div>
+      <button id="toggleVocabulary" class="pill">Show Vocabulary</button>
+    </section>
+
+    <section id="passageList" class="passage-list" aria-live="polite"></section>
+  </main>
+
+  <footer>
+      <p>Tip: Click the speaker to hear a passage read aloud. Mark your answers, then press “Check My Work!”</p>
+  </footer>
+
+  <template id="passageTemplate">
+    <article class="passage" data-category="" tabindex="-1">
+      <header class="passage__header">
+        <div>
+          <p class="pill pill--category"></p>
+          <h2></h2>
+          <p class="meta"></p>
+        </div>
+        <button class="speak" title="Read this passage aloud" aria-label="Read this passage aloud">🔊</button>
+      </header>
+      <section class="passage__body">
+        <p class="text"></p>
+        <ul class="vocabulary" hidden>
+        </ul>
+      </section>
+      <section class="questions">
+        <h3>Check Your Understanding</h3>
+        <ol></ol>
+        <button class="check button">Check My Work!</button>
+        <p class="score" aria-live="polite"></p>
+      </section>
+      <section class="discussion">
+        <h3>Talk About It</h3>
+        <ul></ul>
+      </section>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
