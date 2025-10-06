@@ -114,8 +114,7 @@ export const passages = [
     readingLevel: "Grade 3",
     body: [
       "The forest animals gathered for a race. The hare bounced with energy and bragged that he would win by a mile.",
-      "The tortoise stretched his neck and nodded. \"I may be slow,\" he said, \"but I never give up.\"
-      ",
+      "The tortoise stretched his neck and nodded. \"I may be slow,\" he said, \"but I never give up.\"",
       "When the race began, the hare zipped ahead. Soon he grew bored. He took a nap under a shady tree.",
       "The tortoise moved at a steady pace. Step by careful step, he passed the sleeping hare and reached the finish line first.",
       "The hare woke up too late. \"How did I lose?\" he cried. The tortoise smiled. \"Fast feet are nice, but steady steps win the race.\""

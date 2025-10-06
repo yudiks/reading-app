@@ -42,8 +42,13 @@ export function formatNumber(value) {
 }
 
 export function countWords(body) {
-  return body
-    .join(" ")
+  const text = Array.isArray(body)
+    ? body.join(" ")
+    : typeof body === "string"
+      ? body
+      : "";
+
+  return text
     .replace(/[^\w\s']/g, " ")
     .trim()
     .split(/\s+/)
