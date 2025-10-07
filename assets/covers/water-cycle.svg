@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+    <linearGradient id="arrow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a5f3fc" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-water)" />
+  <path d="M0 420h800v180H0z" fill="url(#ocean)" opacity="0.8" />
+  <circle cx="180" cy="200" r="90" fill="#f1f5f9" opacity="0.9" />
+  <circle cx="250" cy="220" r="80" fill="#e2e8f0" opacity="0.8" />
+  <circle cx="320" cy="210" r="60" fill="#cbd5f5" opacity="0.7" />
+  <path d="M420 170c40-60 120-90 200-70 60 15 110 50 140 100-30 90-110 150-200 160-120 12-200-60-140-190z" fill="#1e293b" opacity="0.35" />
+  <path d="M520 210c40-50 110-80 170-70-10 80-70 150-150 160-40 5-70-20-20-90z" fill="#bae6fd" opacity="0.75" />
+  <path d="M200 180l-40-70" stroke="#38bdf8" stroke-width="12" stroke-linecap="round" />
+  <path d="M240 150l-30-60" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" />
+  <g fill="url(#arrow)">
+    <path d="M460 440c0-80-60-120-140-120-70 0-120 30-140 80l-40-24c30-70 110-116 200-116 120 0 200 70 200 160z" opacity="0.65" />
+    <path d="M540 360l80 24-46 60z" />
+  </g>
+</svg>

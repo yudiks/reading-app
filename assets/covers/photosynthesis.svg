@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-photosynthesis" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f5132" />
+      <stop offset="100%" stop-color="#1c7c54" />
+    </linearGradient>
+    <radialGradient id="sun" cx="0.2" cy="0.2" r="0.4">
+      <stop offset="0%" stop-color="#ffeeb0" />
+      <stop offset="70%" stop-color="#ffd24c" />
+      <stop offset="100%" stop-color="#ffac33" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6ef7a8" />
+      <stop offset="100%" stop-color="#30c283" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-photosynthesis)" />
+  <rect x="0" y="0" width="800" height="600" fill="url(#sun)" opacity="0.6" />
+  <path d="M210 460c80-160 170-240 290-270 80-20 150-10 190 40-30 120-110 210-220 250-110 40-190 30-260-20z" fill="#0e3d28" opacity="0.35" />
+  <path d="M200 420c60-150 200-260 360-250-20 150-120 260-230 300-80 30-160 20-130-50z" fill="url(#leaf)" />
+  <path d="M240 420c100-120 220-190 350-210" stroke="#ffffff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.4" />
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="180" cy="140" r="8" />
+    <circle cx="220" cy="110" r="6" />
+    <circle cx="260" cy="160" r="5" />
+    <circle cx="300" cy="120" r="7" />
+  </g>
+</svg>

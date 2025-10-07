@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b2237" />
+      <stop offset="100%" stop-color="#144b73" />
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#64d2ff" />
+      <stop offset="100%" stop-color="#1a9af0" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-river)" />
+  <path d="M0 420c40-120 140-200 260-190 160 10 220 150 360 160 80 6 140-30 180-110v320H0z" fill="#1f4b2c" opacity="0.65" />
+  <path d="M0 600l0-120c120-80 220-110 320-90 120 26 200 120 320 130 60 6 120-10 160-40v120z" fill="url(#river)" opacity="0.8" />
+  <g fill="none" stroke="#b3e5ff" stroke-width="8" stroke-linecap="round">
+    <path d="M120 360c40-20 120-20 160 40" />
+    <path d="M280 420c60-40 140-40 220 0" />
+    <path d="M520 440c50-30 120-30 180-10" />
+  </g>
+  <g fill="#f5f5f5" opacity="0.8">
+    <rect x="160" y="120" width="16" height="80" rx="4" />
+    <rect x="200" y="100" width="16" height="100" rx="4" />
+    <rect x="240" y="140" width="16" height="60" rx="4" />
+    <rect x="280" y="90" width="16" height="110" rx="4" />
+  </g>
+  <polyline points="500 70 560 110 620 80 680 130" fill="none" stroke="#fbd38d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="560" cy="110" r="10" fill="#fbd38d" />
+  <circle cx="620" cy="80" r="10" fill="#fbd38d" />
+</svg>

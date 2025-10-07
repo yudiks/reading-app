@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg-race" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1d3557" />
+      <stop offset="100%" stop-color="#2a9d8f" />
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4caf50" />
+      <stop offset="100%" stop-color="#2e7d32" />
+    </linearGradient>
+    <linearGradient id="hare" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#f9844a" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-race)" />
+  <path d="M80 470h640" stroke="#f1faee" stroke-width="28" stroke-linecap="round" opacity="0.35" />
+  <path d="M80 430h640" stroke="#f1faee" stroke-width="10" stroke-dasharray="40 30" opacity="0.3" />
+  <g transform="translate(180 300)">
+    <ellipse cx="120" cy="140" rx="120" ry="70" fill="url(#shell)" />
+    <ellipse cx="60" cy="120" rx="60" ry="45" fill="#2f4f2f" opacity="0.5" />
+    <circle cx="30" cy="110" r="18" fill="#1b4332" />
+    <circle cx="32" cy="106" r="6" fill="#f1faee" />
+    <path d="M200 150c40-30 70-40 110-40" stroke="#1b4332" stroke-width="16" stroke-linecap="round" opacity="0.6" />
+  </g>
+  <g transform="translate(420 250)">
+    <path d="M120 40c40-40 100-50 150-20 30 20 40 50 30 80-10 30-40 50-70 50-40 0-80-40-110-110z" fill="url(#hare)" />
+    <circle cx="210" cy="90" r="10" fill="#5f2700" />
+    <circle cx="212" cy="88" r="4" fill="#fff" />
+    <path d="M220 140c-20 12-60 20-100-10" stroke="#5f2700" stroke-width="12" stroke-linecap="round" opacity="0.6" />
+  </g>
+  <path d="M120 520c160-40 320-40 480 0" stroke="#f1faee" stroke-width="6" stroke-linecap="round" opacity="0.25" />
+</svg>
