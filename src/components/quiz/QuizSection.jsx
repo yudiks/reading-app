@@ -15,7 +15,7 @@ const TYPE_COMPONENTS = {
   "short-answer": ShortAnswerQuestion
 };
 
-export default function QuizSection({ passage }) {
+export default function QuizSection({ passage, onProgressChange }) {
   const [responses, setResponses] = useState({});
   const [submissions, setSubmissions] = useState({});
   const [activeIndex, setActiveIndex] = useState(0);
@@ -63,6 +63,21 @@ export default function QuizSection({ passage }) {
   };
 
   const totalSubmitted = Object.keys(submissions).length;
+
+  useEffect(() => {
+    if (typeof onProgressChange !== "function") {
+      return;
+    }
+    const totalQuestions = questions.length;
+    const correctCount = Object.values(submissions).filter(entry => entry?.correct).length;
+    onProgressChange({
+      totalQuestions,
+      totalSubmitted,
+      correctCount,
+      allSubmitted: totalQuestions > 0 && totalSubmitted === totalQuestions,
+      allCorrect: totalQuestions > 0 && correctCount === totalQuestions
+    });
+  }, [onProgressChange, questions, submissions, totalSubmitted]);
 
   return (
     <section className="quest" aria-labelledby="questHeading">

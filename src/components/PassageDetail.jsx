@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useCallback, useMemo, useState } from "react";
 import ReadAloud from "./ReadAloud.jsx";
 import QuizSection from "./quiz/QuizSection.jsx";
+import { savePassageProgress } from "../utils/journal.js";
 
 export default function PassageDetail({ passage }) {
   const [activeSentenceId, setActiveSentenceId] = useState(null);
@@ -21,6 +22,8 @@ export default function PassageDetail({ passage }) {
   if (!passage) {
     return fallback;
   }
+
+  const passageId = passage.id;
 
   const sentenceData = useMemo(() => {
     const regex = /[^.!?]+(?:[.!?]+|$)/g;
@@ -91,6 +94,16 @@ export default function PassageDetail({ passage }) {
     }
   }, []);
 
+  const handleQuizProgress = useCallback(
+    stats => {
+      if (!passageId) {
+        return;
+      }
+      savePassageProgress(passageId, stats);
+    },
+    [passageId]
+  );
+
   return (
     <article className="passage-article">
       <header className="passage-hero">
@@ -119,15 +132,7 @@ export default function PassageDetail({ passage }) {
           </p>
         ))}
       </section>
-      <QuizSection passage={passage} />
-      <section className="journal" aria-labelledby="journalHeading">
-        <h3 id="journalHeading">My Explorer's Journal</h3>
-        <ul>
-          {passage.prompts.map(prompt => (
-            <li key={prompt}>{prompt}</li>
-          ))}
-        </ul>
-      </section>
+      <QuizSection passage={passage} onProgressChange={handleQuizProgress} />
     </article>
   );
 }

@@ -1,11 +1,6 @@
 import { NavLink } from "react-router-dom";
 import avatar from "../assets/avatar.svg";
 
-const navLinks = [
-  { to: "/", label: "Choose Adventure" },
-  { to: "/#journal", label: "Journal" }
-];
-
 export default function Sidebar() {
   return (
     <aside className="sidebar" aria-label="Learner profile">
@@ -25,11 +20,26 @@ export default function Sidebar() {
       <nav className="sidebar__nav" aria-label="Primary">
         <h2 className="section-title">Navigation</h2>
         <ul>
-          {navLinks.map(link => (
-            <li key={link.to}>
-              <NavLink to={link.to}>{link.label}</NavLink>
-            </li>
-          ))}
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                ["nav-link", isActive ? "nav-link--active" : ""].filter(Boolean).join(" ")
+              }
+            >
+              Choose Adventure
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/journal"
+              className={({ isActive }) =>
+                ["nav-link", isActive ? "nav-link--active" : ""].filter(Boolean).join(" ")
+              }
+            >
+              Journal
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>

@@ -37,7 +37,7 @@ Passages live in `src/data/passages/*.json`. Each file includes:
   - `matching`
   - `sequence`
   - `short-answer`
-- `prompts`: journal starters appended to the passage detail view.
+- `prompts` (optional): reserved for future journaling features.
 
 Update or add files, then import them through `src/data/passages.js` if you create new adventures.
 
