@@ -1,0 +1,64 @@
+{
+  "id": "river-guardians",
+  "title": "Journey of the River Guardians",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Mei joins a weekend expedition to protect a river and discovers how tiny choices ripple through an entire watershed.",
+  "coverImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+  "imageAlt": "Students standing beside a winding river collecting samples.",
+  "author": "Jacob Sutanto",
+  "wordCount": 552,
+  "readingLevel": "Grade 3",
+  "body": [
+    "On a crisp Saturday morning, Mei zipped up her raincoat and joined the River Guardians club along the muddy bank of the Silver Fern River. Mist hovered just above the water, and the breath of the forest smelled like wet pine needles and orange peels. Ms. Rojas, the club leader, passed around waterproof notebooks and reminded everyone that good scientists begin by noticing everything.",
+    "Mei crouched beside the current and watched a crawfish scuttle between pebbles. She sketched the little creature in her notebook, adding labels for claws, antennae, and the thin fan of its tail. When she dipped a test strip into the river, she whispered each color change out loud-green for cool temperature, yellow for balanced acidity. The numbers would later help them track whether the river stayed healthy in every season.",
+    "As the sun climbed higher, the club hiked upstream through ferns taller than basketball hoops. Mei's friend Davion pointed to a fallen log draped in moss. Together they counted the rings on the stump, discovering the tree had lived through sixty-seven winters. Mei wrote that big trees act like sponges, slowing runoff during heavy rains so the river does not flood the town downstream.",
+    "At the first survey stop, Ms. Rojas unrolled a laminated map. Blue arrows showed how the Silver Fern River wove through farms, playgrounds, and the city harbor before meeting the sea. Mei traced one arrow with her finger and imagined a raindrop traveling the journey. \"A watershed is like a neighborhood for water,\" Ms. Rojas explained. \"Every drop that lands here eventually meets the river.\"",
+    "After lunch, the club visited a creek feeding into the river. Someone had tossed plastic snack wrappers along the path, and a bright soda can bobbed in the shallows. Mei felt a pinch in her stomach. She knew turtles and fish sometimes swallowed shiny trash by accident. The club fanned out, filling mesh bags with litter, while Davion recorded their findings: eight wrappers, twelve bottle caps, three plastic forks, and one cracked toy robot arm.",
+    "Back at the main river, a park ranger named Mr. Ellis showed the group how to test dissolved oxygen. \"Fish need oxygen just like we do,\" he said, shaking a vial until bubbles shimmered inside. When the solution turned sky-blue, Mei cheered. High oxygen meant the water could support trout, dragonfly nymphs, and the shy otters that sometimes slipped past at dusk.",
+    "As the afternoon cooled, Mei interviewed visitors strolling along the riverwalk. An elderly artist shared how he painted the river in each season to notice small changes in color. A baker described composting orange peels from her shop instead of tossing them, so fewer scraps blew into the river. Mei realized community stories were evidence, too, because they showed how people shaped the watershed by their habits.",
+    "Before packing up, Ms. Rojas gathered the club for a final reflection. Each member shared one action they would take during the week. Mei promised to write an article for the school newspaper with graphs from their data. She wanted classmates to understand that a single sandwich wrapper could begin a chain reaction, but so could a single act of care. As the river carried their reflections toward the harbor, Mei felt the truth of the club's motto: \"Guardians notice, measure, and imagine better futures.\""
+  ],
+  "questions": [
+    {
+      "prompt": "Why did Mei describe community stories as evidence?",
+      "options": [
+        "They showed how people's choices affected the river.",
+        "They helped her decide which fish to catch.",
+        "They taught her how to draw crawfish."
+      ],
+      "answer": 0,
+      "explanation": "Stories about composting and painting revealed habits that protect or harm the watershed."
+    },
+    {
+      "prompt": "What did the club learn from testing dissolved oxygen?",
+      "options": [
+        "The water could support river animals because oxygen levels were high.",
+        "The river was too cold for any fish to survive.",
+        "The current was slowing down for the winter."
+      ],
+      "answer": 0,
+      "explanation": "The sky-blue test result meant there was enough oxygen for trout, dragonflies, and otters."
+    },
+    {
+      "prompt": "Which action best matches the club's motto about imagining better futures?",
+      "options": [
+        "Leaving snack wrappers on the trail to study later.",
+        "Collecting data and sharing it so others choose river-friendly habits.",
+        "Keeping observations in a private notebook only."
+      ],
+      "answer": 1,
+      "explanation": "Mei planned to publish graphs in the school paper so the community could help protect the watershed."
+    }
+  ],
+  "keywords": [
+    "watershed",
+    "oxygen",
+    "runoff",
+    "habits"
+  ],
+  "prompts": [
+    "Describe a small choice you could make this week to care for a local habitat.",
+    "Explain how data and stories can work together to solve a science problem."
+  ]
+}
