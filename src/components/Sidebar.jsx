@@ -3,7 +3,6 @@ import avatar from "../assets/avatar.svg";
 
 const navLinks = [
   { to: "/", label: "Choose Adventure" },
-  { to: "/#badges", label: "Badges" },
   { to: "/#journal", label: "Journal" }
 ];
 
@@ -19,13 +18,8 @@ export default function Sidebar() {
           </div>
         </div>
       </header>
-      <section className="sidebar__stats" aria-labelledby="badgeHeading">
-        <h2 className="section-title" id="badgeHeading">Badges</h2>
-        <ul className="badge-list" id="badgeList">
-          <li className="badge"><span className="badge__icon">⭐</span>Curious Reader</li>
-          <li className="badge"><span className="badge__icon">🧠</span>Word Wizard</li>
-          <li className="badge"><span className="badge__icon">🗺️</span>Adventure Mapper</li>
-        </ul>
+      <section className="sidebar__stats" aria-labelledby="progressHeading">
+        <h2 className="section-title" id="progressHeading">Progress</h2>
         <div className="progress">1280 Quest Points</div>
       </section>
       <nav className="sidebar__nav" aria-label="Primary">
