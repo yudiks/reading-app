@@ -1,66 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght;500;700&family=Outfit:wght;700&display=swap" rel="stylesheet" />
-  <title>Quest Comprehend | Choose Your Adventure</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script type="module" src="scripts/home.js" defer></script>
-</head>
-<body class="theme-dark">
-  <div class="app-shell">
-    <aside class="sidebar" aria-label="Learner profile">
-      <header class="sidebar__brand">
-        <img src="assets/avatar.svg" alt="Jacob Sutanto avatar" class="avatar" />
-        <div>
-          <p class="brand">Quest Comprehend</p>
-          <h1 class="learner-name" id="learnerName"></h1>
-        </div>
-      </header>
-
-      <section class="sidebar__stats" aria-labelledby="statHeading">
-        <h2 class="section-title" id="statHeading">Badges</h2>
-        <ul class="badge-list" id="badgeList"></ul>
-        <div class="progress" id="points"></div>
-      </section>
-
-      <nav class="sidebar__nav" aria-label="Primary">
-        <h2 class="section-title">Navigation</h2>
-        <ul id="navLinks"></ul>
-      </nav>
-    </aside>
-
-    <main class="main">
-      <header class="hero hero--board">
-        <div>
-          <p class="eyebrow">Reading Adventures</p>
-          <h2>Choose Your Adventure</h2>
-          <p class="subtitle">Select a passage to begin your comprehension quest.</p>
-        </div>
-        <div class="toolbar" aria-label="Filters">
-          <label>
-            <span>Category</span>
-            <select id="categoryFilter">
-              <option value="all">All themes</option>
-            </select>
-          </label>
-          <label>
-            <span>Length</span>
-            <select id="lengthFilter">
-              <option value="all">Any</option>
-              <option value="short">Short (≤ 220 words)</option>
-              <option value="medium">Medium (221–260 words)</option>
-              <option value="long">Longer (261+ words)</option>
-            </select>
-          </label>
-        </div>
-      </header>
-
-      <section class="card-grid" id="passageGrid" aria-live="polite"></section>
-    </main>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quest Comprehend</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

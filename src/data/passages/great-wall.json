@@ -1,0 +1,161 @@
+{
+  "id": "great-wall",
+  "title": "The Great Wall of China",
+  "category": "history",
+  "categoryLabel": "History",
+  "summary": "The Great Wall winds like a dragon across mountains, showing how people worked together to protect their home.",
+  "coverImage": "assets/covers/great-wall.svg",
+  "imageAlt": "Stylized illustration of the Great Wall winding over green hills.",
+  "author": "Jacob Sutanto",
+  "wordCount": 236,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The Great Wall of China stretches more than 13,000 miles. Long ago, rulers built it to guard their land from invaders.",
+    "Workers used stone, bricks, and packed earth to build the wall across steep mountains and deserts.",
+    "Watchtowers dotted the wall every few miles. Soldiers could spot danger and send smoke signals from tower to tower.",
+    "The wall also served as a road. Traders and messengers traveled along its top, carrying goods and news.",
+    "Today the Great Wall reminds us how teamwork and determination can create something mighty."
+  ],
+  "questions": [
+    {
+      "id": "great-wall-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did rulers decide to build the Great Wall of China?",
+      "options": [
+        "To guard their land from invaders",
+        "To decorate the mountains with art",
+        "To grow gardens on the wall"
+      ],
+      "answer": 0,
+      "explanation": "The wall was designed to protect the country from attacks."
+    },
+    {
+      "id": "great-wall-q2",
+      "type": "multiple-choice",
+      "prompt": "Which materials were used to build the wall?",
+      "options": [
+        "Stone, bricks, and packed earth",
+        "Glass, steel, and plastic",
+        "Leaves, sticks, and straw"
+      ],
+      "answer": 0,
+      "explanation": "Workers used sturdy materials to cross mountains and deserts."
+    },
+    {
+      "id": "great-wall-q3",
+      "type": "fill-blank",
+      "prompt": "Watchtowers let soldiers send ______ signals from one tower to another.",
+      "answer": "smoke",
+      "explanation": "Smoke signals traveled quickly between towers to warn of danger."
+    },
+    {
+      "id": "great-wall-q4",
+      "type": "matching",
+      "prompt": "Match each feature of the wall with its purpose.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Watchtower",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Wide top",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Long length",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Strong materials",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Spot danger and send signals",
+        "b": "Let traders and messengers travel",
+        "c": "Cover many mountains and deserts",
+        "d": "Keep the wall standing for centuries"
+      },
+      "explanation": "Each design choice helped the Great Wall protect and connect people."
+    },
+    {
+      "id": "great-wall-q5",
+      "type": "sequence",
+      "prompt": "Place these wall facts in the order mentioned in the passage.",
+      "sequence": [
+        "Rulers decided to guard their land",
+        "Workers built across steep mountains",
+        "Soldiers used watchtowers to send signals",
+        "Traders and messengers traveled along the top"
+      ],
+      "explanation": "The passage explains protection first, then building, signaling, and travel."
+    },
+    {
+      "id": "great-wall-q6",
+      "type": "fill-blank",
+      "prompt": "The wall stretches more than ______ miles across China.",
+      "answer": "13,000",
+      "explanation": "The text says it stretches more than 13,000 miles."
+    },
+    {
+      "id": "great-wall-q7",
+      "type": "multiple-choice",
+      "prompt": "How did the wall help people besides soldiers?",
+      "options": [
+        "It served as a road for traders and messengers.",
+        "It provided swimming pools for children.",
+        "It turned mountains into farms."
+      ],
+      "answer": 0,
+      "explanation": "The top of the wall became a pathway for carrying goods and news."
+    },
+    {
+      "id": "great-wall-q8",
+      "type": "short-answer",
+      "prompt": "Give one example from the passage that shows teamwork built the wall.",
+      "acceptableAnswers": [
+        "Workers used stone, bricks, and packed earth together to build across mountains.",
+        "Soldiers and workers cooperated to guard land and send signals."
+      ],
+      "explanation": "Many people shared skills to create and use the Great Wall."
+    },
+    {
+      "id": "great-wall-q9",
+      "type": "multiple-choice",
+      "prompt": "Why is the wall compared to a dragon in the summary?",
+      "options": [
+        "It twists across mountains in a long, powerful shape.",
+        "It breathes fire on nearby villages.",
+        "It sleeps during the winter months."
+      ],
+      "answer": 0,
+      "explanation": "Like a dragon, the wall winds across the land in a long, strong line."
+    },
+    {
+      "id": "great-wall-q10",
+      "type": "multiple-choice",
+      "prompt": "What lesson does the passage say the Great Wall teaches us today?",
+      "options": [
+        "Teamwork and determination can build mighty things.",
+        "Walls are the best place to plant gardens.",
+        "Traveling is more fun than working together."
+      ],
+      "answer": 0,
+      "explanation": "The wall reminds people that working together creates lasting strength."
+    }
+  ],
+  "keywords": [
+    "invaders",
+    "watchtowers",
+    "determination",
+    "traders"
+  ],
+  "prompts": [
+    "Imagine sending a signal from one tower to another. What would you tell them?",
+    "What would you pack for a walk along the Great Wall?"
+  ]
+}

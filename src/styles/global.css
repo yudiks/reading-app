@@ -494,6 +494,110 @@ select:focus-visible {
   text-align: right;
 }
 
+.sentence-wrapper {
+  display: inline;
+}
+
+.input,
+.textarea,
+.matching-grid select {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(124, 92, 250, 0.35);
+  background: rgba(11, 16, 32, 0.85);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.input:focus,
+.textarea:focus,
+.matching-grid select:focus {
+  outline: 2px solid rgba(124, 92, 250, 0.6);
+  outline-offset: 2px;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.matching-grid {
+  display: grid;
+  gap: 0.85rem;
+}
+
+.matching-row {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 720px) {
+  .matching-row {
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+  }
+}
+
+.matching-left {
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+.sequence-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.sequence-row {
+  display: grid;
+  gap: 0.6rem;
+}
+
+@media (min-width: 720px) {
+  .sequence-row {
+    grid-template-columns: 1fr 180px;
+    align-items: center;
+  }
+}
+
+.quiz-form {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.page {
+  display: grid;
+  gap: 2.5rem;
+}
+
+.quiz-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-end;
+}
+
+.button--secondary {
+  background: rgba(16, 24, 48, 0.65);
+  border: 1px solid rgba(124, 92, 250, 0.4);
+  color: var(--text);
+}
+
+.button--secondary:hover,
+.button--secondary:focus-visible {
+  background: rgba(16, 24, 48, 0.85);
+}
+
+.explanation--correct {
+  color: var(--success);
+}
+
+.explanation--incorrect {
+  color: var(--danger);
+}
+
 .passage-hero__image {
   width: 100%;
   border-radius: var(--radius-md);

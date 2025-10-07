@@ -1,0 +1,162 @@
+{
+  "id": "photosynthesis",
+  "title": "The Miracle of Photosynthesis",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Leaves look calm, but inside they run a busy kitchen that turns sunlight into plant food.",
+  "coverImage": "assets/covers/photosynthesis.svg",
+  "imageAlt": "Stylized leaf catching warm sunlight to symbolize photosynthesis.",
+  "author": "Jacob Sutanto",
+  "wordCount": 232,
+  "readingLevel": "Grade 3",
+  "body": [
+    "When you step outside on a sunny morning, plants are already hard at work. Leaves use sunlight, water, and air to make food in a process called photosynthesis.",
+    "Tiny parts inside the leaf called chloroplasts act like mini kitchens. They catch sunlight with a green helper named chlorophyll.",
+    "The leaf mixes sunlight with water from the roots and carbon dioxide from the air. The result is sugar for the plant and oxygen for us to breathe.",
+    "Some of the sugar is stored in roots like carrots. Other sugar feeds flowers, fruits, and seeds.",
+    "Photosynthesis shows how plants and people share the planet. Without leafy kitchens, Earth would not be full of fresh air, crunchy snacks, and colorful gardens."
+  ],
+  "questions": [
+    {
+      "id": "photosynthesis-q1",
+      "type": "multiple-choice",
+      "prompt": "Which ingredients must a leaf mix to make food during photosynthesis?",
+      "options": [
+        "Sunlight, water, and carbon dioxide",
+        "Moonlight, soil, and wind",
+        "Sugar, rainbows, and sand"
+      ],
+      "answer": 0,
+      "explanation": "Photosynthesis uses sunlight, water from the roots, and carbon dioxide from the air."
+    },
+    {
+      "id": "photosynthesis-q2",
+      "type": "fill-blank",
+      "prompt": "The green helper inside a leaf that grabs sunlight is called ________.",
+      "answer": "chlorophyll",
+      "explanation": "Chlorophyll is the pigment that captures light energy."
+    },
+    {
+      "id": "photosynthesis-q3",
+      "type": "multiple-choice",
+      "prompt": "Why are chloroplasts compared to tiny kitchens?",
+      "options": [
+        "They cook meals for animals at night.",
+        "They mix ingredients and produce sugar for the plant.",
+        "They refrigerate leftovers for the plant."
+      ],
+      "answer": 1,
+      "explanation": "Chloroplasts combine ingredients to make sugar, just like a kitchen combines foods."
+    },
+    {
+      "id": "photosynthesis-q4",
+      "type": "matching",
+      "prompt": "Match each photosynthesis ingredient with its job.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Sunlight",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Water",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Carbon dioxide",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Sugar",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Energy that powers the leaf kitchen",
+        "b": "Ingredient lifted from the roots",
+        "c": "Gas the leaf pulls from the air",
+        "d": "Food the plant makes and stores"
+      },
+      "explanation": "Each ingredient plays a specific role in helping the plant produce sugar."
+    },
+    {
+      "id": "photosynthesis-q5",
+      "type": "sequence",
+      "prompt": "Put these photosynthesis steps in order.",
+      "sequence": [
+        "Roots deliver water to the leaf",
+        "Chlorophyll captures sunlight",
+        "Leaf combines water with carbon dioxide",
+        "Plant makes sugar and releases oxygen"
+      ],
+      "explanation": "Water arrives first, sunlight is captured, ingredients mix, and sugar plus oxygen are produced."
+    },
+    {
+      "id": "photosynthesis-q6",
+      "type": "fill-blank",
+      "prompt": "Plants often store extra sugar in their ______, like crunchy carrots.",
+      "answer": "roots",
+      "explanation": "Roots, fruits, and seeds can store the sugar that plants make."
+    },
+    {
+      "id": "photosynthesis-q7",
+      "type": "multiple-choice",
+      "prompt": "What gift do plants share with people after photosynthesis?",
+      "options": [
+        "Oxygen to breathe",
+        "Rain clouds",
+        "New constellations"
+      ],
+      "answer": 0,
+      "explanation": "Photosynthesis releases oxygen, which people and animals need to breathe."
+    },
+    {
+      "id": "photosynthesis-q8",
+      "type": "short-answer",
+      "prompt": "Describe how photosynthesis connects plants and people.",
+      "acceptableAnswers": [
+        "Plants make oxygen and food through photosynthesis, and people rely on that oxygen and food.",
+        "Photosynthesis creates sugar for plants and oxygen for people, so both benefit."
+      ],
+      "explanation": "Plants feed themselves and share oxygen, showing how we depend on each other."
+    },
+    {
+      "id": "photosynthesis-q9",
+      "type": "multiple-choice",
+      "prompt": "What happens to some of the sugar that plants make?",
+      "options": [
+        "It turns into lightning.",
+        "It is stored in roots, flowers, fruits, or seeds.",
+        "It disappears into the sky."
+      ],
+      "answer": 1,
+      "explanation": "Plants save sugar in different parts to use later for growth and energy."
+    },
+    {
+      "id": "photosynthesis-q10",
+      "type": "multiple-choice",
+      "prompt": "Which sentence best summarizes the passage?",
+      "options": [
+        "Leaves are quiet, but they are busy making food from sunlight, water, and air.",
+        "Leaves fall every autumn so plants can rest.",
+        "Plants work only at night when people cannot see them."
+      ],
+      "answer": 0,
+      "explanation": "The passage explains how leaves transform sunlight, water, and carbon dioxide into sugar."
+    }
+  ],
+  "keywords": [
+    "photosynthesis",
+    "chloroplasts",
+    "chlorophyll",
+    "carbon dioxide",
+    "droplets"
+  ],
+  "prompts": [
+    "Which foods do you eat that come from plant sugar?",
+    "How could you show photosynthesis in a drawing?"
+  ]
+}

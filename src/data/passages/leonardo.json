@@ -1,0 +1,161 @@
+{
+  "id": "leonardo",
+  "title": "Leonardo da Vinci: The Renaissance Man",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Leonardo da Vinci painted, invented, and explored, showing how curiosity can stretch across many talents.",
+  "coverImage": "assets/covers/leonardo.svg",
+  "imageAlt": "Stylized parchment sketch inspired by Leonardo da Vinci's notebook.",
+  "author": "Jacob Sutanto",
+  "wordCount": 238,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Leonardo da Vinci grew up in Italy more than 500 years ago. As a child, he watched birds and filled notebooks with sketches.",
+    "When Leonardo became an artist, he painted famous pictures like the Mona Lisa. He studied smiles, shadows, and how light dances on faces.",
+    "His curiosity didn't stop with paint. Leonardo designed flying machines, bridges, and even a diving suit. He took notes backward so only he could read them easily.",
+    "Leonardo loved learning about the human body. He carefully drew muscles, bones, and hearts to understand how people move.",
+    "His notebooks show that a curious mind can connect art, science, and invention all at once."
+  ],
+  "questions": [
+    {
+      "id": "leonardo-q1",
+      "type": "multiple-choice",
+      "prompt": "What did young Leonardo fill his notebooks with?",
+      "options": [
+        "Sketches of birds and nature",
+        "Lists of bread recipes",
+        "Maps of hidden treasure"
+      ],
+      "answer": 0,
+      "explanation": "As a child he observed birds and sketched them carefully."
+    },
+    {
+      "id": "leonardo-q2",
+      "type": "multiple-choice",
+      "prompt": "Which famous painting did Leonardo study smiles and shadows for?",
+      "options": [
+        "The Mona Lisa",
+        "Starry Night",
+        "The Scream"
+      ],
+      "answer": 0,
+      "explanation": "The passage mentions the Mona Lisa as an example of his art."
+    },
+    {
+      "id": "leonardo-q3",
+      "type": "fill-blank",
+      "prompt": "Leonardo designed flying machines, bridges, and even a ______ suit.",
+      "answer": "diving",
+      "explanation": "His imagination stretched to underwater exploration with a diving suit design."
+    },
+    {
+      "id": "leonardo-q4",
+      "type": "matching",
+      "prompt": "Match Leonardo's interests with what he did to explore them.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Birds",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Painting",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Invention",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Human body",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Sketched them in his notebooks",
+        "b": "Painted the Mona Lisa and studied light",
+        "c": "Designed flying machines and bridges",
+        "d": "Drew muscles, bones, and hearts"
+      },
+      "explanation": "Each match shows how his curiosity turned into careful study."
+    },
+    {
+      "id": "leonardo-q5",
+      "type": "sequence",
+      "prompt": "Put these discoveries in the order they are described in the passage.",
+      "sequence": [
+        "Leonardo sketched birds as a child",
+        "He painted famous portraits like the Mona Lisa",
+        "He designed inventions such as flying machines",
+        "He studied muscles and hearts to learn about movement"
+      ],
+      "explanation": "The passage travels from childhood sketches to art, inventions, and anatomy."
+    },
+    {
+      "id": "leonardo-q6",
+      "type": "fill-blank",
+      "prompt": "Leonardo wrote some notes backward so only he could read them easily, like a secret ______.",
+      "answer": "code",
+      "explanation": "Writing backward made his notebook feel like a private code."
+    },
+    {
+      "id": "leonardo-q7",
+      "type": "multiple-choice",
+      "prompt": "Why did Leonardo carefully draw muscles, bones, and hearts?",
+      "options": [
+        "He wanted to decorate a castle.",
+        "He was learning how the human body moves.",
+        "He planned to sell anatomy drawings at the market."
+      ],
+      "answer": 1,
+      "explanation": "He studied the human body to understand how movement works."
+    },
+    {
+      "id": "leonardo-q8",
+      "type": "short-answer",
+      "prompt": "Explain how Leonardo showed that art and science can connect.",
+      "acceptableAnswers": [
+        "He painted detailed art, designed inventions, and studied the human body, proving that curiosity links art and science.",
+        "Leonardo used the same curiosity to create art and explore science, showing they can work together."
+      ],
+      "explanation": "Leonardo blended painting, invention, and anatomy in one curious life."
+    },
+    {
+      "id": "leonardo-q9",
+      "type": "multiple-choice",
+      "prompt": "Which habit showed Leonardo's curiosity never stopped?",
+      "options": [
+        "He kept filling notebooks with new ideas.",
+        "He stopped drawing once he finished the Mona Lisa.",
+        "He only worked on one project at a time."
+      ],
+      "answer": 0,
+      "explanation": "His notebooks were full of sketches, inventions, and notes."
+    },
+    {
+      "id": "leonardo-q10",
+      "type": "multiple-choice",
+      "prompt": "What is the main message about Leonardo in this passage?",
+      "options": [
+        "Curiosity helped him explore art, science, and invention together.",
+        "Sticking to one subject makes a person successful.",
+        "Artists should never study science."
+      ],
+      "answer": 0,
+      "explanation": "The passage celebrates how his curiosity connected many talents."
+    }
+  ],
+  "keywords": [
+    "Renaissance",
+    "curiosity",
+    "invention",
+    "muscles"
+  ],
+  "prompts": [
+    "Which of Leonardo's talents would you like to try?",
+    "How can curiosity help you solve a problem today?"
+  ]
+}

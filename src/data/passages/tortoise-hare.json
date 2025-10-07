@@ -1,0 +1,161 @@
+{
+  "id": "tortoise-hare",
+  "title": "The Tortoise and the Hare",
+  "category": "fable",
+  "categoryLabel": "Fable",
+  "summary": "A speedy hare challenges a steady tortoise and learns that bragging can trip you up.",
+  "coverImage": "assets/covers/tortoise-hare.svg",
+  "imageAlt": "Stylized tortoise and hare lining up on a racetrack.",
+  "author": "Jacob Sutanto",
+  "wordCount": 214,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The forest animals gathered for a race. The hare bounced with energy and bragged that he would win by a mile.",
+    "The tortoise stretched his neck and nodded. \"I may be slow,\" he said, \"but I never give up.\"",
+    "When the race began, the hare zipped ahead. Soon he grew bored. He took a nap under a shady tree.",
+    "The tortoise moved at a steady pace. Step by careful step, he passed the sleeping hare and reached the finish line first.",
+    "The hare woke up too late. \"How did I lose?\" he cried. The tortoise smiled. \"Fast feet are nice, but steady steps win the race.\""
+  ],
+  "questions": [
+    {
+      "id": "tortoise-hare-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did the forest animals gather together?",
+      "options": [
+        "To cheer for a race between the hare and the tortoise",
+        "To build a new playground",
+        "To bake a birthday cake"
+      ],
+      "answer": 0,
+      "explanation": "The animals came to watch the hare race the tortoise."
+    },
+    {
+      "id": "tortoise-hare-q2",
+      "type": "fill-blank",
+      "prompt": "The tortoise promised, 'I may be slow, but I never ______.'",
+      "answer": "give up",
+      "explanation": "The tortoise believed steady effort would help him finish the race."
+    },
+    {
+      "id": "tortoise-hare-q3",
+      "type": "multiple-choice",
+      "prompt": "What did the hare do after racing ahead of the tortoise?",
+      "options": [
+        "He stopped to take a nap under a tree.",
+        "He helped the tortoise run faster.",
+        "He practiced jumping over logs."
+      ],
+      "answer": 0,
+      "explanation": "The hare became bored, stopped, and fell asleep."
+    },
+    {
+      "id": "tortoise-hare-q4",
+      "type": "matching",
+      "prompt": "Match each character or idea with the correct description.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Hare",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Tortoise",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Shady tree",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Lesson",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Fast runner who bragged",
+        "b": "Steady racer who kept moving",
+        "c": "Place where the hare napped",
+        "d": "Slow and steady wins the race"
+      },
+      "explanation": "Each match links a story detail with its role in the fable."
+    },
+    {
+      "id": "tortoise-hare-q5",
+      "type": "sequence",
+      "prompt": "Put these race events in the order they happened.",
+      "sequence": [
+        "Hare sprinted ahead of the tortoise",
+        "Hare took a nap under a tree",
+        "Tortoise passed the sleeping hare",
+        "Tortoise crossed the finish line first"
+      ],
+      "explanation": "The hare raced ahead, slept, the tortoise passed him, and then won."
+    },
+    {
+      "id": "tortoise-hare-q6",
+      "type": "multiple-choice",
+      "prompt": "Which character trait helped the tortoise win?",
+      "options": [
+        "His steady determination",
+        "His long ears",
+        "His ability to jump"
+      ],
+      "answer": 0,
+      "explanation": "The tortoise kept moving without bragging or stopping."
+    },
+    {
+      "id": "tortoise-hare-q7",
+      "type": "fill-blank",
+      "prompt": "The tortoise reminded the hare that steady steps ______ the race.",
+      "answer": "win",
+      "explanation": "His final words were, 'Fast feet are nice, but steady steps win the race.'"
+    },
+    {
+      "id": "tortoise-hare-q8",
+      "type": "multiple-choice",
+      "prompt": "What did the hare learn when he woke up?",
+      "options": [
+        "He lost because he was too confident and took a nap.",
+        "He lost because the tortoise asked for help.",
+        "He lost because the race was cancelled."
+      ],
+      "answer": 0,
+      "explanation": "The hare realized bragging and resting cost him the race."
+    },
+    {
+      "id": "tortoise-hare-q9",
+      "type": "short-answer",
+      "prompt": "What is the fable warning readers about?",
+      "acceptableAnswers": [
+        "It warns against bragging and teaches that steady effort is stronger than showing off.",
+        "The story tells us not to be overconfident and to keep working steadily."
+      ],
+      "explanation": "The fable encourages humility and persistence instead of bragging."
+    },
+    {
+      "id": "tortoise-hare-q10",
+      "type": "multiple-choice",
+      "prompt": "How might the race change if the hare encouraged the tortoise instead of bragging?",
+      "options": [
+        "They might cheer each other on and finish proudly together.",
+        "The tortoise would refuse to race at all.",
+        "The hare would forget how to run."
+      ],
+      "answer": 0,
+      "explanation": "Encouragement could turn the race into a friendly challenge instead of a bragging contest."
+    }
+  ],
+  "keywords": [
+    "bragged",
+    "steady",
+    "careful",
+    "confidence"
+  ],
+  "prompts": [
+    "Think of a time you kept going even when something was hard. What happened?",
+    "How would the story change if the hare encouraged the tortoise instead?"
+  ]
+}

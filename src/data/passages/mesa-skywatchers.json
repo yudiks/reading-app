@@ -1,0 +1,165 @@
+{
+  "id": "mesa-skywatchers",
+  "title": "Skywatchers of Painted Mesa",
+  "category": "history",
+  "categoryLabel": "History",
+  "summary": "Tala joins her grandma on a desert research trip and learns how ancestral Pueblo skywatchers mapped the sun, stars, and seasons.",
+  "coverImage": "assets/covers/mesa-skywatchers.svg",
+  "imageAlt": "Stylized mesa dwellings under a starry desert sky.",
+  "author": "Jacob Sutanto",
+  "wordCount": 504,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The first time Tala climbed Painted Mesa, dawn painted the sandstone walls in bands of peach and copper. Her grandma, who everyone called Abuela Sky, balanced notebooks and a small solar compass. Abuela was a museum guide who studied how ancestral Pueblo people watched the sky to plan harvests and ceremonies. Tala carried colored pencils so she could sketch everything they discovered.",
+    "At the top of the mesa, Abuela pointed to a circle of basalt stones. In the center stood a narrow rock pillar that cast a long shadow across the ground. \"This is a solar marker,\" Abuela explained. \"On the summer solstice the shadow reaches the very edge of that carved spiral. On the winter solstice it points to the opposite notch.\" Tala traced the spiral with her pencil.",
+    "They hiked to a cliff dwelling tucked into the rock like a swallow's nest. Murals swirled across the walls in earthy reds and soft blues. Tala spotted a ladder of star shapes beside a window. Abuela explained that the ladder recorded the path of bright Venus as it rose before dawn and after sunset.",
+    "Abuela led Tala to a narrow ledge shaded by overhanging stone. The ledge faced the valley where cornfields once rippled in summer wind. \"Notice these peep holes,\" Abuela said. Small openings in the wall framed the horizon. When certain stars rose or when the moon reached its highest point, beams of light slid through the holes and painted the inside wall.",
+    "As the sun climbed, Abuela handed Tala a small mirror. They called the round tool a heliograph. Tala flashed reflected light toward another guide across the canyon, who answered with two bright flashes. \"Light can carry messages faster than footsteps,\" Abuela said. \"The ancients used fire, mirrors, and shiny mica flakes to send news between mesas.\"",
+    "After lunch, Tala opened Abuela's oldest notebook. Inside were careful sketches of stone alignments, along with weather notes about drought years and rainy seasons. Tala noticed that each page included a story from a community elder explaining how sky knowledge shaped kindness on the ground.",
+    "When the desert cooled, they unrolled sleeping pads on the mesa top. Abuela set up a small telescope while Tala arranged her colored pencils like tiny rockets. They watched Venus glow near the horizon and waited for the constellation Orion to climb. Abuela whispered how ancient storytellers described Orion as a hunter who shared his fire with travelers.",
+    "Just before midnight, a meteor streaked across the sky. Tala gasped so loudly that coyotes yipped in reply. Abuela wrapped Tala in a blanket decorated with corn and starlight patterns. \"Remember,\" Abuela said, \"the sky is a library that never closes. When we observe carefully and compare notes, we honor the people who built these stone calendars and the land that still listens to them.\"",
+    "By the time dawn returned, Tala's sketches filled several pages. She labeled each drawing with questions about light, shadow, and tradition. She felt ready to share how skywatchers connected science, art, and community across centuries."
+  ],
+  "questions": [
+    {
+      "id": "mesa-skywatchers-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did Tala's grandma carry notebooks and a solar compass?",
+      "options": [
+        "She studied how ancestral Pueblo people watched the sky to guide life.",
+        "She wanted to draw animals living on the mesa.",
+        "She planned to build a new house on the mesa."
+      ],
+      "answer": 0,
+      "explanation": "Abuela Sky researched ancestral skywatching to share their knowledge."
+    },
+    {
+      "id": "mesa-skywatchers-q2",
+      "type": "fill-blank",
+      "prompt": "The solar marker's shadow touched a spiral during the summer ______ and the winter ______.",
+      "answer": "solstice",
+      "explanation": "The spiral marked the longest and shortest days of the year called solstices."
+    },
+    {
+      "id": "mesa-skywatchers-q3",
+      "type": "multiple-choice",
+      "prompt": "What did the ladder of star shapes beside the window record?",
+      "options": [
+        "The path of bright Venus",
+        "How tall the mesa cliffs were",
+        "The number of visitors each day"
+      ],
+      "answer": 0,
+      "explanation": "The ladder traced where Venus rose before dawn and after sunset."
+    },
+    {
+      "id": "mesa-skywatchers-q4",
+      "type": "matching",
+      "prompt": "Match each skywatching tool with how it was used.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Solar marker spiral",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Peep holes",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Heliograph mirror",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Old notebooks",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Shows where shadows fall on solstice days",
+        "b": "Let moonlight or starlight paint the wall",
+        "c": "Flashed light messages across the canyon",
+        "d": "Kept star maps and stories from elders"
+      },
+      "explanation": "Each object captured light or stories to guide the community."
+    },
+    {
+      "id": "mesa-skywatchers-q5",
+      "type": "sequence",
+      "prompt": "Place these moments from Tala's trip in the order they occurred.",
+      "sequence": [
+        "Tala traced the spiral shadow at the solar marker",
+        "She sketched murals and the star ladder in the cliff dwelling",
+        "She sent heliograph flashes across the canyon",
+        "She watched Venus and Orion rise at night"
+      ],
+      "explanation": "The passage moves from the solar marker to murals, signal mirrors, and nighttime observing."
+    },
+    {
+      "id": "mesa-skywatchers-q6",
+      "type": "fill-blank",
+      "prompt": "The heliograph proved that light could carry messages faster than ______.",
+      "answer": "footsteps",
+      "explanation": "Abuela explained that light signals traveled quicker than walking."
+    },
+    {
+      "id": "mesa-skywatchers-q7",
+      "type": "multiple-choice",
+      "prompt": "What did Tala discover inside Abuela's oldest notebook?",
+      "options": [
+        "Sketches of stone alignments and stories about how sky knowledge inspired kindness",
+        "Secret recipes for desert soup",
+        "Directions to buried treasure"
+      ],
+      "answer": 0,
+      "explanation": "Each page paired sky data with community stories about caring for land."
+    },
+    {
+      "id": "mesa-skywatchers-q8",
+      "type": "short-answer",
+      "prompt": "How did observing the sky help the community plan their farms?",
+      "acceptableAnswers": [
+        "Stories linked star patterns to planting choices, such as planting beans with corn after watching the sky.",
+        "Sky lessons told farmers when and how to plant crops together."
+      ],
+      "explanation": "Skywatching guided farming decisions to share moisture and timing."
+    },
+    {
+      "id": "mesa-skywatchers-q9",
+      "type": "multiple-choice",
+      "prompt": "Why did Abuela call the sky a library that never closes?",
+      "options": [
+        "Because it always offers new patterns to observe and learn from.",
+        "Because it lets people borrow books at night.",
+        "Because it stores old toys in the clouds."
+      ],
+      "answer": 0,
+      "explanation": "Watching the sky provides endless knowledge for people who keep observing."
+    },
+    {
+      "id": "mesa-skywatchers-q10",
+      "type": "multiple-choice",
+      "prompt": "Which detail shows Tala was ready to share what she learned?",
+      "options": [
+        "She labeled her sketches with questions about light, shadow, and tradition.",
+        "She left her notebook empty.",
+        "She stopped observing once the meteor appeared."
+      ],
+      "answer": 0,
+      "explanation": "Filling her notebook with labeled questions prepared Tala to teach others."
+    }
+  ],
+  "keywords": [
+    "solstice",
+    "heliograph",
+    "constellation",
+    "tradition"
+  ],
+  "prompts": [
+    "Explain how observing the sky can help people care for land and community.",
+    "Describe a question you would add to Tala's notebook about Painted Mesa."
+  ]
+}

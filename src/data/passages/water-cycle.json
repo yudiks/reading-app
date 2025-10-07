@@ -1,0 +1,161 @@
+{
+  "id": "water-cycle",
+  "title": "The Earth's Water Cycle",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "From clouds to puddles and back again, water is always on the move around our planet.",
+  "coverImage": "assets/covers/water-cycle.svg",
+  "imageAlt": "Stylized diagram of clouds, rainfall, and water looping through the cycle.",
+  "author": "Jacob Sutanto",
+  "wordCount": 226,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Have you ever wondered where a raindrop travels? The water cycle is a pattern that moves water on, above, and below Earth.",
+    "The sun warms lakes and oceans, turning water into vapor. This step is called evaporation.",
+    "The vapor floats up and cools. Tiny droplets form clouds in a step named condensation.",
+    "When clouds grow heavy, water falls as rain, snow, or hail. This is precipitation.",
+    "Some water runs into rivers. Some sinks underground to feed plants. Eventually it returns to lakes or oceans, and the cycle starts again."
+  ],
+  "questions": [
+    {
+      "id": "water-cycle-q1",
+      "type": "multiple-choice",
+      "prompt": "What is the very first step in the water cycle described in the passage?",
+      "options": [
+        "Evaporation caused by the sun",
+        "Snow falling from clouds",
+        "Rivers freezing into ice"
+      ],
+      "answer": 0,
+      "explanation": "The sun warms water so it rises as vapor in the step called evaporation."
+    },
+    {
+      "id": "water-cycle-q2",
+      "type": "fill-blank",
+      "prompt": "When water vapor cools and forms droplets, the step is called __________.",
+      "answer": "condensation",
+      "explanation": "Condensation creates clouds from cooled vapor droplets."
+    },
+    {
+      "id": "water-cycle-q3",
+      "type": "multiple-choice",
+      "prompt": "What happens during precipitation?",
+      "options": [
+        "Water falls to Earth as rain, snow, or hail.",
+        "Water turns into gas and floats away.",
+        "Water disappears into space."
+      ],
+      "answer": 0,
+      "explanation": "Precipitation is when heavy clouds release water back to Earth."
+    },
+    {
+      "id": "water-cycle-q4",
+      "type": "matching",
+      "prompt": "Match each word to the correct water cycle description.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Evaporation",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Condensation",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Precipitation",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Collection",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Water warms and becomes vapor",
+        "b": "Vapor cools into tiny droplets",
+        "c": "Water falls as rain, snow, or hail",
+        "d": "Water gathers in rivers, soil, or oceans"
+      },
+      "explanation": "Each stage keeps water moving in a repeating loop."
+    },
+    {
+      "id": "water-cycle-q5",
+      "type": "sequence",
+      "prompt": "Arrange these steps in the order they appear in the passage.",
+      "sequence": [
+        "Sun warms lakes and oceans",
+        "Water vapor cools and forms clouds",
+        "Clouds release rain, snow, or hail",
+        "Water returns to rivers or underground"
+      ],
+      "explanation": "The text follows water from evaporation to condensation, precipitation, and collection."
+    },
+    {
+      "id": "water-cycle-q6",
+      "type": "fill-blank",
+      "prompt": "After it rains, some water sinks underground to feed ______.",
+      "answer": "plants",
+      "explanation": "Rain can soak into soil to help plants grow."
+    },
+    {
+      "id": "water-cycle-q7",
+      "type": "multiple-choice",
+      "prompt": "Which best explains why the water cycle is called a cycle?",
+      "options": [
+        "It repeats the same pattern over and over again.",
+        "It only happens one time each spring.",
+        "It stops working whenever the sun sets."
+      ],
+      "answer": 0,
+      "explanation": "Water keeps moving through the same stages in a continuous loop."
+    },
+    {
+      "id": "water-cycle-q8",
+      "type": "short-answer",
+      "prompt": "Describe two ways water moves after precipitation falls.",
+      "acceptableAnswers": [
+        "Some water runs into rivers and some sinks into the ground to feed plants.",
+        "It can flow to rivers or soak underground where plants use it."
+      ],
+      "explanation": "The passage lists rivers and underground pathways after rain."
+    },
+    {
+      "id": "water-cycle-q9",
+      "type": "multiple-choice",
+      "prompt": "Which natural energy source powers evaporation?",
+      "options": [
+        "The sun",
+        "The moon",
+        "Ocean fish"
+      ],
+      "answer": 0,
+      "explanation": "Sunlight provides the heat needed for evaporation."
+    },
+    {
+      "id": "water-cycle-q10",
+      "type": "multiple-choice",
+      "prompt": "What would happen if water never returned to lakes or oceans?",
+      "options": [
+        "The water cycle would stop and Earth would lose fresh water.",
+        "There would be extra clouds every day.",
+        "Nothing would change about the cycle."
+      ],
+      "answer": 0,
+      "explanation": "Water has to collect again so the sun can heat it and keep the cycle moving."
+    }
+  ],
+  "keywords": [
+    "evaporation",
+    "condensation",
+    "precipitation",
+    "vapor"
+  ],
+  "prompts": [
+    "Draw the path of a raindrop through the water cycle.",
+    "How does the water cycle help living things?"
+  ]
+}

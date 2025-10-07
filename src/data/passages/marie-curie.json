@@ -1,0 +1,162 @@
+{
+  "id": "marie-curie",
+  "title": "Marie Curie: A Life of Discovery",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Marie Curie followed her curiosity from a small town in Poland to world-changing discoveries about invisible energy called radioactivity.",
+  "coverImage": "assets/covers/marie-curie.svg",
+  "imageAlt": "Stylized illustration of a glowing chemistry flask representing Marie Curie's laboratory.",
+  "author": "Jacob Sutanto",
+  "wordCount": 248,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Marie Curie, born Maria Sklodowska in Warsaw, Poland, loved solving puzzles more than anything. When she was ten, she spent rainy afternoons taking apart clocks just to see how they worked.",
+    "At that time, women were not allowed to attend science classes in many parts of Europe. Marie refused to let that stop her. She saved money, moved to Paris, and enrolled at a famous school called the Sorbonne.",
+    "Marie studied how certain rocks gave off energy even in the dark. She named this energy radioactivity. Working side by side with her husband Pierre, Marie discovered two new elements, polonium and radium.",
+    "Her careful experiments helped doctors use X-rays to see broken bones. During World War I, Marie even drove a special van that carried X-ray machines to help injured soldiers.",
+    "Marie Curie's passion for science earned her two Nobel Prizes. Her story teaches us that brave questions can brighten the world."
+  ],
+  "questions": [
+    {
+      "id": "marie-curie-q1",
+      "type": "multiple-choice",
+      "prompt": "Which challenge pushed Marie Curie to leave Poland?",
+      "options": [
+        "Girls were not allowed in the science classes she wanted to take.",
+        "She could not find any puzzles to solve at home.",
+        "Her family asked her to become a baker instead."
+      ],
+      "answer": 0,
+      "explanation": "Marie moved to Paris because universities near her home would not let women study advanced science."
+    },
+    {
+      "id": "marie-curie-q2",
+      "type": "multiple-choice",
+      "prompt": "Why did Marie study how rocks give off energy?",
+      "options": [
+        "She wanted to decorate her lab with glowing stones.",
+        "She was curious about invisible energy that could change the world.",
+        "She hoped to build a new clock for her village."
+      ],
+      "answer": 1,
+      "explanation": "Her curiosity about invisible energy guided her discoveries about radioactivity."
+    },
+    {
+      "id": "marie-curie-q3",
+      "type": "fill-blank",
+      "prompt": "Marie saved money and moved to the city of ____ to keep learning science.",
+      "answer": "Paris",
+      "explanation": "She traveled to Paris so she could attend the Sorbonne."
+    },
+    {
+      "id": "marie-curie-q4",
+      "type": "multiple-choice",
+      "prompt": "What is radioactivity?",
+      "options": [
+        "A kind of music Marie played while she worked",
+        "Energy that some materials give off all by themselves",
+        "A machine that takes pictures of bones"
+      ],
+      "answer": 1,
+      "explanation": "Radioactivity is energy that certain elements release without needing light."
+    },
+    {
+      "id": "marie-curie-q5",
+      "type": "matching",
+      "prompt": "Match each term from Marie's story with what it describes.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Sorbonne",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Polonium",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "X-ray van",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Nobel Prize",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "University where Marie studied in Paris",
+        "b": "Element Marie and Pierre discovered",
+        "c": "Mobile machine Marie used to help doctors",
+        "d": "Award Marie earned twice for science"
+      },
+      "explanation": "Each term connects to a milestone in Marie Curie's work and service."
+    },
+    {
+      "id": "marie-curie-q6",
+      "type": "sequence",
+      "prompt": "Place these events from Marie Curie's life in order.",
+      "sequence": [
+        "Marie explored puzzles and tools as a child in Poland",
+        "She studied at the Sorbonne in Paris",
+        "Marie and Pierre discovered polonium and radium",
+        "She drove X-ray vans to help soldiers during the war"
+      ],
+      "explanation": "Marie first loved science as a child, then studied in Paris, made discoveries, and later brought X-rays to the battlefield."
+    },
+    {
+      "id": "marie-curie-q7",
+      "type": "fill-blank",
+      "prompt": "During World War I, Marie drove a special van that carried ____ machines.",
+      "answer": "X-ray",
+      "explanation": "She brought X-ray machines so doctors could see broken bones quickly."
+    },
+    {
+      "id": "marie-curie-q8",
+      "type": "multiple-choice",
+      "prompt": "How did Marie's discoveries help doctors?",
+      "options": [
+        "They taught doctors how to bake bread for patients.",
+        "They allowed doctors to see inside bodies with X-rays.",
+        "They helped doctors fly airplanes more safely."
+      ],
+      "answer": 1,
+      "explanation": "Her careful experiments made medical X-rays possible for hospitals and soldiers."
+    },
+    {
+      "id": "marie-curie-q9",
+      "type": "short-answer",
+      "prompt": "Explain how Marie Curie's curiosity shaped her scientific journey.",
+      "acceptableAnswers": [
+        "Her curiosity pushed her to keep asking questions, study in Paris, and make discoveries about radioactivity.",
+        "Because she was curious, she studied hard, explored radioactivity, and helped invent new science tools."
+      ],
+      "explanation": "Marie kept following questions, which led her to the Sorbonne, new elements, and medical inventions."
+    },
+    {
+      "id": "marie-curie-q10",
+      "type": "multiple-choice",
+      "prompt": "Why is Marie Curie's story inspiring to readers?",
+      "options": [
+        "She won awards without working hard.",
+        "She turned brave questions into discoveries that helped the world.",
+        "She traveled only so she could sightsee in new cities."
+      ],
+      "answer": 1,
+      "explanation": "Marie kept learning and used her science to help others, which shows courage and care."
+    }
+  ],
+  "keywords": [
+    "radioactivity",
+    "Sorbonne",
+    "elements",
+    "experiments",
+    "Nobel"
+  ],
+  "prompts": [
+    "Why do you think Marie was called brave?",
+    "What big question would you ask if you visited her lab?"
+  ]
+}

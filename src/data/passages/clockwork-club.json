@@ -1,0 +1,165 @@
+{
+  "id": "clockwork-club",
+  "title": "The Clockwork Club's Midnight Mission",
+  "category": "fiction",
+  "categoryLabel": "Fiction",
+  "summary": "Jasper and his inventor friends rebuild a tower clock and uncover a hidden message about patience, courage, and collaboration.",
+  "coverImage": "assets/covers/clockwork-club.svg",
+  "imageAlt": "Stylized glowing gears and clock face for the Clockwork Club story.",
+  "author": "Jacob Sutanto",
+  "wordCount": 537,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Jasper pressed his palm against the cool brass gears stacked on the workshop table. It was almost midnight, and the Clockwork Club had spread blueprints and cocoa mugs across the floor of the old library attic. Outside, the town square clock had been silent for weeks, its hands frozen at three o'clock. The mayor finally called the club, hoping the students could coax the clock back to life before the Winter Lights Festival.",
+    "Lina unrolled a paper labeled Troubleshooting Timeline and clicked on her headlamp. She loved building plans that marched step by step toward a solution. Beside her, Noor sorted bolts by size while Jasper carried the smallest gear to the window to study its careful teeth.",
+    "The attic door creaked open, and their advisor, Mr. Calder, wheeled in a trolley of tools. \"Remember,\" he said, \"a clock listens to rhythm. It refuses to tick unless every piece shares the same beat.\" He tapped a tuning fork, and the gentle vibration hummed through the room. Jasper's heartbeat settled into the frequency, steady and bold.",
+    "The club climbed the spiral staircase that led into the tower's hollow belly. Dust settled on their shoulders like gray snowflakes. Noor discovered a bundle of pigeon feathers tangled around the pendulum, while Lina spotted a frayed cord that had slipped from its pulley. Jasper loosened the cord carefully and swapped it for a braided rope they had prepared from recycled climbing line.",
+    "When Jasper polished the brass pendulum bob, he found faint words etched inside the rim: \"Time rewards the patient builder.\" The letters glimmered in the lantern light. Lina guessed a long-ago clockmaker had hidden the message as a pep talk for future repair crews. Noor traced the letters with her gloved fingertip and whispered, \"Then patience will be part of our plan.\"",
+    "Halfway through the repair, a gust of icy wind rattled the tower windows. Jasper steadied the pendulum and counted aloud while Lina tightened bolts in a star pattern. Noor measured the swing of the pendulum with a stopwatch, writing numbers in the margin of the blueprint until the data finally stayed true.",
+    "As dawn brushed the sky pink, Mr. Calder joined them with a tray of cinnamon rolls. \"You have one last test,\" he said. \"Will you climb to the tower roof and listen?\" The club stepped outside where the cold nipped at their cheeks. They huddled together, eyes on the clock face. First came a quiet click, then another, and finally the sweet, brave bong of the hour bell rolling across the square. Lights flicked on in nearby windows as neighbors cheered.",
+    "Back in the attic, Lina taped the etched message onto the cover of their repair log. Jasper added a note about how steady breathing kept his hands from shaking on the ladder. Noor suggested starting a mentorship program for younger students who liked tools, and the team agreed the midnight mission had given them a rhythm of trust, patience, and courage to share with the whole town.",
+    "By the time the festival lanterns glowed that evening, the clock chimed proudly every hour. Jasper watched families pause to listen, their scarves fluttering like banners, and he believed the hidden message was meant for them, too."
+  ],
+  "questions": [
+    {
+      "id": "clockwork-club-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did the mayor ask the Clockwork Club for help?",
+      "options": [
+        "The town clock had stopped ticking before the Winter Lights Festival.",
+        "The club needed a new clubhouse.",
+        "The mayor wanted them to build a new library."
+      ],
+      "answer": 0,
+      "explanation": "The silent town clock needed repairs before the celebration."
+    },
+    {
+      "id": "clockwork-club-q2",
+      "type": "fill-blank",
+      "prompt": "Lina unrolled a paper labeled Troubleshooting ______ to plan each step.",
+      "answer": "Timeline",
+      "explanation": "Her timeline helped the team move through the repair in order."
+    },
+    {
+      "id": "clockwork-club-q3",
+      "type": "multiple-choice",
+      "prompt": "What advice did Mr. Calder give when he tapped the tuning fork?",
+      "options": [
+        "A clock listens to rhythm when every piece shares the same beat.",
+        "Clocks only work in summer.",
+        "The team should hurry without making a plan."
+      ],
+      "answer": 0,
+      "explanation": "He reminded them that timing and teamwork keep the clock ticking."
+    },
+    {
+      "id": "clockwork-club-q4",
+      "type": "matching",
+      "prompt": "Match each club member with the job they focused on.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Jasper",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Lina",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Noor",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Mr. Calder",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Steadied the pendulum and polished the bob",
+        "b": "Led the troubleshooting timeline and tightened bolts",
+        "c": "Measured the pendulum swing and sorted bolts",
+        "d": "Shared tools and guidance like the tuning fork"
+      },
+      "explanation": "Each person used their skills to keep the repair on track."
+    },
+    {
+      "id": "clockwork-club-q5",
+      "type": "sequence",
+      "prompt": "Order these key moments from the midnight mission.",
+      "sequence": [
+        "The team discovered a hidden message on the pendulum bob",
+        "They replaced the frayed cord with a braided rope",
+        "They climbed to the roof to listen for the clock's chime",
+        "They celebrated by sharing plans to mentor younger students"
+      ],
+      "explanation": "They fixed parts of the clock, found the message, tested the chime, then planned to share their knowledge."
+    },
+    {
+      "id": "clockwork-club-q6",
+      "type": "fill-blank",
+      "prompt": "The etched message read, 'Time rewards the patient ______.'",
+      "answer": "builder",
+      "explanation": "The hidden words encouraged them to stay patient while they worked."
+    },
+    {
+      "id": "clockwork-club-q7",
+      "type": "multiple-choice",
+      "prompt": "Which discovery told the club a clockmaker had encouraged future crews?",
+      "options": [
+        "The glowing words on the pendulum rim",
+        "The broken ladder",
+        "The dusty cocoa mugs"
+      ],
+      "answer": 0,
+      "explanation": "The secret engraving offered advice to anyone repairing the clock."
+    },
+    {
+      "id": "clockwork-club-q8",
+      "type": "multiple-choice",
+      "prompt": "How did the team know the clock was fixed?",
+      "options": [
+        "They heard the quiet click followed by the hour bell ringing.",
+        "The mayor told them without checking.",
+        "The sun rose earlier than usual."
+      ],
+      "answer": 0,
+      "explanation": "Once the clock ticked and chimed, they knew the repair succeeded."
+    },
+    {
+      "id": "clockwork-club-q9",
+      "type": "short-answer",
+      "prompt": "What did the club decide to share with younger students after the repair?",
+      "acceptableAnswers": [
+        "They planned a mentorship program to teach patience, measurement, and care with tools.",
+        "They wanted to mentor younger students so others could learn the rhythm of teamwork."
+      ],
+      "explanation": "Their success inspired them to guide future builders."
+    },
+    {
+      "id": "clockwork-club-q10",
+      "type": "multiple-choice",
+      "prompt": "Which lesson does the midnight mission teach?",
+      "options": [
+        "Patience, courage, and collaboration keep big projects ticking.",
+        "Working alone is faster than teamwork.",
+        "Quitting early is the best way to avoid mistakes."
+      ],
+      "answer": 0,
+      "explanation": "The story highlights how teamwork and steady effort restored the clock."
+    }
+  ],
+  "keywords": [
+    "pendulum",
+    "blueprint",
+    "rhythm",
+    "collaboration"
+  ],
+  "prompts": [
+    "Tell about a time you solved a problem by working patiently with others.",
+    "Explain why the club wrote down measurements instead of guessing."
+  ]
+}

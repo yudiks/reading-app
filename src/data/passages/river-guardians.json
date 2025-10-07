@@ -1,0 +1,164 @@
+{
+  "id": "river-guardians",
+  "title": "Journey of the River Guardians",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Mei joins a weekend expedition to protect a river and discovers how tiny choices ripple through an entire watershed.",
+  "coverImage": "assets/covers/river-guardians.svg",
+  "imageAlt": "Stylized river winding through hills with data charts floating above it.",
+  "author": "Jacob Sutanto",
+  "wordCount": 552,
+  "readingLevel": "Grade 3",
+  "body": [
+    "On a crisp Saturday morning, Mei zipped up her raincoat and joined the River Guardians club along the muddy bank of the Silver Fern River. Mist hovered just above the water, and the breath of the forest smelled like wet pine needles and orange peels. Ms. Rojas, the club leader, passed around waterproof notebooks and reminded everyone that good scientists begin by noticing everything.",
+    "Mei crouched beside the current and watched a crawfish scuttle between pebbles. She sketched the little creature in her notebook, adding labels for claws, antennae, and the thin fan of its tail. When she dipped a test strip into the river, she whispered each color change out loud-green for cool temperature, yellow for balanced acidity. The numbers would later help them track whether the river stayed healthy in every season.",
+    "As the sun climbed higher, the club hiked upstream through ferns taller than basketball hoops. Mei's friend Davion pointed to a fallen log draped in moss. Together they counted the rings on the stump, discovering the tree had lived through sixty-seven winters. Mei wrote that big trees act like sponges, slowing runoff during heavy rains so the river does not flood the town downstream.",
+    "At the first survey stop, Ms. Rojas unrolled a laminated map. Blue arrows showed how the Silver Fern River wove through farms, playgrounds, and the city harbor before meeting the sea. Mei traced one arrow with her finger and imagined a raindrop traveling the journey. \"A watershed is like a neighborhood for water,\" Ms. Rojas explained. \"Every drop that lands here eventually meets the river.\"",
+    "After lunch, the club visited a creek feeding into the river. Someone had tossed plastic snack wrappers along the path, and a bright soda can bobbed in the shallows. Mei felt a pinch in her stomach. She knew turtles and fish sometimes swallowed shiny trash by accident. The club fanned out, filling mesh bags with litter, while Davion recorded their findings: eight wrappers, twelve bottle caps, three plastic forks, and one cracked toy robot arm.",
+    "Back at the main river, a park ranger named Mr. Ellis showed the group how to test dissolved oxygen. \"Fish need oxygen just like we do,\" he said, shaking a vial until bubbles shimmered inside. When the solution turned sky-blue, Mei cheered. High oxygen meant the water could support trout, dragonfly nymphs, and the shy otters that sometimes slipped past at dusk.",
+    "As the afternoon cooled, Mei interviewed visitors strolling along the riverwalk. An elderly artist shared how he painted the river in each season to notice small changes in color. A baker described composting orange peels from her shop instead of tossing them, so fewer scraps blew into the river. Mei realized community stories were evidence, too, because they showed how people shaped the watershed by their habits.",
+    "Before packing up, Ms. Rojas gathered the club for a final reflection. Each member shared one action they would take during the week. Mei promised to write an article for the school newspaper with graphs from their data. She wanted classmates to understand that a single sandwich wrapper could begin a chain reaction, but so could a single act of care. As the river carried their reflections toward the harbor, Mei felt the truth of the club's motto: \"Guardians notice, measure, and imagine better futures.\""
+  ],
+  "questions": [
+    {
+      "id": "river-guardians-q1",
+      "type": "multiple-choice",
+      "prompt": "What tool did Mei use at the start of the trip to record what she noticed?",
+      "options": [
+        "A waterproof notebook",
+        "A video camera",
+        "A metal detector"
+      ],
+      "answer": 0,
+      "explanation": "Ms. Rojas handed out waterproof notebooks so the club could record observations."
+    },
+    {
+      "id": "river-guardians-q2",
+      "type": "fill-blank",
+      "prompt": "Mei whispered the test strip colors out loud: green for cool temperature and yellow for balanced _______.",
+      "answer": "acidity",
+      "explanation": "She tracked acidity levels to see if the water stayed healthy."
+    },
+    {
+      "id": "river-guardians-q3",
+      "type": "multiple-choice",
+      "prompt": "What did Mei and Davion learn by counting the tree rings on a fallen log?",
+      "options": [
+        "The tree had lived through sixty-seven winters.",
+        "The tree tasted sweet like oranges.",
+        "The tree grew faster than any other tree."
+      ],
+      "answer": 0,
+      "explanation": "Counting rings told them the tree slowed floods for many years."
+    },
+    {
+      "id": "river-guardians-q4",
+      "type": "matching",
+      "prompt": "Match each River Guardians action with its purpose.",
+      "pairs": [
+        {
+          "id": "a",
+          "left": "Testing water strips",
+          "right": ""
+        },
+        {
+          "id": "b",
+          "left": "Mapping the watershed",
+          "right": ""
+        },
+        {
+          "id": "c",
+          "left": "Collecting litter",
+          "right": ""
+        },
+        {
+          "id": "d",
+          "left": "Interviewing community members",
+          "right": ""
+        }
+      ],
+      "answer": {
+        "a": "Check temperature and acidity",
+        "b": "Trace where each raindrop travels",
+        "c": "Protect animals from swallowing trash",
+        "d": "Learn how habits affect the river"
+      },
+      "explanation": "Each activity helped the club understand and care for the watershed."
+    },
+    {
+      "id": "river-guardians-q5",
+      "type": "sequence",
+      "prompt": "Place these events from the club's day in order.",
+      "sequence": [
+        "Mei sketched a crawfish and tested the river",
+        "The club hiked upstream and studied tree rings",
+        "They cleaned trash from a creek feeding the river",
+        "Mr. Ellis taught them to test dissolved oxygen"
+      ],
+      "explanation": "The story describes science observations, a hike, cleanup, and then oxygen testing."
+    },
+    {
+      "id": "river-guardians-q6",
+      "type": "multiple-choice",
+      "prompt": "Why was the oxygen test important?",
+      "options": [
+        "It showed whether fish and otters could breathe in the river.",
+        "It told them how fast leaves would fall.",
+        "It measured how far the river was from the ocean."
+      ],
+      "answer": 0,
+      "explanation": "High oxygen meant the river could support many animals."
+    },
+    {
+      "id": "river-guardians-q7",
+      "type": "fill-blank",
+      "prompt": "Ms. Rojas explained that a ________ is like a neighborhood for water where all drops meet the same river.",
+      "answer": "watershed",
+      "explanation": "A watershed collects water that eventually feeds into one river."
+    },
+    {
+      "id": "river-guardians-q8",
+      "type": "multiple-choice",
+      "prompt": "What did the litter count reveal?",
+      "options": [
+        "People had dropped wrappers, bottle caps, forks, and even a toy arm.",
+        "The creek was completely clean.",
+        "All the trash was made of paper."
+      ],
+      "answer": 0,
+      "explanation": "The list showed many kinds of plastic had entered the creek."
+    },
+    {
+      "id": "river-guardians-q9",
+      "type": "short-answer",
+      "prompt": "How did community stories help the River Guardians?",
+      "acceptableAnswers": [
+        "They showed how people's habits like painting or composting affected the river.",
+        "Stories explained how local actions either protected or harmed the watershed."
+      ],
+      "explanation": "Mei realized stories are evidence about human impact."
+    },
+    {
+      "id": "river-guardians-q10",
+      "type": "multiple-choice",
+      "prompt": "Which action did Mei promise to take after the trip?",
+      "options": [
+        "Write an article sharing their data with classmates",
+        "Hide the data in her backpack",
+        "Stop visiting the river"
+      ],
+      "answer": 0,
+      "explanation": "She wanted to publish graphs so others could help care for the watershed."
+    }
+  ],
+  "keywords": [
+    "watershed",
+    "oxygen",
+    "runoff",
+    "habits"
+  ],
+  "prompts": [
+    "Describe a small choice you could make this week to care for a local habitat.",
+    "Explain how data and stories can work together to solve a science problem."
+  ]
+}
