@@ -6,6 +6,9 @@ export default function MatchingQuestion({ question, value = {}, onChange, submi
   }, [question.answer]);
 
   const handleChange = (leftId, selectedRight) => {
+    if (submitted) {
+      return;
+    }
     onChange({ ...value, [leftId]: selectedRight });
   };
 
@@ -29,6 +32,7 @@ export default function MatchingQuestion({ question, value = {}, onChange, submi
               className={computeClass(pair.id)}
               value={value[pair.id] ?? ""}
               onChange={event => handleChange(pair.id, event.target.value)}
+              disabled={submitted}
             >
               <option value="" disabled>
                 Select match

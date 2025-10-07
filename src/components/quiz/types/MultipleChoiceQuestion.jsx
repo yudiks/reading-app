@@ -19,6 +19,7 @@ export default function MultipleChoiceQuestion({ question, value, onChange, subm
                 value={index}
                 checked={isChecked}
                 onChange={event => onChange(Number(event.target.value))}
+                disabled={submitted}
               />
               <span>{option}</span>
             </label>

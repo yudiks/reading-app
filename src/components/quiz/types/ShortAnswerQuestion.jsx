@@ -12,6 +12,7 @@ export default function ShortAnswerQuestion({ question, value = "", onChange, su
         value={normalized}
         onChange={event => onChange(event.target.value)}
         placeholder={question.placeholder ?? "Write your response"}
+        disabled={submitted}
       />
       {submitted && (
         <p className={`explanation ${isCorrect ? "explanation--correct" : "explanation--incorrect"}`}>

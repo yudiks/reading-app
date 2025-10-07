@@ -14,6 +14,9 @@ export default function SequenceQuestion({ question, value = [], onChange, submi
   }, [question.sequence]);
 
   const handleSelect = (step, selectedPosition) => {
+    if (submitted) {
+      return;
+    }
     const updated = [...working];
     const existingIndex = updated.findIndex(item => item === step);
     if (existingIndex !== -1) {
@@ -46,6 +49,7 @@ export default function SequenceQuestion({ question, value = [], onChange, submi
                   const position = event.target.value ? Number(event.target.value) - 1 : null;
                   handleSelect(step, position);
                 }}
+                disabled={submitted}
               >
                 <option value="">Position</option>
                 {Array.from({ length: positions }, (_, index) => index + 1).map(number => (

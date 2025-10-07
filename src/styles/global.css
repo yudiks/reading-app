@@ -677,6 +677,78 @@ select:focus-visible {
   gap: 0.8rem;
 }
 
+.quiz-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.quiz-tab {
+  border: 1px solid rgba(124, 92, 250, 0.2);
+  border-radius: var(--radius-sm);
+  background: rgba(16, 23, 45, 0.88);
+  color: var(--text);
+  padding: 0.55rem 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.quiz-tab:hover,
+.quiz-tab:focus-visible {
+  border-color: rgba(124, 92, 250, 0.55);
+  background: rgba(18, 28, 54, 0.95);
+}
+
+.quiz-tab--active {
+  background: rgba(124, 92, 250, 0.35);
+  border-color: rgba(124, 92, 250, 0.8);
+  transform: translateY(-1px);
+}
+
+.quiz-tab--correct {
+  border-color: rgba(66, 230, 178, 0.65);
+  box-shadow: 0 0 0 1px rgba(66, 230, 178, 0.35);
+}
+
+.quiz-tab--incorrect {
+  border-color: rgba(255, 107, 107, 0.65);
+  box-shadow: 0 0 0 1px rgba(255, 107, 107, 0.35);
+}
+
+.quiz-panels {
+  margin-top: 1.5rem;
+}
+
+.quiz-panel[hidden] {
+  display: none;
+}
+
+.quiz-panel__footer {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quiz-panel__status {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: rgba(227, 235, 255, 0.82);
+}
+
+.quiz-panel__status--correct {
+  color: var(--success);
+}
+
+.quiz-panel__status--incorrect {
+  color: var(--danger);
+}
+
 .chip {
   padding: 0.45rem 0.95rem;
   border-radius: 999px;
@@ -705,6 +777,20 @@ select:focus-visible {
 .button:focus-visible {
   transform: translateY(-2px);
   box-shadow: 0 22px 45px rgba(92, 134, 255, 0.45);
+}
+
+.button:disabled,
+.button[disabled] {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.button:disabled:hover,
+.button:disabled:focus-visible {
+  transform: none;
+  box-shadow: none;
 }
 
 .button--light {
@@ -813,6 +899,10 @@ select:focus-visible {
 
 .score--warning {
   color: var(--warning);
+}
+
+.score--info {
+  color: rgba(227, 235, 255, 0.85);
 }
 
 .journal ul {

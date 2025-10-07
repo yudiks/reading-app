@@ -11,6 +11,7 @@ export default function FillBlankQuestion({ question, value = "", onChange, subm
         value={normalized}
         onChange={event => onChange(event.target.value)}
         placeholder={question.placeholder ?? "Type your answer"}
+        disabled={submitted}
       />
       {submitted && (
         <p className={`explanation ${isCorrect ? "explanation--correct" : "explanation--incorrect"}`}>
