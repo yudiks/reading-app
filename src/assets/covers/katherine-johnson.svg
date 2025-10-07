@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Katherine Johnson Cover</title>
+  <desc id="desc">Abstract illustration of Katherine Johnson with math shapes and a moon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2b64" />
+      <stop offset="100%" stop-color="#132247" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" fill="url(#bg)" rx="24" />
+  <circle cx="250" cy="90" r="48" fill="#f4f1ff" opacity="0.8" />
+  <path d="M70 310c20-58 54-96 94-96s74 38 94 96" fill="none" stroke="#6fd4ff" stroke-width="6" stroke-linecap="round" opacity="0.7" />
+  <path d="M120 165c0-38 24-62 50-62s50 24 50 62-24 62-50 62-50-24-50-62z" fill="#f9f3ff" opacity="0.85" />
+  <path d="M138 155c26-8 53-8 80 0 8 26-5 53-40 69-35-16-48-43-40-69z" fill="#3e4c92" opacity="0.92" />
+  <circle cx="155" cy="150" r="12" fill="#2a174a" />
+  <circle cx="193" cy="150" r="12" fill="#2a174a" />
+  <path d="M160 198c12 8 24 8 36 0" fill="none" stroke="#fefefe" stroke-width="4" stroke-linecap="round" />
+  <path d="M78 96l36 18" stroke="#6fd4ff" stroke-width="6" stroke-linecap="round" />
+  <path d="M66 136l28 30" stroke="#ffb4f6" stroke-width="5" stroke-linecap="round" />
+  <path d="M94 230l-40 22" stroke="#ffd36f" stroke-width="5" stroke-linecap="round" />
+  <text x="40" y="372" fill="#fefaff" font-family="'Futura', 'Avenir', sans-serif" font-size="28" font-weight="600">KATHERINE</text>
+  <text x="40" y="402" fill="#9fb8ff" font-family="'Futura', 'Avenir', sans-serif" font-size="20" letter-spacing="4">JOHNSON</text>
+</svg>

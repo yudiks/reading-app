@@ -47,6 +47,7 @@ Update or add files, then import them through `src/data/passages.js` if you crea
 - **Dynamic Quiz Engine** supporting five question types with instant feedback and score summary.
 - **Reusable SVG Covers** stored locally for fast, consistent theming.
 - **Accessibility**: keyboard-friendly navigation, readable focus states, and motion respecting `prefers-reduced-motion`.
+- **Expanded Biographies** featuring Harriet Tubman and Katherine Johnson for cross-curricular reading.
 
 ## Commands
 | Command            | Purpose                                   |

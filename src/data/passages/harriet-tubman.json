@@ -1,0 +1,145 @@
+{
+  "id": "harriet-tubman",
+  "title": "Harriet Tubman: Guide to Freedom",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Harriet Tubman risked her life again and again to guide people escaping slavery to free states and safety.",
+  "coverImage": "assets/covers/harriet-tubman.svg",
+  "imageAlt": "Stylized illustration of Harriet Tubman holding a lantern while pointing toward the North Star.",
+  "author": "Jacob Sutanto",
+  "wordCount": 356,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Harriet Tubman was born into slavery on a Maryland plantation where long days of chopping wood and lifting heavy traps never seemed to end. Even as a child she held tight to a dream of a life where families could choose their own paths and nobody could be sold away.",
+    "When Harriet grew older, she listened closely to whispered maps and hidden songs that pointed the way north. She memorized spirituals whose secret meanings told travelers when it was safe to move. Conductors on the Underground Railroad described which rivers were shallow enough to cross and which farmhouses offered shelter. One daring night she followed the North Star, crept past patrols, and crossed rushing streams until she reached the free state of Pennsylvania.",
+    "Freedom felt wonderful, but Harriet could not forget her parents, sisters, and friends who were still trapped in slavery. She saved money, studied the landscape, and returned south again and again. Moving mostly at night, she guided small groups through pine forests, swamps, and tidal marshes along secret routes people called the Underground Railroad.",
+    "Harriet carried a lantern that cut through the darkness and a notebook filled with hidden codes. She relied on trusted friends called conductors—people who opened safe houses, baked warm bread, and whispered the next directions. Sometimes she disguised herself as a fieldworker or an elderly woman, never losing a single traveler on the dangerous trail to freedom.",
+    "During the Civil War, Harriet offered her skills to the Union Army. She served as a nurse who brewed herbal medicines, then as a scout who mapped rivers and bridges in the South. In 1863 she helped plan and lead the Combahee River rescue mission, guiding Union boats to plantations and freeing more than seven hundred people in one courageous night.",
+    "After the war, Harriet settled in Auburn, New York, where she planted gardens, opened a boarding house for families starting fresh, and helped build schools for children who had once been denied an education. She also spoke at meetings for women’s voting rights. Her steady courage lit the path toward freedom for countless families and showed that determined leadership can change history."
+  ],
+  "questions": [
+    {
+      "id": "harriet-tubman-q1",
+      "type": "multiple-choice",
+      "prompt": "Where was Harriet Tubman born?",
+      "options": [
+        "On a Maryland plantation",
+        "In a northern city",
+        "On a ship at sea"
+      ],
+      "answer": 0,
+      "explanation": "She was born into slavery on a plantation in Maryland."
+    },
+    {
+      "id": "harriet-tubman-q2",
+      "type": "multiple-choice",
+      "prompt": "What helped Harriet find her way north the first time she escaped?",
+      "options": [
+        "A talking map",
+        "The North Star and secret songs",
+        "A train ticket"
+      ],
+      "answer": 1,
+      "explanation": "She followed the night sky and trusted coded songs for directions."
+    },
+    {
+      "id": "harriet-tubman-q3",
+      "type": "fill-blank",
+      "prompt": "Harriet guided people along secret trails called the Underground ____.",
+      "answer": "Railroad",
+      "explanation": "The Underground Railroad was the network that led people to freedom."
+    },
+    {
+      "id": "harriet-tubman-q4",
+      "type": "multiple-choice",
+      "prompt": "Why did Harriet return to the South after gaining her own freedom?",
+      "options": [
+        "She wanted to start a store",
+        "She missed the warm weather",
+        "She wanted to lead others to freedom"
+      ],
+      "answer": 2,
+      "explanation": "She chose to risk her life to help friends and family escape."
+    },
+    {
+      "id": "harriet-tubman-q5",
+      "type": "matching",
+      "prompt": "Match each tool Harriet used with how it helped.",
+      "pairs": [
+        { "id": "a", "left": "Lantern", "right": "" },
+        { "id": "b", "left": "Conductors", "right": "" },
+        { "id": "c", "left": "Disguises", "right": "" }
+      ],
+      "answer": {
+        "a": "Lit the path at night",
+        "b": "Friends who offered safe houses",
+        "c": "Helped her travel without being noticed"
+      },
+      "explanation": "Each item kept travelers safe and hidden."
+    },
+    {
+      "id": "harriet-tubman-q6",
+      "type": "sequence",
+      "prompt": "Put these events in Harriet's life in order.",
+      "sequence": [
+        "Harriet escaped to Pennsylvania",
+        "She led groups along the Underground Railroad",
+        "She led a Civil War rescue mission",
+        "She cared for neighbors after the war"
+      ],
+      "explanation": "Her own escape came first, followed by rescues, wartime missions, and later community care."
+    },
+    {
+      "id": "harriet-tubman-q7",
+      "type": "fill-blank",
+      "prompt": "Harriet never lost a single ____ while guiding people to freedom.",
+      "answer": "traveler",
+      "explanation": "Every person she led reached safety."
+    },
+    {
+      "id": "harriet-tubman-q8",
+      "type": "multiple-choice",
+      "prompt": "How did Harriet help during the Civil War?",
+      "options": [
+        "She built rockets",
+        "She led a rescue mission that freed hundreds of people",
+        "She worked as a ship captain"
+      ],
+      "answer": 1,
+      "explanation": "Harriet organized and guided a successful rescue mission."
+    },
+    {
+      "id": "harriet-tubman-q9",
+      "type": "short-answer",
+      "prompt": "Why is Harriet Tubman remembered as courageous?",
+      "acceptableAnswers": [
+        "She risked her life many times to lead people out of slavery.",
+        "She returned south, guided travelers secretly, and never gave up."
+      ],
+      "explanation": "Her bravery and leadership inspired others to seek freedom."
+    },
+    {
+      "id": "harriet-tubman-q10",
+      "type": "multiple-choice",
+      "prompt": "What did Harriet do after the Civil War?",
+      "options": [
+        "She opened theme parks",
+        "She helped build schools and cared for neighbors",
+        "She moved to the Moon"
+      ],
+      "answer": 1,
+      "explanation": "She continued serving her community through education and care."
+    }
+  ],
+  "keywords": [
+    "freedom",
+    "Underground Railroad",
+    "courage",
+    "North Star",
+    "rescue"
+  ],
+  "prompts": [
+    "What qualities made Harriet a strong leader?",
+    "How would you help someone find safety if you lived then?"
+  ]
+}

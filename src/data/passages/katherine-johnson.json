@@ -1,0 +1,146 @@
+{
+  "id": "katherine-johnson",
+  "title": "Katherine Johnson: Math to the Moon",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Katherine Johnson's talent for numbers helped astronauts launch, orbit, and return safely during the early days of space exploration.",
+  "coverImage": "assets/covers/katherine-johnson.svg",
+  "imageAlt": "Stylized illustration of Katherine Johnson with a notebook of flight paths and a moon in the background.",
+  "author": "Jacob Sutanto",
+  "wordCount": 358,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Katherine Johnson grew up in the green hills of West Virginia surrounded by brothers and sisters who loved to count everything. She tallied steps on the porch, the number of trees along the road, and even the bright stars that dotted the night sky, turning walks into math adventures.",
+    "Her hometown school ended at eighth grade, yet Katherine’s teachers saw she needed tougher challenges. They arranged for her to attend a high school on a college campus, and she skipped several grades to start there at ten years old. She devoured geometry and algebra with delight.",
+    "College came next at West Virginia State, where professors handed Katherine extra problems because she solved every assignment too quickly. She graduated with honors and later became one of the first Black women invited to attend graduate math classes at West Virginia University, even while segregation tried to block her path.",
+    "Katherine loved teaching, but she wanted her calculations to fly. She joined the National Advisory Committee for Aeronautics, or NACA, as a \"human computer.\" A sign on the door declared the office \"Colored Computers,\" reminding her that the workplace was segregated. Katherine still filled her notebooks with streamlines, wind-tunnel data, and equations for turning speeds that made airplanes safer.",
+    "When the Space Race began, engineers needed someone who could weave numbers into reliable directions through the sky. Katherine calculated trajectories—mathematical road maps—for new rockets. In 1962 astronaut John Glenn refused to launch until Katherine double-checked the electronic computer's answers. Only after she confirmed the orbit did he agree to ride the capsule around Earth.",
+    "Later, Katherine joined the team planning Apollo 11's journey to the Moon. She mapped when to fire rockets, where the spacecraft should swing around the Moon, and how to guide the astronauts home through Earth’s atmosphere. Her precise work meant the crew could plant a flag and splash down safely in the Pacific Ocean.",
+    "Katherine Johnson kept working for NASA for more than three decades, writing reports that future scientists still read. She earned medals from presidents and heard schoolchildren chant her name. Her story shows that curiosity, courage, and a well-sharpened pencil can carry a person—and a nation—far beyond the horizon."
+  ],
+  "questions": [
+    {
+      "id": "katherine-johnson-q1",
+      "type": "multiple-choice",
+      "prompt": "What did Katherine love to count when she was young?",
+      "options": [
+        "The stars, steps, and trees around her home",
+        "How many songs she could sing at once",
+        "The number of fish in her backyard pond"
+      ],
+      "answer": 0,
+      "explanation": "Katherine counted steps, trees, and stars because numbers fascinated her."
+    },
+    {
+      "id": "katherine-johnson-q2",
+      "type": "multiple-choice",
+      "prompt": "Why did Katherine start high school so early?",
+      "options": [
+        "Her town had no elementary school",
+        "She finished eighth grade quickly and needed harder math",
+        "She wanted to play more sports"
+      ],
+      "answer": 1,
+      "explanation": "Teachers saw how fast she learned and encouraged her to keep going."
+    },
+    {
+      "id": "katherine-johnson-q3",
+      "type": "fill-blank",
+      "prompt": "Katherine worked for a research center called the National Advisory Committee for ____.",
+      "answer": "Aeronautics",
+      "explanation": "She joined NACA, which later became NASA."
+    },
+    {
+      "id": "katherine-johnson-q4",
+      "type": "multiple-choice",
+      "prompt": "What challenge did Katherine face at work?",
+      "options": [
+        "She had to work in segregated rooms even though she did the same job",
+        "She had to wear a space suit every day",
+        "She was not allowed to use pencils"
+      ],
+      "answer": 0,
+      "explanation": "Segregation forced her into separate spaces, yet she persevered."
+    },
+    {
+      "id": "katherine-johnson-q5",
+      "type": "matching",
+      "prompt": "Match each mission with how Katherine helped.",
+      "pairs": [
+        { "id": "a", "left": "John Glenn's orbit", "right": "" },
+        { "id": "b", "left": "Apollo 11", "right": "" },
+        { "id": "c", "left": "Airplane testing", "right": "" }
+      ],
+      "answer": {
+        "a": "She double-checked the computer's calculations",
+        "b": "She mapped the route to the Moon and back",
+        "c": "She calculated safe flight paths"
+      },
+      "explanation": "Katherine's math powered each of these missions in different ways."
+    },
+    {
+      "id": "katherine-johnson-q6",
+      "type": "sequence",
+      "prompt": "Place these events from Katherine's life in order.",
+      "sequence": [
+        "Katherine skipped grades and began high school at ten",
+        "She joined NACA as a human computer",
+        "She confirmed John Glenn's orbital flight numbers",
+        "She helped plot the Apollo 11 mission"
+      ],
+      "explanation": "Her learning came first, followed by her career and famous missions."
+    },
+    {
+      "id": "katherine-johnson-q7",
+      "type": "fill-blank",
+      "prompt": "Astronaut John Glenn trusted Katherine to check the ____'s numbers.",
+      "answer": "computer",
+      "explanation": "He asked that she verify the computer calculations before launch."
+    },
+    {
+      "id": "katherine-johnson-q8",
+      "type": "multiple-choice",
+      "prompt": "Which word best describes Katherine Johnson?",
+      "options": [
+        "Forgetful",
+        "Curious",
+        "Careless"
+      ],
+      "answer": 1,
+      "explanation": "She was curious about numbers and space, which guided her work."
+    },
+    {
+      "id": "katherine-johnson-q9",
+      "type": "short-answer",
+      "prompt": "How did Katherine Johnson's work change space travel?",
+      "acceptableAnswers": [
+        "Her calculations made sure astronauts could launch, orbit, and return safely.",
+        "She checked and mapped routes so missions like John Glenn's flight and Apollo 11 succeeded."
+      ],
+      "explanation": "Her math provided accuracy and safety for critical missions."
+    },
+    {
+      "id": "katherine-johnson-q10",
+      "type": "multiple-choice",
+      "prompt": "What lesson does Katherine's story teach readers?",
+      "options": [
+        "Math only matters in space",
+        "Curiosity and persistence can open doors",
+        "Working alone is better than working with a team"
+      ],
+      "answer": 1,
+      "explanation": "Katherine's persistence and teamwork helped her overcome barriers."
+    }
+  ],
+  "keywords": [
+    "calculations",
+    "orbit",
+    "mission",
+    "trajectory",
+    "NASA"
+  ],
+  "prompts": [
+    "How did Katherine show courage at her workplace?",
+    "What big problem would you want to solve with math?"
+  ]
+}

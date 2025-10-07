@@ -7,6 +7,8 @@ import greatWall from "./passages/great-wall.json" assert { type: "json" };
 import riverGuardians from "./passages/river-guardians.json" assert { type: "json" };
 import clockworkClub from "./passages/clockwork-club.json" assert { type: "json" };
 import mesaSkywatchers from "./passages/mesa-skywatchers.json" assert { type: "json" };
+import harrietTubman from "./passages/harriet-tubman.json" assert { type: "json" };
+import katherineJohnson from "./passages/katherine-johnson.json" assert { type: "json" };
 
 const withCovers = passage => ({
   ...passage,
@@ -22,7 +24,9 @@ const passages = [
   greatWall,
   riverGuardians,
   clockworkClub,
-  mesaSkywatchers
+  mesaSkywatchers,
+  harrietTubman,
+  katherineJohnson
 ].map(withCovers);
 
 export default passages;
