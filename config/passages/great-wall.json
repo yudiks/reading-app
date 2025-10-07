@@ -1,0 +1,61 @@
+{
+  "id": "great-wall",
+  "title": "The Great Wall of China",
+  "category": "history",
+  "categoryLabel": "History",
+  "summary": "The Great Wall winds like a dragon across mountains, showing how people worked together to protect their home.",
+  "coverImage": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80",
+  "imageAlt": "Sunset view along the Great Wall of China.",
+  "author": "Jacob Sutanto",
+  "wordCount": 236,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The Great Wall of China stretches more than 13,000 miles. Long ago, rulers built it to guard their land from invaders.",
+    "Workers used stone, bricks, and packed earth to build the wall across steep mountains and deserts.",
+    "Watchtowers dotted the wall every few miles. Soldiers could spot danger and send smoke signals from tower to tower.",
+    "The wall also served as a road. Traders and messengers traveled along its top, carrying goods and news.",
+    "Today the Great Wall reminds us how teamwork and determination can create something mighty."
+  ],
+  "questions": [
+    {
+      "prompt": "Why was the Great Wall built?",
+      "options": [
+        "To keep rivers from flooding",
+        "To guard against invaders",
+        "To hold art galleries"
+      ],
+      "answer": 1,
+      "explanation": "The wall helped protect the country from attacks."
+    },
+    {
+      "prompt": "How did soldiers share messages along the wall?",
+      "options": [
+        "They used smoke signals.",
+        "They shouted loudly.",
+        "They used carrier pigeons."
+      ],
+      "answer": 0,
+      "explanation": "Smoke signals from towers spread news quickly."
+    },
+    {
+      "prompt": "What does the wall show us today?",
+      "options": [
+        "That teamwork and hard work can build big things.",
+        "That walls always stop rain.",
+        "That deserts are empty."
+      ],
+      "answer": 0,
+      "explanation": "The wall stands as a symbol of teamwork and determination."
+    }
+  ],
+  "keywords": [
+    "invaders",
+    "watchtowers",
+    "determination",
+    "traders"
+  ],
+  "prompts": [
+    "Imagine sending a signal from one tower to another. What would you tell them?",
+    "What would you pack for a walk along the Great Wall?"
+  ]
+}

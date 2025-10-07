@@ -1,0 +1,62 @@
+{
+  "id": "marie-curie",
+  "title": "Marie Curie: A Life of Discovery",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Marie Curie followed her curiosity from a small town in Poland to world-changing discoveries about invisible energy called radioactivity.",
+  "coverImage": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80",
+  "imageAlt": "Scientist in a bright laboratory holding a glowing glass tube.",
+  "author": "Jacob Sutanto",
+  "wordCount": 248,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Marie Curie, born Maria Sklodowska in Warsaw, Poland, loved solving puzzles more than anything. When she was ten, she spent rainy afternoons taking apart clocks just to see how they worked.",
+    "At that time, women were not allowed to attend science classes in many parts of Europe. Marie refused to let that stop her. She saved money, moved to Paris, and enrolled at a famous school called the Sorbonne.",
+    "Marie studied how certain rocks gave off energy even in the dark. She named this energy radioactivity. Working side by side with her husband Pierre, Marie discovered two new elements, polonium and radium.",
+    "Her careful experiments helped doctors use X-rays to see broken bones. During World War I, Marie even drove a special van that carried X-ray machines to help injured soldiers.",
+    "Marie Curie's passion for science earned her two Nobel Prizes. Her story teaches us that brave questions can brighten the world."
+  ],
+  "questions": [
+    {
+      "prompt": "What problem did Marie Curie face when she was young?",
+      "options": [
+        "She could not find a science school that allowed women.",
+        "She did not enjoy puzzles or questions.",
+        "She could not read or write."
+      ],
+      "answer": 0,
+      "explanation": "Marie had to move to Paris because women were blocked from science classes at home."
+    },
+    {
+      "prompt": "What did Marie Curie discover with her husband Pierre?",
+      "options": [
+        "New types of X-ray machines",
+        "Two new elements called polonium and radium",
+        "How to build tall towers"
+      ],
+      "answer": 1,
+      "explanation": "Marie and Pierre uncovered the elements polonium and radium."
+    },
+    {
+      "prompt": "How did Marie help during World War I?",
+      "options": [
+        "She built airplanes for pilots.",
+        "She delivered mail to soldiers.",
+        "She drove a van with X-ray machines to treat injuries."
+      ],
+      "answer": 2,
+      "explanation": "Marie traveled in X-ray vans to help doctors see broken bones."
+    }
+  ],
+  "keywords": [
+    "radioactivity",
+    "Sorbonne",
+    "elements",
+    "experiments",
+    "Nobel"
+  ],
+  "prompts": [
+    "Why do you think Marie was called brave?",
+    "What big question would you ask if you visited her lab?"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "photosynthesis",
+  "title": "The Miracle of Photosynthesis",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Leaves look calm, but inside they run a busy kitchen that turns sunlight into plant food.",
+  "coverImage": "https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=800&q=80",
+  "imageAlt": "Sunlight shining through bright green leaves.",
+  "author": "Jacob Sutanto",
+  "wordCount": 232,
+  "readingLevel": "Grade 3",
+  "body": [
+    "When you step outside on a sunny morning, plants are already hard at work. Leaves use sunlight, water, and air to make food in a process called photosynthesis.",
+    "Tiny parts inside the leaf called chloroplasts act like mini kitchens. They catch sunlight with a green helper named chlorophyll.",
+    "The leaf mixes sunlight with water from the roots and carbon dioxide from the air. The result is sugar for the plant and oxygen for us to breathe.",
+    "Some of the sugar is stored in roots like carrots. Other sugar feeds flowers, fruits, and seeds.",
+    "Photosynthesis shows how plants and people share the planet. Without leafy kitchens, Earth would not be full of fresh air, crunchy snacks, and colorful gardens."
+  ],
+  "questions": [
+    {
+      "prompt": "What does chlorophyll do inside a leaf?",
+      "options": [
+        "It helps the leaf catch sunlight.",
+        "It keeps the plant warm at night.",
+        "It stores water for the plant."
+      ],
+      "answer": 0,
+      "explanation": "Chlorophyll grabs sunlight so the leaf can make food."
+    },
+    {
+      "prompt": "What gas do plants give off that people need to breathe?",
+      "options": [
+        "Helium",
+        "Oxygen",
+        "Smoke"
+      ],
+      "answer": 1,
+      "explanation": "The by-product of photosynthesis is oxygen."
+    },
+    {
+      "prompt": "Where can a plant store extra sugar?",
+      "options": [
+        "In the clouds",
+        "In its roots",
+        "In rocks"
+      ],
+      "answer": 1,
+      "explanation": "Plants keep extra sugar in roots, seeds, or fruits."
+    }
+  ],
+  "keywords": [
+    "photosynthesis",
+    "chloroplasts",
+    "chlorophyll",
+    "carbon dioxide",
+    "droplets"
+  ],
+  "prompts": [
+    "Which foods do you eat that come from plant sugar?",
+    "How could you show photosynthesis in a drawing?"
+  ]
+}

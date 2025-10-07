@@ -1,0 +1,61 @@
+{
+  "id": "tortoise-hare",
+  "title": "The Tortoise and the Hare",
+  "category": "fable",
+  "categoryLabel": "Fable",
+  "summary": "A speedy hare challenges a steady tortoise and learns that bragging can trip you up.",
+  "coverImage": "https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?auto=format&fit=crop&w=800&q=80",
+  "imageAlt": "Close-up of a tortoise on a dirt path.",
+  "author": "Jacob Sutanto",
+  "wordCount": 214,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The forest animals gathered for a race. The hare bounced with energy and bragged that he would win by a mile.",
+    "The tortoise stretched his neck and nodded. \"I may be slow,\" he said, \"but I never give up.\"",
+    "When the race began, the hare zipped ahead. Soon he grew bored. He took a nap under a shady tree.",
+    "The tortoise moved at a steady pace. Step by careful step, he passed the sleeping hare and reached the finish line first.",
+    "The hare woke up too late. \"How did I lose?\" he cried. The tortoise smiled. \"Fast feet are nice, but steady steps win the race.\""
+  ],
+  "questions": [
+    {
+      "prompt": "Why did the hare lose the race?",
+      "options": [
+        "He stopped to take a nap.",
+        "He forgot the path.",
+        "He shared snacks with friends."
+      ],
+      "answer": 0,
+      "explanation": "He napped and the tortoise passed him."
+    },
+    {
+      "prompt": "What is the message of the fable?",
+      "options": [
+        "Always run as fast as you can.",
+        "Slow and steady wins the race.",
+        "It is better to skip races."
+      ],
+      "answer": 1,
+      "explanation": "The story teaches that steady effort beats overconfidence."
+    },
+    {
+      "prompt": "Which words show that the hare was a bragger?",
+      "options": [
+        "He bounced with energy.",
+        "He bragged he would win by a mile.",
+        "He smiled at the tortoise."
+      ],
+      "answer": 1,
+      "explanation": "The hare bragged about winning easily."
+    }
+  ],
+  "keywords": [
+    "bragged",
+    "steady",
+    "careful",
+    "confidence"
+  ],
+  "prompts": [
+    "Think of a time you kept going even when something was hard. What happened?",
+    "How would the story change if the hare encouraged the tortoise instead?"
+  ]
+}
