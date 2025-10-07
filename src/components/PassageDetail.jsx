@@ -61,15 +61,24 @@ export default function PassageDetail({ passage }) {
     if (!passage.keywords?.length) {
       return text => text;
     }
+
+    const paletteSize = 4;
+    const colorLookup = new Map();
+    passage.keywords.forEach((keyword, index) => {
+      colorLookup.set(keyword.toLowerCase(), ((index % paletteSize) + 1).toString());
+    });
+
     const sorted = [...passage.keywords].sort((a, b) => b.length - a.length);
-    return text => {
-      let output = text;
-      sorted.forEach(keyword => {
+
+    return text =>
+      sorted.reduce((current, keyword) => {
         const pattern = new RegExp(`\\b${keyword.replace(/[.*+?^${}()|[\\]\\]/g, "\\$&")}\\b`, "gi");
-        output = output.replace(pattern, match => `<span class="vocab-highlight">${match}</span>`);
-      });
-      return output;
-    };
+        const colorId = colorLookup.get(keyword.toLowerCase()) ?? "1";
+        return current.replace(
+          pattern,
+          match => `<span class="vocab-highlight vocab-highlight--${colorId}">${match}</span>`
+        );
+      }, text);
   }, [passage.keywords]);
 
   const handleBoundary = useCallback(
