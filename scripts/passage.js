@@ -32,6 +32,9 @@ if (!passage) {
   const questionList = document.getElementById("questionList");
   const questScore = document.getElementById("questScore");
   const readAloudButton = document.getElementById("readAloud");
+  const readAloudVoiceSelect = document.getElementById("readAloudVoice");
+  const readAloudRateInput = document.getElementById("readAloudRate");
+  const readAloudRateValue = document.getElementById("readAloudRateValue");
   const form = document.getElementById("questionForm");
 
   const bodyParagraphs = Array.isArray(passage.body)
@@ -74,6 +77,196 @@ if (!passage) {
   const wordCount = passage.wordCount ?? countWords(bodyParagraphs);
   const metaParts = [`${wordCount} words`, passage.readingLevel, `By ${passage.author}`].filter(Boolean);
 
+  const preferredVoiceNames = [
+    "Microsoft Aria Online (Natural) - English (United States)",
+    "Microsoft Jenny Online (Natural) - English (United States)",
+    "Google UK English Female",
+    "Google US English",
+    "Samantha"
+  ];
+
+  const VOICE_STORAGE_KEY = "quest.readAloud.voice";
+  const RATE_STORAGE_KEY = "quest.readAloud.rate";
+
+  let availableVoices = [];
+  const sentenceMetadata = [];
+  const highlightWindowSize = 1;
+  const highlightClass = "read-aloud-active";
+  let activeSpeech = null;
+
+  function loadVoices() {
+    if (!("speechSynthesis" in window)) {
+      populateVoiceSelect();
+      return;
+    }
+
+    const updateVoices = () => {
+      availableVoices = window.speechSynthesis.getVoices();
+      populateVoiceSelect();
+    };
+
+    updateVoices();
+
+    if (!availableVoices.length) {
+      window.speechSynthesis.addEventListener("voiceschanged", () => {
+        updateVoices();
+      }, { once: true });
+    }
+  }
+
+  function splitIntoSentences(paragraph) {
+    const trimmed = paragraph?.trim();
+    if (!trimmed) {
+      return [];
+    }
+    const matches = trimmed.match(/[^.!?]+(?:[.!?]+|$)/g);
+    return matches ? matches.map(sentence => sentence.trim()) : [trimmed];
+  }
+
+  function clearHighlights() {
+    sentenceMetadata.forEach(entry => {
+      entry.element.classList.remove(highlightClass);
+    });
+  }
+
+  function applyHighlights(startIndex) {
+    sentenceMetadata.forEach((entry, index) => {
+      const withinWindow = index >= startIndex && index < startIndex + highlightWindowSize;
+      entry.element.classList.toggle(highlightClass, withinWindow);
+    });
+  }
+
+  function getStoredValue(key) {
+    try {
+      return window.localStorage ? window.localStorage.getItem(key) : null;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function setStoredValue(key, value) {
+    try {
+      if (window.localStorage) {
+        window.localStorage.setItem(key, value);
+      }
+    } catch (error) {
+      // Ignore storage failures, e.g., private browsing.
+    }
+  }
+
+  function formatRate(value) {
+    const numberValue = Number(value);
+    if (!Number.isFinite(numberValue)) {
+      return "1";
+    }
+    return numberValue.toFixed(2).replace(/\.0+$/, "").replace(/(\.\d+?)0+$/, "$1");
+  }
+
+  function updateRateDisplay(value) {
+    if (readAloudRateValue) {
+      readAloudRateValue.textContent = `${formatRate(value)}×`;
+    }
+  }
+
+  function selectDefaultVoiceId() {
+    const stored = getStoredValue(VOICE_STORAGE_KEY);
+    if (stored && availableVoices.some(voice => voice.voiceURI === stored)) {
+      return stored;
+    }
+    const preferred = availableVoices.find(voice => preferredVoiceNames.includes(voice.name));
+    if (preferred) {
+      return preferred.voiceURI;
+    }
+    const englishVoice = availableVoices.find(voice => voice.lang && voice.lang.toLowerCase().startsWith("en"));
+    if (englishVoice) {
+      return englishVoice.voiceURI;
+    }
+    return availableVoices[0]?.voiceURI ?? "";
+  }
+
+  function populateVoiceSelect() {
+    if (!readAloudVoiceSelect) {
+      return;
+    }
+
+    if (!("speechSynthesis" in window)) {
+      readAloudVoiceSelect.innerHTML = "<option value=\"\">Speech unavailable</option>";
+      readAloudVoiceSelect.disabled = true;
+      return;
+    }
+
+    if (!availableVoices.length) {
+      readAloudVoiceSelect.innerHTML = "<option value=\"\">Loading voices…</option>";
+      readAloudVoiceSelect.disabled = true;
+      return;
+    }
+
+    const filteredVoices = availableVoices.filter(voice => voice.lang && voice.lang.toLowerCase().startsWith("en"));
+    const voicesToUse = filteredVoices.length ? filteredVoices : availableVoices;
+
+    const selectedId = selectDefaultVoiceId();
+
+    readAloudVoiceSelect.innerHTML = "";
+    voicesToUse.forEach(voice => {
+      const option = document.createElement("option");
+      option.value = voice.voiceURI;
+      option.textContent = voice.lang ? `${voice.name} (${voice.lang})` : voice.name;
+      if (voice.voiceURI === selectedId) {
+        option.selected = true;
+      }
+      readAloudVoiceSelect.appendChild(option);
+    });
+
+    readAloudVoiceSelect.disabled = voicesToUse.length <= 1;
+
+    if (!readAloudVoiceSelect.disabled && !readAloudVoiceSelect.value) {
+      readAloudVoiceSelect.value = voicesToUse[0].voiceURI;
+    }
+
+    if (readAloudVoiceSelect.value) {
+      setStoredValue(VOICE_STORAGE_KEY, readAloudVoiceSelect.value);
+    }
+  }
+
+  function chooseVoice() {
+    if (!availableVoices.length) {
+      return null;
+    }
+    const selectedId = readAloudVoiceSelect?.value || selectDefaultVoiceId();
+    return availableVoices.find(voice => voice.voiceURI === selectedId) || null;
+  }
+
+  loadVoices();
+
+  if (readAloudRateInput) {
+    if (!("speechSynthesis" in window)) {
+      readAloudRateInput.disabled = true;
+    }
+    const storedRate = parseFloat(getStoredValue(RATE_STORAGE_KEY));
+    const initialRate = Number.isFinite(storedRate) ? storedRate : Number.parseFloat(readAloudRateInput.value) || 0.95;
+    readAloudRateInput.value = initialRate;
+    updateRateDisplay(initialRate);
+
+    readAloudRateInput.addEventListener("input", () => {
+      updateRateDisplay(readAloudRateInput.value);
+    });
+
+    readAloudRateInput.addEventListener("change", () => {
+      setStoredValue(RATE_STORAGE_KEY, readAloudRateInput.value);
+    });
+  } else {
+    updateRateDisplay(1);
+  }
+
+  if (readAloudVoiceSelect) {
+    readAloudVoiceSelect.addEventListener("change", () => {
+      setStoredValue(VOICE_STORAGE_KEY, readAloudVoiceSelect.value);
+      if (activeSpeech) {
+        stopSpeech();
+      }
+    });
+  }
+
   if (passageCategory) passageCategory.textContent = passage.categoryLabel ?? "";
   if (passageTitle) passageTitle.textContent = passage.title ?? "";
   if (passageMeta) passageMeta.textContent = metaParts.join(" • ");
@@ -89,7 +282,36 @@ if (!passage) {
     if (bodyParagraphs.length) {
       bodyParagraphs.forEach(paragraph => {
         const p = document.createElement("p");
-        p.innerHTML = keywordPatterns.length ? highlightText(paragraph) : paragraph;
+        const sentences = splitIntoSentences(paragraph);
+        if (!sentences.length) {
+          p.textContent = paragraph;
+          passageBody.appendChild(p);
+          return;
+        }
+
+        sentences.forEach((sentenceText, sentenceIndex) => {
+          if (!sentenceText) {
+            return;
+          }
+
+          const span = document.createElement("span");
+          span.className = "read-aloud-sentence";
+          span.innerHTML = keywordPatterns.length ? highlightText(sentenceText) : sentenceText;
+
+          sentenceMetadata.push({
+            text: sentenceText,
+            element: span,
+            start: 0,
+            end: 0
+          });
+
+          p.appendChild(span);
+
+          if (sentenceIndex < sentences.length - 1) {
+            p.appendChild(document.createTextNode(" "));
+          }
+        });
+
         passageBody.appendChild(p);
       });
     } else {
@@ -155,7 +377,14 @@ if (!passage) {
     });
   }
 
-  let activeSpeech = null;
+  const speechText = sentenceMetadata.map(entry => entry.text).join(" ");
+
+  sentenceMetadata.forEach((entry, index) => {
+    const previous = sentenceMetadata[index - 1];
+    const startFrom = previous ? previous.end + 1 : 0;
+    entry.start = startFrom;
+    entry.end = startFrom + entry.text.length;
+  });
 
   function stopSpeech() {
     if (window.speechSynthesis && activeSpeech) {
@@ -164,6 +393,7 @@ if (!passage) {
       if (readAloudButton) {
         readAloudButton.classList.remove("button--speaking");
       }
+      clearHighlights();
     }
   }
 
@@ -180,12 +410,40 @@ if (!passage) {
         return;
       }
 
-      const utterance = new SpeechSynthesisUtterance(bodyParagraphs.join("\n\n"));
-      utterance.rate = 0.95;
-      utterance.pitch = 1.05;
+      if (!sentenceMetadata.length) {
+        return;
+      }
+
+      const utterance = new SpeechSynthesisUtterance(speechText);
+      const selectedVoice = chooseVoice();
+      if (selectedVoice) {
+        utterance.voice = selectedVoice;
+        utterance.lang = selectedVoice.lang || utterance.lang;
+      }
+      const chosenRate = readAloudRateInput ? Number.parseFloat(readAloudRateInput.value) : 0.95;
+      utterance.rate = Number.isFinite(chosenRate) ? chosenRate : 0.95;
+      utterance.pitch = 1.0;
+      utterance.volume = 0.95;
+      applyHighlights(0);
       utterance.onend = () => {
         activeSpeech = null;
         readAloudButton.classList.remove("button--speaking");
+        clearHighlights();
+      };
+      utterance.onerror = () => {
+        clearHighlights();
+        activeSpeech = null;
+        readAloudButton.classList.remove("button--speaking");
+      };
+      utterance.onboundary = event => {
+        if (typeof event.charIndex !== "number") {
+          return;
+        }
+
+        const index = sentenceMetadata.findIndex(entry => event.charIndex >= entry.start && event.charIndex < entry.end);
+        if (index >= 0) {
+          applyHighlights(index);
+        }
       };
       activeSpeech = utterance;
       readAloudButton.classList.add("button--speaking");
