@@ -1,0 +1,148 @@
+{
+  "id": "pokemon-go-adventure",
+  "title": "Chasing Creatures with Pokémon GO",
+  "category": "technology",
+  "categoryLabel": "Technology",
+  "summary": "A summer club uses Pokémon GO to learn about augmented reality, teamwork, and respectful play in their neighborhood parks.",
+  "coverImage": "assets/covers/pokemon-go-adventure.svg",
+  "imageAlt": "Stylized phone showing a creature on a park path.",
+  "author": "Jacob Sutanto",
+  "wordCount": 343,
+  "readingLevel": "Grade 3",
+  "body": [
+    "When the Community Center opened its Summer Explorers Club, Coach Li surprised everyone with a challenge. \"Tomorrow we will hunt digital creatures,\" she announced, holding up her phone. \"We will use Pokémon GO to explore the neighborhood and learn how augmented reality mixes the real world with the screen.\"",
+    "The next morning, Sofia, Jamal, and Priya gathered at Riverside Park. Coach Li explained that the app uses GPS to place virtual Pokémon on real maps. By turning on the camera, players see animations layered over sidewalks, gardens, and benches.",
+    "They practiced catching a friendly Bulbasaur that popped up near the fountain. Priya swiped the screen to toss a virtual Poké Ball while Jamal reminded her to crouch so the picture looked like the creature was sitting on the steps. Sofia noted how the app resized the Pokémon as she moved closer or farther away.",
+    "Coach Li handed each team a neighborhood map labeled with PokéStops—special locations where players collect items. The club visited a mural, a library statue, and a community garden. At every stop they paused to read the plaques, adding new facts to their journal. Pokémon GO encouraged them to notice art and history they usually hurried past.",
+    "After lunch, the club battled a large Raid Boss together. The game required teamwork: Jamal timed his strongest attacks, Sofia cheered when everyone dodged in sync, and Priya used healing potions to keep their creatures energized. They high-fived when the Pokémon finally joined their collection.",
+    "Back at the Community Center, Coach Li led a safety talk. The club listed smart rules such as staying with a buddy, watching for traffic, and respecting private property. They also agreed not to spoof locations or post photos of strangers without permission. Augmented reality was exciting, but responsibility came first.",
+    "To wrap up the week, the Explorers designed their own augmented reality ideas. Jamal imagined a pollinator quest that rewards players for spotting bees and butterflies. Priya sketched a history hunt where statues tell stories. Sofia created a math trail that reveals puzzles when players scan murals."
+  ],
+  "questions": [
+    {
+      "id": "pokemon-go-adventure-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did Coach Li choose Pokémon GO for the club activity?",
+      "options": [
+        "To show how augmented reality blends real places with digital creatures",
+        "To make the club sit indoors",
+        "To replace science journals"
+      ],
+      "answer": 0,
+      "explanation": "The coach wanted students to explore AR technology outdoors."
+    },
+    {
+      "id": "pokemon-go-adventure-q2",
+      "type": "fill-blank",
+      "prompt": "The app uses ______ to place virtual Pokémon on real maps.",
+      "answer": "GPS",
+      "explanation": "Global Positioning System data anchors the game characters to locations."
+    },
+    {
+      "id": "pokemon-go-adventure-q3",
+      "type": "multiple-choice",
+      "prompt": "What did the club record at each PokéStop?",
+      "options": [
+        "Facts about murals, statues, and gardens",
+        "Ticket prices",
+        "Weather reports from other cities"
+      ],
+      "answer": 0,
+      "explanation": "They wrote notes about the real landmarks connected to the stops."
+    },
+    {
+      "id": "pokemon-go-adventure-q4",
+      "type": "matching",
+      "prompt": "Match each club member with something they contributed during the raid.",
+      "pairs": [
+        { "id": "a", "left": "Jamal", "right": "" },
+        { "id": "b", "left": "Sofia", "right": "" },
+        { "id": "c", "left": "Priya", "right": "" },
+        { "id": "d", "left": "Coach Li", "right": "" }
+      ],
+      "answer": {
+        "a": "Timed strong attacks",
+        "b": "Cheered and logged observations",
+        "c": "Healed the team's Pokémon",
+        "d": "Guided safety and teamwork"
+      },
+      "explanation": "Each person supported the team in a unique way."
+    },
+    {
+      "id": "pokemon-go-adventure-q5",
+      "type": "sequence",
+      "prompt": "Order these events from the club's adventure.",
+      "sequence": [
+        "They caught a Bulbasaur near the fountain",
+        "They visited PokéStops and read plaques",
+        "They battled a Raid Boss",
+        "They designed new AR ideas"
+      ],
+      "explanation": "The story moves from practice to exploration, teamwork, and creative design."
+    },
+    {
+      "id": "pokemon-go-adventure-q6",
+      "type": "fill-blank",
+      "prompt": "The club promised not to post photos of ______ without permission.",
+      "answer": "strangers",
+      "explanation": "Respectful sharing was part of their safety rules."
+    },
+    {
+      "id": "pokemon-go-adventure-q7",
+      "type": "multiple-choice",
+      "prompt": "Which statement best describes augmented reality?",
+      "options": [
+        "It layers digital images on the real world",
+        "It replaces real places with cartoons",
+        "It only works indoors"
+      ],
+      "answer": 0,
+      "explanation": "Augmented reality adds graphics to live surroundings."
+    },
+    {
+      "id": "pokemon-go-adventure-q8",
+      "type": "short-answer",
+      "prompt": "How did Pokémon GO help the club notice new things in their neighborhood?",
+      "acceptableAnswers": [
+        "The game guided them to murals, gardens, and statues they normally passed by.",
+        "PokéStops encouraged them to read plaques and learn local facts."
+      ],
+      "explanation": "PokéStops connect digital play with real landmarks."
+    },
+    {
+      "id": "pokemon-go-adventure-q9",
+      "type": "multiple-choice",
+      "prompt": "Why did the Explorers discuss digital citizenship?",
+      "options": [
+        "To remember safe, respectful ways to play",
+        "To delete the app",
+        "To print maps"
+      ],
+      "answer": 0,
+      "explanation": "They wanted to play responsibly while using technology."
+    },
+    {
+      "id": "pokemon-go-adventure-q10",
+      "type": "multiple-choice",
+      "prompt": "Which new game idea was mentioned?",
+      "options": [
+        "A pollinator quest that rewards spotting bees",
+        "A game that hides homework",
+        "An app that erases murals"
+      ],
+      "answer": 0,
+      "explanation": "Jamal imagined using AR to protect pollinators."
+    }
+  ],
+  "keywords": [
+    "augmented reality",
+    "PokéStop",
+    "GPS",
+    "teamwork",
+    "digital citizenship"
+  ],
+  "prompts": [
+    "Write a safety rule you would add for AR games and explain why.",
+    "Design a new augmented reality quest for your town and describe how it teaches something useful."
+  ]
+}

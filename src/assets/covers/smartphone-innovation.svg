@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Smartphone Innovation Cover</title>
+  <desc id="desc">Abstract smartphone with glowing icons and circuit lines.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d234f" />
+      <stop offset="100%" stop-color="#0e142f" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#bg)" />
+  <g transform="translate(85 60)">
+    <rect x="0" y="0" width="150" height="300" rx="24" fill="#121a3d" stroke="#4fb5ff" stroke-width="4" />
+    <rect x="20" y="32" width="110" height="200" rx="16" fill="#1b2b62" />
+    <circle cx="75" cy="260" r="10" fill="#4fb5ff" />
+    <circle cx="75" cy="14" r="6" fill="#4fb5ff" />
+    <g fill="#6ee8ff">
+      <rect x="40" y="60" width="22" height="22" rx="6" />
+      <rect x="84" y="60" width="22" height="22" rx="6" />
+      <rect x="40" y="104" width="22" height="22" rx="6" />
+      <rect x="84" y="104" width="22" height="22" rx="6" />
+      <rect x="40" y="148" width="22" height="22" rx="6" />
+      <rect x="84" y="148" width="22" height="22" rx="6" />
+    </g>
+  </g>
+  <path d="M40 320c60-30 100-10 140-10s80-20 100-30" stroke="#4fb5ff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4" />
+  <path d="M40 350c40-18 90 0 140 0s90-14 110-22" stroke="#6ee8ff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.25" />
+</svg>

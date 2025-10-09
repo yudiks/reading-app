@@ -1,0 +1,149 @@
+{
+  "id": "python-coding-camp",
+  "title": "Coding Camp with Python",
+  "category": "technology",
+  "categoryLabel": "Technology",
+  "summary": "Campers learn Python basics, debug programs, and use code to solve community challenges during a week-long workshop.",
+  "coverImage": "assets/covers/python-coding-camp.svg",
+  "imageAlt": "Stylized laptop with Python code and friendly snake mascot.",
+  "author": "Jacob Sutanto",
+  "wordCount": 347,
+  "readingLevel": "Grade 3",
+  "body": [
+    "On the first day of Coding Camp, instructor Nadia wrote one word on the whiteboard: Python. The campers murmured about snakes and then laughed when Nadia held up a plush python wearing headphones. \"This mascot loves music,\" she said. \"By Friday you'll teach it to dance using Python code.\"",
+    "Nadia explained that Python is a programming language people use for websites, science experiments, and animation. She showed how the language reads almost like English. On their laptops, campers typed print(\"Hello, Camp!\") and watched the greeting appear instantly.",
+    "Each morning began with a mini-lesson. Day one focused on variables, like boxes that store information. Day two introduced loops that repeat instructions. Day three added if-statements that help code make decisions.",
+    "After lessons, the campers tackled challenges. For the variable race, teams stored scores for a pretend robotics contest. During the loop relay, they programmed a turtle graphic to draw colorful spirals. Later they used if-statements to build a quiz that replied with encouraging messages when someone guessed incorrectly.",
+    "Midweek, Nadia introduced debugging. She intentionally left out parentheses or misspelled words so the code displayed error messages. Campers learned to read the clues, fix one issue at a time, and celebrate when the program finally ran.",
+    "On Thursday they visited the community garden to gather data. Using tablets, campers recorded sunlight levels, soil moisture, and plant heights. Back at camp, they fed the numbers into a Python program that calculated average growth for the garden club.",
+    "For the final project, each camper designed a mini app for someone in the community. Jayla created a random dance generator for the plush python. Lin coded a reminder tool that texts her grandpa to water tomato plants. Omar built a scoreboard that tracks goals during recess soccer.",
+    "At Friday's showcase, families watched demos and read code printed beside each laptop. Nadia praised the campers for thinking like coders—breaking problems into steps, testing ideas, and supporting one another. As the plush python bobbed to Jayla's dance program, the campers cheered, proud that a week of Python practice had turned curiosity into creative power."
+  ],
+  "questions": [
+    {
+      "id": "python-coding-camp-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did Nadia bring a plush python to camp?",
+      "options": [
+        "To create a fun mascot for their coding projects",
+        "To scare the campers",
+        "To replace laptops"
+      ],
+      "answer": 0,
+      "explanation": "The mascot made learning Python playful."
+    },
+    {
+      "id": "python-coding-camp-q2",
+      "type": "fill-blank",
+      "prompt": "Campers typed print(\"Hello, Camp!\") to make a ______ appear on the screen.",
+      "answer": "greeting",
+      "explanation": "The print command displayed text instantly."
+    },
+    {
+      "id": "python-coding-camp-q3",
+      "type": "multiple-choice",
+      "prompt": "Which concept helps code repeat instructions?",
+      "options": [
+        "Loops",
+        "Pillows",
+        "Headphones"
+      ],
+      "answer": 0,
+      "explanation": "Loops run the same code multiple times."
+    },
+    {
+      "id": "python-coding-camp-q4",
+      "type": "matching",
+      "prompt": "Match each coding concept with its description.",
+      "pairs": [
+        { "id": "a", "left": "Variable", "right": "" },
+        { "id": "b", "left": "Loop", "right": "" },
+        { "id": "c", "left": "If-statement", "right": "" },
+        { "id": "d", "left": "Debugging", "right": "" }
+      ],
+      "answer": {
+        "a": "Stores information",
+        "b": "Repeats instructions",
+        "c": "Makes decisions",
+        "d": "Fixes mistakes"
+      },
+      "explanation": "The camp lessons covered these four core ideas."
+    },
+    {
+      "id": "python-coding-camp-q5",
+      "type": "sequence",
+      "prompt": "Put these activities in order.",
+      "sequence": [
+        "Campers learned variables",
+        "They practiced loops",
+        "They visited the garden to collect data",
+        "They presented final projects"
+      ],
+      "explanation": "Lessons happened early, data collection midweek, and presentations last."
+    },
+    {
+      "id": "python-coding-camp-q6",
+      "type": "fill-blank",
+      "prompt": "Debugging helped campers read error ______ and fix their code.",
+      "answer": "messages",
+      "explanation": "Error messages pointed to issues in the programs."
+    },
+    {
+      "id": "python-coding-camp-q7",
+      "type": "multiple-choice",
+      "prompt": "What did campers do with the garden data?",
+      "options": [
+        "They fed it into a Python program to find averages",
+        "They ignored it",
+        "They used it to draw comics"
+      ],
+      "answer": 0,
+      "explanation": "The program helped gardeners plan new plantings."
+    },
+    {
+      "id": "python-coding-camp-q8",
+      "type": "short-answer",
+      "prompt": "How did the final projects help the community?",
+      "acceptableAnswers": [
+        "Campers built mini apps like reminders and scoreboards that solved real problems.",
+        "Their programs supported family members, gardeners, or classmates."
+      ],
+      "explanation": "Projects connected Python skills to everyday needs."
+    },
+    {
+      "id": "python-coding-camp-q9",
+      "type": "multiple-choice",
+      "prompt": "Which job did Lin's project do?",
+      "options": [
+        "Send reminders to water tomato plants",
+        "Bake cupcakes",
+        "Fix bicycles"
+      ],
+      "answer": 0,
+      "explanation": "Lin coded a reminder tool for her grandpa's garden."
+    },
+    {
+      "id": "python-coding-camp-q10",
+      "type": "multiple-choice",
+      "prompt": "What big idea did Nadia want campers to remember?",
+      "options": [
+        "Coders break problems into steps and keep testing",
+        "Coding is effortless and never needs practice",
+        "Only adults can program"
+      ],
+      "answer": 0,
+      "explanation": "The week emphasized persistence, teamwork, and problem solving."
+    }
+  ],
+  "keywords": [
+    "Python",
+    "variables",
+    "loops",
+    "debugging",
+    "data"
+  ],
+  "prompts": [
+    "Write a short Python program idea that could help your school and explain the steps it would take.",
+    "Describe a time you solved a tricky problem by fixing one small mistake at a time."
+  ]
+}

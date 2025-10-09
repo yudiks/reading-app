@@ -1,0 +1,148 @@
+{
+  "id": "smartphone-innovation",
+  "title": "Pocket Computers: The Story of the Smartphone",
+  "category": "technology",
+  "categoryLabel": "Technology",
+  "summary": "Students trace how smartphones combined cameras, music players, and the internet into one pocket-sized invention that keeps evolving.",
+  "coverImage": "assets/covers/smartphone-innovation.svg",
+  "imageAlt": "Stylized smartphone glowing with app icons and circuit lines.",
+  "author": "Jacob Sutanto",
+  "wordCount": 329,
+  "readingLevel": "Grade 3",
+  "body": [
+    "When Ms. Lane rolled a cart of gadgets into the Innovation Lab, her students leaned over the table. She lined up a flip phone from 2005, a digital camera, an MP3 music player, and finally a shiny smartphone. \"Each device does a job,\" she said, \"but the smartphone combines them all. Let's explore how that happened.\"",
+    "She passed around the older devices first. Mateo snapped a photo with the camera and discovered it only stored twenty pictures. The MP3 player needed a computer to sync songs. Before smartphones, people carried several gadgets to capture memories, call friends, and listen to music.",
+    "Next Ms. Lane projected a timeline. Engineers had been shrinking computer chips for decades, making them faster while using less power. She explained how touch screens replaced buttons and how early smartphones opened websites like mini desktops.",
+    "The class opened a smartphone to see the hidden parts. Inside they found a battery the size of a deck of cards, camera lenses thinner than pencils, and sensors that feel motion, light, and even how close your face is to the screen.",
+    "Ms. Lane handed out a chart of popular apps. She pointed out how software turns phones into translators, drawing pads, flashlights, or video studios. Riley shared that her aunt uses a screen reader app to hear messages, while Amir uses a navigation app to find bike routes. Smartphones keep changing because coders design new apps every day.",
+    "Before class ended, the students debated responsibilities that come with pocket computers. They listed ways to protect privacy, store strong passwords, and ask before posting photos. Mateo suggested setting a daily screen timer so he still plays soccer outside.",
+    "As the bell rang, Ms. Lane reminded them that future innovations might include flexible screens or solar charging cases. She challenged the class to sketch their own ideas for an accessory that solves a real problem. The students packed up with buzzing imaginations, ready to design the next upgrade in pocket technology."
+  ],
+  "questions": [
+    {
+      "id": "smartphone-innovation-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did Ms. Lane bring several older gadgets to class?",
+      "options": [
+        "To show how smartphones combined many tools into one device",
+        "To sell them to the students",
+        "To prove cameras no longer work"
+      ],
+      "answer": 0,
+      "explanation": "Comparing older gadgets helped students see how smartphones merged their features."
+    },
+    {
+      "id": "smartphone-innovation-q2",
+      "type": "fill-blank",
+      "prompt": "Before smartphones, people carried a camera, a flip phone, and an ______ player to do separate jobs.",
+      "answer": "MP3",
+      "explanation": "Music players like MP3 devices handled songs before phones gained that ability."
+    },
+    {
+      "id": "smartphone-innovation-q3",
+      "type": "multiple-choice",
+      "prompt": "What change allowed early smartphones to feel like tiny computers?",
+      "options": [
+        "Touch screens and faster chips let them browse the web",
+        "They grew heavier",
+        "They stopped using batteries"
+      ],
+      "answer": 0,
+      "explanation": "Shrinking chips and touch screens made smartphones more computer-like."
+    },
+    {
+      "id": "smartphone-innovation-q4",
+      "type": "matching",
+      "prompt": "Match each smartphone part with what it helps do.",
+      "pairs": [
+        { "id": "a", "left": "Battery", "right": "" },
+        { "id": "b", "left": "Motion sensor", "right": "" },
+        { "id": "c", "left": "Camera lens", "right": "" },
+        { "id": "d", "left": "Screen reader app", "right": "" }
+      ],
+      "answer": {
+        "a": "Powers the phone for hours",
+        "b": "Tells the phone when it is tilted",
+        "c": "Captures sharp photos",
+        "d": "Reads text aloud"
+      },
+      "explanation": "Each component or app supports a different smartphone feature."
+    },
+    {
+      "id": "smartphone-innovation-q5",
+      "type": "sequence",
+      "prompt": "Put these events from the lesson in order.",
+      "sequence": [
+        "Students tested older gadgets",
+        "Ms. Lane showed a timeline of shrinking chips",
+        "The class opened a smartphone",
+        "Students discussed responsible use"
+      ],
+      "explanation": "The lesson moved from past tools to timelines, hardware exploration, and responsibility."
+    },
+    {
+      "id": "smartphone-innovation-q6",
+      "type": "fill-blank",
+      "prompt": "Sensors help the phone know when it is near your ______ so the screen can turn off.",
+      "answer": "face",
+      "explanation": "Proximity sensors darken the display during a call to save power."
+    },
+    {
+      "id": "smartphone-innovation-q7",
+      "type": "multiple-choice",
+      "prompt": "Which example from the passage shows accessibility?",
+      "options": [
+        "Riley's aunt uses a screen reader app",
+        "Mateo plays soccer",
+        "Jada listens to music"
+      ],
+      "answer": 0,
+      "explanation": "The screen reader demonstrates technology supporting people with different needs."
+    },
+    {
+      "id": "smartphone-innovation-q8",
+      "type": "short-answer",
+      "prompt": "Why did the class create a technology pledge?",
+      "acceptableAnswers": [
+        "They wanted to remind themselves to use smartphones safely and respectfully.",
+        "A pledge helped them plan responsible choices about privacy and screen time."
+      ],
+      "explanation": "The students understood that powerful tools require careful behavior."
+    },
+    {
+      "id": "smartphone-innovation-q9",
+      "type": "multiple-choice",
+      "prompt": "Which future smartphone idea did Ms. Lane mention?",
+      "options": [
+        "Flexible screens or solar charging cases",
+        "Phones made from ice",
+        "Phones without apps"
+      ],
+      "answer": 0,
+      "explanation": "She encouraged students to imagine flexible displays and solar power accessories."
+    },
+    {
+      "id": "smartphone-innovation-q10",
+      "type": "multiple-choice",
+      "prompt": "What challenge did Ms. Lane give the class at the end?",
+      "options": [
+        "Sketch a smartphone accessory that solves a real problem",
+        "Write a test about math facts",
+        "Disassemble all the gadgets at home"
+      ],
+      "answer": 0,
+      "explanation": "She invited students to invent their own helpful technology ideas."
+    }
+  ],
+  "keywords": [
+    "smartphone",
+    "sensor",
+    "touch screen",
+    "app",
+    "innovation"
+  ],
+  "prompts": [
+    "Design a new smartphone accessory that helps someone with a daily task.",
+    "Write about a rule you would add to the technology pledge and why."
+  ]
+}

@@ -9,6 +9,10 @@ import clockworkClub from "./passages/clockwork-club.json" assert { type: "json"
 import mesaSkywatchers from "./passages/mesa-skywatchers.json" assert { type: "json" };
 import harrietTubman from "./passages/harriet-tubman.json" assert { type: "json" };
 import katherineJohnson from "./passages/katherine-johnson.json" assert { type: "json" };
+import smartphoneInnovation from "./passages/smartphone-innovation.json" assert { type: "json" };
+import pokemonGoAdventure from "./passages/pokemon-go-adventure.json" assert { type: "json" };
+import computerPioneers from "./passages/computer-pioneers.json" assert { type: "json" };
+import pythonCodingCamp from "./passages/python-coding-camp.json" assert { type: "json" };
 
 const withCovers = passage => ({
   ...passage,
@@ -26,7 +30,11 @@ const passages = [
   clockworkClub,
   mesaSkywatchers,
   harrietTubman,
-  katherineJohnson
+  katherineJohnson,
+  smartphoneInnovation,
+  pokemonGoAdventure,
+  computerPioneers,
+  pythonCodingCamp
 ].map(withCovers);
 
 export default passages;

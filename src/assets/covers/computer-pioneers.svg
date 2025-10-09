@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Computer Pioneers Cover</title>
+  <desc id="desc">Vintage computer next to modern laptop.</desc>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14274e" />
+      <stop offset="100%" stop-color="#0a162d" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#grad)" />
+  <g transform="translate(30 210)">
+    <rect x="0" y="0" width="150" height="110" rx="12" fill="#4b5b8a" />
+    <rect x="16" y="12" width="118" height="70" fill="#1a2448" />
+    <rect x="30" y="26" width="90" height="42" fill="#24356a" />
+    <rect x="40" y="90" width="70" height="20" fill="#d7dbe6" />
+    <rect x="60" y="100" width="30" height="6" fill="#b0b6c2" />
+  </g>
+  <g transform="translate(170 160)">
+    <polygon points="0 120 150 120 130 40 20 40" fill="#2d3f6b" />
+    <rect x="12" y="0" width="126" height="80" rx="10" fill="#141f3f" />
+    <rect x="24" y="12" width="102" height="56" rx="6" fill="#23376d" />
+    <rect x="50" y="90" width="60" height="12" rx="6" fill="#66d9ff" />
+  </g>
+  <path d="M40 150h240" stroke="#66d9ff" stroke-width="4" stroke-dasharray="12 12" opacity="0.35" />
+  <circle cx="80" cy="120" r="10" fill="#66d9ff" opacity="0.6" />
+  <circle cx="240" cy="110" r="12" fill="#66d9ff" opacity="0.6" />
+</svg>

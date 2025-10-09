@@ -1,0 +1,148 @@
+{
+  "id": "computer-pioneers",
+  "title": "From Room-Sized Machines to Laptops",
+  "category": "technology",
+  "categoryLabel": "Technology",
+  "summary": "A class museum project compares early computers with today's laptops to understand hardware, coding languages, and problem solving.",
+  "coverImage": "assets/covers/computer-pioneers.svg",
+  "imageAlt": "Stylized vintage computer beside a modern laptop.",
+  "author": "Jacob Sutanto",
+  "wordCount": 322,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Mr. Gomez turned the classroom into a computer history museum. Students entered to find posters of giant machines from the 1940s, a table stacked with floppy disks, and a shelf displaying tablets and slim laptops. \"Today we will learn how computers shrank and grew smarter,\" he said. \"Each group gets a decade to explore.\"",
+    "Keisha's group researched ENIAC, one of the first electronic computers. They discovered it filled an entire room, used about 18,000 vacuum tubes, and heated up like a bakery oven. Programmers had to plug cables and flip switches to solve math problems.",
+    "Across the room, Omar's team explored the 1980s. They booted up a beige desktop that whirred to life with a blinking green cursor. Omar typed commands into the MS-DOS screen while Mr. Gomez explained that coders wrote instructions in languages like BASIC or C to tell the machine what to do.",
+    "Next, Mei's team examined a modern laptop. They pointed out the flat motherboard, tiny solid-state drive, and day-long battery. When they opened a programming environment, Mei wrote a short script that turned words different colors.",
+    "To connect the decades, Mr. Gomez drew a timeline on the board. Students added sticky notes describing milestones: microchips replacing vacuum tubes, the invention of the mouse, the rise of the internet, and cloud storage that lets people access files from any device.",
+    "In the afternoon, the class interviewed community members via video call. A retired engineer described using punch cards at her first job. A game designer explained how teams still rely on classic coding languages, but now combine them with modern tools like graphic engines and version control.",
+    "For homework, everyone created a mini exhibit card. They listed three facts about their decade, sketched the computer they studied, and wrote one question for future inventors. Keisha wondered how quantum computers might change medicine. Omar dreamed about keyboards that project onto desks. Mei hoped laptops would charge with clean energy."
+  ],
+  "questions": [
+    {
+      "id": "computer-pioneers-q1",
+      "type": "multiple-choice",
+      "prompt": "Why did Mr. Gomez create a classroom museum?",
+      "options": [
+        "To help students compare computer history across decades",
+        "To sell old computers",
+        "To teach only about video games"
+      ],
+      "answer": 0,
+      "explanation": "The museum let students explore how computers evolved over time."
+    },
+    {
+      "id": "computer-pioneers-q2",
+      "type": "fill-blank",
+      "prompt": "The ENIAC computer used thousands of vacuum ______ to process information.",
+      "answer": "tubes",
+      "explanation": "Vacuum tubes made up ENIAC's electronic circuitry."
+    },
+    {
+      "id": "computer-pioneers-q3",
+      "type": "multiple-choice",
+      "prompt": "How did Omar interact with the 1980s computer?",
+      "options": [
+        "He typed commands into a text-only screen",
+        "He tapped a touch screen",
+        "He used voice control"
+      ],
+      "answer": 0,
+      "explanation": "Many older computers relied on typed commands instead of icons."
+    },
+    {
+      "id": "computer-pioneers-q4",
+      "type": "matching",
+      "prompt": "Match each component or invention with its impact.",
+      "pairs": [
+        { "id": "a", "left": "Microchip", "right": "" },
+        { "id": "b", "left": "Mouse", "right": "" },
+        { "id": "c", "left": "Internet", "right": "" },
+        { "id": "d", "left": "Cloud storage", "right": "" }
+      ],
+      "answer": {
+        "a": "Shrank hardware and increased speed",
+        "b": "Made pointing and clicking easier",
+        "c": "Connected computers around the world",
+        "d": "Let people access files from many devices"
+      },
+      "explanation": "Each milestone changed how people use computers."
+    },
+    {
+      "id": "computer-pioneers-q5",
+      "type": "sequence",
+      "prompt": "Place these activities in the order they happened.",
+      "sequence": [
+        "Students explored old and new computers",
+        "They added sticky notes to a timeline",
+        "They interviewed community members",
+        "They wrote exhibit cards for homework"
+      ],
+      "explanation": "The day moved from hands-on research to timelines, interviews, and creative homework."
+    },
+    {
+      "id": "computer-pioneers-q6",
+      "type": "fill-blank",
+      "prompt": "Mei wrote a short script that changed the ______ of words on the screen.",
+      "answer": "colors",
+      "explanation": "Her program demonstrated modern coding tools."
+    },
+    {
+      "id": "computer-pioneers-q7",
+      "type": "multiple-choice",
+      "prompt": "What did the video interviews teach the class?",
+      "options": [
+        "People from different careers contribute to computer progress",
+        "Only engineers use computers",
+        "Computers have stopped changing"
+      ],
+      "answer": 0,
+      "explanation": "The interviews showed how many professionals solve problems with computers."
+    },
+    {
+      "id": "computer-pioneers-q8",
+      "type": "short-answer",
+      "prompt": "Why is it helpful to study computer history?",
+      "acceptableAnswers": [
+        "Understanding past inventions helps students imagine future technology.",
+        "Learning about earlier machines teaches how improvements happen." 
+      ],
+      "explanation": "The museum activity showed that history inspires innovation."
+    },
+    {
+      "id": "computer-pioneers-q9",
+      "type": "multiple-choice",
+      "prompt": "Which future idea did Keisha wonder about?",
+      "options": [
+        "Quantum computers helping medicine",
+        "Keyboards made of chocolate",
+        "Computers that never need electricity"
+      ],
+      "answer": 0,
+      "explanation": "Keisha hoped quantum computers might improve healthcare."
+    },
+    {
+      "id": "computer-pioneers-q10",
+      "type": "multiple-choice",
+      "prompt": "What does the passage suggest about coding languages?",
+      "options": [
+        "Classic languages still matter and mix with modern tools",
+        "They were only used in the 1940s",
+        "They all disappeared"
+      ],
+      "answer": 0,
+      "explanation": "A game designer said teams use both classic and modern coding tools."
+    }
+  ],
+  "keywords": [
+    "microchip",
+    "vacuum tube",
+    "coding",
+    "timeline",
+    "innovation"
+  ],
+  "prompts": [
+    "Interview someone about their first computer and compare it with yours.",
+    "Sketch a future computer and label which past inventions inspired your design."
+  ]
+}
