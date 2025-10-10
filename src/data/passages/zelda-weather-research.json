@@ -1,0 +1,148 @@
+{
+  "id": "zelda-weather-research",
+  "title": "Forecasting Hyrule's Storms",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Purah and Zelda launch weather balloons across Tears of the Kingdom to predict lightning, updrafts, and safe travel windows.",
+  "coverImage": "assets/covers/zelda-weather-research.svg",
+  "imageAlt": "Stylized weather balloon over Hyrule with lightning map.",
+  "author": "Jacob Sutanto",
+  "wordCount": 341,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Thunder rolled over the Hebra Mountains as Purah calibrated a Skyview balloon tether. Zelda clipped a Silverscale sensor pack to the line and grinned. \"Tears of the Kingdom is full of sudden storms,\" she said. \"Today we'll map lightning so travelers know when to glide and when to shelter.\"",
+    "With a whoosh, the balloon lifted, carrying sensors that tracked temperature, humidity, electric charge, and wind speed. Robbie monitored the data on a Purah Pad. When the balloon reached storm clouds, the charge sensor spiked. Robbie noted the altitude and direction, marking a lightning risk zone on Hyrule's map.",
+    "Meanwhile, Link glided through a neighboring updraft pillar with a Zonai wing. The Purah Pad showed calm readings there, proving that some sky columns remain safe even during mountain storms. Zelda compared the two sites and realized that lightning clustered near cold, moisture-rich peaks while updrafts above warm plains stayed clear.",
+    "To double-check, the team launched a second balloon from the tropical Faron region. The sensor pack measured warm, moist air rising steadily. When rain began, the balloon recorded how humidity climbed before the first drop fell. Zelda turned the data into a rule: if humidity rises faster than temperature, rain will follow within half an hour.",
+    "They also collected ground reports. Rito scouts shared how frequently metal arrows hummed before lightning. Gerudo guards measured sand temperature during desert gusts. Combining sky and ground clues let Purah's lab build a forecast chart for each province.",
+    "Back at Lookout Landing, Zelda painted the information onto a gigantic Glider Guidance Board. Green skies marked safe soaring, yellow warned of gusty crosswinds, and red streaks meant lightning danger. She added tips such as using wood weapons during storms, wearing rubber armor, and anchoring airships before thunder arrives.",
+    "Hyrule's explorers visited the board before each journey. Korok couriers planned delivery routes, and Zonai miners scheduled balloon ascents for calm mornings. By studying weather with balloons, sensors, and community reports, Zelda's team proved that science can help everyone adventure through Tears of the Kingdom with confidence and care."
+  ],
+  "questions": [
+    {
+      "id": "zelda-weather-research-q1",
+      "type": "multiple-choice",
+      "prompt": "What did the weather balloons measure?",
+      "options": [
+        "Temperature, humidity, electric charge, and wind speed",
+        "Korok puzzles",
+        "Mushroom recipes"
+      ],
+      "answer": 0,
+      "explanation": "The sensors tracked weather conditions."
+    },
+    {
+      "id": "zelda-weather-research-q2",
+      "type": "fill-blank",
+      "prompt": "Lightning formed near cold, moisture-rich ______.",
+      "answer": "peaks",
+      "explanation": "Mountain peaks collected storm energy."
+    },
+    {
+      "id": "zelda-weather-research-q3",
+      "type": "multiple-choice",
+      "prompt": "What did the Faron balloon teach the team?",
+      "options": [
+        "Rapid humidity rise means rain soon",
+        "Lightning follows sunlight",
+        "Updrafts disappear"
+      ],
+      "answer": 0,
+      "explanation": "They created a rule about humidity and rain."
+    },
+    {
+      "id": "zelda-weather-research-q4",
+      "type": "matching",
+      "prompt": "Match each clue with the region that shared it.",
+      "pairs": [
+        { "id": "a", "left": "Metal arrows humming", "right": "" },
+        { "id": "b", "left": "Sand temperature readings", "right": "" },
+        { "id": "c", "left": "Calm updraft data", "right": "" },
+        { "id": "d", "left": "Humidity spikes", "right": "" }
+      ],
+      "answer": {
+        "a": "Rito scouts",
+        "b": "Gerudo guards",
+        "c": "Tabantha plains",
+        "d": "Faron jungle"
+      },
+      "explanation": "Different regions supplied different clues."
+    },
+    {
+      "id": "zelda-weather-research-q5",
+      "type": "sequence",
+      "prompt": "Place the forecasting steps in order.",
+      "sequence": [
+        "Launch balloon near Hebra",
+        "Mark lightning risk zone",
+        "Launch balloon in Faron",
+        "Paint Glider Guidance Board"
+      ],
+      "explanation": "They collected data in two regions before sharing forecasts."
+    },
+    {
+      "id": "zelda-weather-research-q6",
+      "type": "fill-blank",
+      "prompt": "Explorers were advised to anchor airships before ______ arrives.",
+      "answer": "thunder",
+      "explanation": "Securing vehicles prevents storm damage."
+    },
+    {
+      "id": "zelda-weather-research-q7",
+      "type": "multiple-choice",
+      "prompt": "Why did Zelda combine sky data with ground reports?",
+      "options": [
+        "To make accurate forecasts for each region",
+        "To decorate the lab",
+        "To count Korok seeds"
+      ],
+      "answer": 0,
+      "explanation": "More data makes better predictions."
+    },
+    {
+      "id": "zelda-weather-research-q8",
+      "type": "short-answer",
+      "prompt": "How did the Glider Guidance Board help travelers?",
+      "acceptableAnswers": [
+        "It showed safe and risky flying zones with color codes.",
+        "It provided advice on when to glide, shelter, or tie down gear."
+      ],
+      "explanation": "The board turned data into easy instructions."
+    },
+    {
+      "id": "zelda-weather-research-q9",
+      "type": "multiple-choice",
+      "prompt": "What safety tip did Zelda include?",
+      "options": [
+        "Use wooden weapons during storms",
+        "Ride metal carts in lightning",
+        "Ignore thunder"
+      ],
+      "answer": 0,
+      "explanation": "Wood conducts electricity less than metal."
+    },
+    {
+      "id": "zelda-weather-research-q10",
+      "type": "multiple-choice",
+      "prompt": "Who helped track sensor readings from the balloon?",
+      "options": [
+        "Robbie",
+        "Impa",
+        "Sidon"
+      ],
+      "answer": 0,
+      "explanation": "Robbie monitored data on the Purah Pad."
+    }
+  ],
+  "keywords": [
+    "weather",
+    "balloon",
+    "lightning",
+    "forecast",
+    "humidity"
+  ],
+  "prompts": [
+    "Describe how you would teach Rito fliers to use the color-coded Glider Guidance Board.",
+    "Design your own weather experiment for another Hyrule region and explain what sensors you would need."
+  ]
+}

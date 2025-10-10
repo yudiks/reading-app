@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Weather Research Cover</title>
+  <desc id="desc">Weather balloon and lightning over Hyrule.</desc>
+  <defs>
+    <linearGradient id="storm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18264f" />
+      <stop offset="100%" stop-color="#0a142b" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#storm)" />
+  <path d="M0 300h320v120H0z" fill="#1a2f3f" />
+  <path d="M0 320c80-40 160-40 240 0s160 40 240 0v100H0z" fill="#253c4f" />
+  <g transform="translate(150 60)">
+    <ellipse cx="10" cy="60" rx="12" ry="160" fill="#2e4b63" />
+    <circle cx="10" cy="-10" r="60" fill="#f0f6ff" stroke="#7df0ff" stroke-width="4" />
+    <circle cx="20" cy="-20" r="12" fill="#1a2f48" />
+  </g>
+  <g stroke="#9de7ff" stroke-width="4" stroke-linecap="round">
+    <path d="M40 200l50-40-20 60 60-40-30 70" />
+    <path d="M220 210l40-30-18 46 48-24-20 54" opacity="0.7" />
+  </g>
+</svg>

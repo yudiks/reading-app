@@ -1,0 +1,147 @@
+{
+  "id": "zelda-zoneite-research",
+  "title": "Zelda's Zonaite Energy Lab",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "In the Depths, Zelda, Robbie, and Josha study Zonaite crystals to learn how energy flows through Tears of the Kingdom's ancient batteries.",
+  "coverImage": "assets/covers/zelda-zoneite-research.svg",
+  "imageAlt": "Stylized Depths lab with glowing Zonaite crystals and energy cells.",
+  "author": "Jacob Sutanto",
+  "wordCount": 329,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The Depths pulsed with teal light as Zelda set up a research tent beside a massive Zonaite vein. Robbie wheeled in a cart stacked with Purah Pad sensors, while Josha unrolled a notebook labeled Energy Study #12. They wanted to understand why Zonaite cells store so much power for Link's vehicles.",
+    "Zelda sliced a thin Zonaite wafer and placed it between two metal plates. When she pressed the plates together, a current meter lit up. Zelda explained that Zonaite crystals have layers of minerals—some layers let electrons move, while others block them like gates. Squeezing the crystal nudged electrons through the gateway, creating electricity.",
+    "Robbie built a miniature battery using three crystal slices stacked in a tube. He charged it with a Zonai charge orb, then connected it to a light. The glow lasted twice as long as a normal Hylian battery. Josha recorded the data and noticed that cooler temperatures made the light shine even longer. Cold underground air slowed the electrons just enough to prevent wasted heat.",
+    "To test durability, the team placed a battery on a rock platform attached to Zonai springs. Robbie launched it upward like a pogo stick. The springs shook the battery, but the light stayed steady. Zonaite's layered structure absorbed vibrations, proving why Link's machines survive rough landings.",
+    "Next, Zelda compared energy flow above ground. She carried a charged cell to Lookout Landing and placed it inside a cooking pot warmer. Using Purah Pad graphs, she discovered that daylight caused a tiny boost in voltage. Sunlight heated the outer layer of the crystal, letting electrons move more freely.",
+    "Back in the Depths, the trio built a safety poster for explorers. It reminded them to store cells in padded boxes, keep them dry, and let used batteries cool before recharging. Zelda added a final note: sharing data keeps Hyrule safe. Their study traveled to every research base, helping engineers design sturdier wings, carts, and lamps for the journey through Tears of the Kingdom."
+  ],
+  "questions": [
+    {
+      "id": "zelda-zoneite-research-q1",
+      "type": "multiple-choice",
+      "prompt": "What was the main question of Energy Study #12?",
+      "options": [
+        "Why Zonaite cells store so much power",
+        "How to cook mushroom stew",
+        "Where Koroks hide"
+      ],
+      "answer": 0,
+      "explanation": "The team examined Zonaite batteries and their energy."
+    },
+    {
+      "id": "zelda-zoneite-research-q2",
+      "type": "fill-blank",
+      "prompt": "Zonaite crystals have layers that act like ______ for electrons.",
+      "answer": "gates",
+      "explanation": "Some layers block electrons while others let them pass."
+    },
+    {
+      "id": "zelda-zoneite-research-q3",
+      "type": "multiple-choice",
+      "prompt": "Why did the battery glow longer in cold air?",
+      "options": [
+        "Cool temperatures reduced wasted heat",
+        "The light fell asleep",
+        "Robbie forgot to turn it off"
+      ],
+      "answer": 0,
+      "explanation": "Cold air slowed electrons just enough to save energy."
+    },
+    {
+      "id": "zelda-zoneite-research-q4",
+      "type": "matching",
+      "prompt": "Match each experiment with its result.",
+      "pairs": [
+        { "id": "a", "left": "Crystal squeeze", "right": "" },
+        { "id": "b", "left": "Spring shake", "right": "" },
+        { "id": "c", "left": "Daylight test", "right": "" },
+        { "id": "d", "left": "Cold Depths test", "right": "" }
+      ],
+      "answer": {
+        "a": "Created electricity",
+        "b": "Battery resisted vibration",
+        "c": "Voltage gained a boost",
+        "d": "Light lasted longer"
+      },
+      "explanation": "Each trial revealed a different property of Zonaite."
+    },
+    {
+      "id": "zelda-zoneite-research-q5",
+      "type": "sequence",
+      "prompt": "Place the research steps in order.",
+      "sequence": [
+        "Zelda measured the crystal",
+        "Robbie built a battery",
+        "Springs tested durability",
+        "Daylight comparison at Lookout Landing"
+      ],
+      "explanation": "The study moved from crystal testing to battery trials and sunlit observations."
+    },
+    {
+      "id": "zelda-zoneite-research-q6",
+      "type": "fill-blank",
+      "prompt": "Robbie launched the battery on Zonai springs to test its ______.",
+      "answer": "durability",
+      "explanation": "Shaking showed whether the battery stayed steady."
+    },
+    {
+      "id": "zelda-zoneite-research-q7",
+      "type": "multiple-choice",
+      "prompt": "What did the safety poster recommend?",
+      "options": [
+        "Store cells in padded boxes and keep them dry",
+        "Throw batteries into rivers",
+        "Charge cells during lightning storms"
+      ],
+      "answer": 0,
+      "explanation": "Proper storage keeps explorers safe."
+    },
+    {
+      "id": "zelda-zoneite-research-q8",
+      "type": "short-answer",
+      "prompt": "How did sharing the study help Hyrule?",
+      "acceptableAnswers": [
+        "Engineers across Hyrule could build sturdier vehicles and lamps.",
+        "Other researchers learned how to care for Zonaite cells safely."
+      ],
+      "explanation": "The data improved inventions for everyone."
+    },
+    {
+      "id": "zelda-zoneite-research-q9",
+      "type": "multiple-choice",
+      "prompt": "Who recorded observations during the experiments?",
+      "options": [
+        "Josha",
+        "King Rhoam",
+        "A Bokoblin"
+      ],
+      "answer": 0,
+      "explanation": "Josha kept careful notes in the study log."
+    },
+    {
+      "id": "zelda-zoneite-research-q10",
+      "type": "multiple-choice",
+      "prompt": "What did sunlight do to the Zonaite cell?",
+      "options": [
+        "It slightly increased voltage",
+        "It turned the crystal into sand",
+        "It drained all power"
+      ],
+      "answer": 0,
+      "explanation": "Warmth helped electrons move more freely."
+    }
+  ],
+  "keywords": [
+    "Zonaite",
+    "energy",
+    "Depths",
+    "battery",
+    "research"
+  ],
+  "prompts": [
+    "Design a Zonaite-powered invention that would help explorers and describe how you would test it.",
+    "Explain how you would teach a new researcher to store and transport Zonaite cells safely."
+  ]
+}

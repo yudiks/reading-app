@@ -1,0 +1,148 @@
+{
+  "id": "zelda-depths-ecology",
+  "title": "Life in the Luminous Depths",
+  "category": "science",
+  "categoryLabel": "Science",
+  "summary": "Zelda leads a bioluminescence survey of the Depths to learn how plants and creatures use light in Tears of the Kingdom.",
+  "coverImage": "assets/covers/zelda-depths-ecology.svg",
+  "imageAlt": "Stylized luminous bloom plants glowing in the Depths.",
+  "author": "Jacob Sutanto",
+  "wordCount": 350,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Deep beneath Hyrule, Zelda and a team of sages floated across a gloom river in a lightboat. The floor sparkled with bright blue luminous stones. Riju steadied a crate of sample jars while Yunobo carried heat-resistant shovels. They were mapping bioluminescence—the way plants and creatures glow in the dark Depths.",
+    "Their first stop was a grove of Brightbloom plants. Zelda measured how much light each bloom produced using a crystal photometer. She discovered that larger blooms shone brighter when they soaked up sunlight near surface entrances. Plants that grew in shadow emitted softer glows, suggesting that sunlight helps them restock glowing minerals.",
+    "Next, Sidon collected water from a luminous pond. Tiny plankton twinkled when he stirred the surface. Sidon gently bubbled air through a funnel, and the plankton flashed brighter. Zelda explained that many glowing creatures react to motion, using light bursts to scare away predators.",
+    "Yunobo scanned Rocklike dens with a temperature wand. Some dens glowed green, others gold. The wand showed that hotter rocks glowed stronger. Zelda noted that minerals like Topaz stored heat and released it as light. Recording temperatures helped them predict where gloom hazards might hide.",
+    "To test how explorers could use the glows, Riju set up three camp areas: one lit by Brightblooms, one by bottled pond plankton, and one by Zonaite lamps. Hyrule field medics read a medical guide at each camp. They reported that Brightblooms gave steady light for reading, plankton flickered too much, and lamps worked best for long surgeries.",
+    "The team also tracked wildlife. A Dondons herd wore reflective tags that redirected Brightbloom light along paths, creating glowing highways. When a Staldra skeleton approached, the herd shifted so their reflections dazzled it, buying time for Link to shield bash the danger away.",
+    "After a week underground, Zelda compiled the survey in Purah's archive. The report highlighted how bioluminescent plants need sunlight reserves, how water life flashes when disturbed, and how explorers can use gentle light to stay safe without attracting monsters. The findings turned the mysterious Depths of Tears of the Kingdom into a mapped ecosystem full of glowing clues."
+  ],
+  "questions": [
+    {
+      "id": "zelda-depths-ecology-q1",
+      "type": "multiple-choice",
+      "prompt": "What was the team's main research focus?",
+      "options": [
+        "Bioluminescence in the Depths",
+        "Cooking spicy peppers",
+        "Counting Korok seeds"
+      ],
+      "answer": 0,
+      "explanation": "They studied plants and creatures that glow."
+    },
+    {
+      "id": "zelda-depths-ecology-q2",
+      "type": "fill-blank",
+      "prompt": "Brightblooms grew brightest when they stored energy from ______.",
+      "answer": "sunlight",
+      "explanation": "Sunlight helped the plants recharge."
+    },
+    {
+      "id": "zelda-depths-ecology-q3",
+      "type": "multiple-choice",
+      "prompt": "Why did the pond plankton flash brighter when stirred?",
+      "options": [
+        "They react to motion to scare predators",
+        "They were hungry",
+        "Sidon added pepper"
+      ],
+      "answer": 0,
+      "explanation": "Movement triggered their defense glow."
+    },
+    {
+      "id": "zelda-depths-ecology-q4",
+      "type": "matching",
+      "prompt": "Match each observation with the tool used.",
+      "pairs": [
+        { "id": "a", "left": "Light intensity", "right": "" },
+        { "id": "b", "left": "Water flashes", "right": "" },
+        { "id": "c", "left": "Rock temperature", "right": "" },
+        { "id": "d", "left": "Camp test", "right": "" }
+      ],
+      "answer": {
+        "a": "Crystal photometer",
+        "b": "Air funnel stir",
+        "c": "Temperature wand",
+        "d": "Field medic reading"
+      },
+      "explanation": "Different tools gathered different clues."
+    },
+    {
+      "id": "zelda-depths-ecology-q5",
+      "type": "sequence",
+      "prompt": "Place these research steps in order.",
+      "sequence": [
+        "Measured Brightblooms",
+        "Studied pond plankton",
+        "Scanned Rocklike dens",
+        "Tested camp lighting"
+      ],
+      "explanation": "The survey moved from plants to water, rocks, and camp setups."
+    },
+    {
+      "id": "zelda-depths-ecology-q6",
+      "type": "fill-blank",
+      "prompt": "Dondons used reflective tags to make glowing ______ for travel.",
+      "answer": "paths",
+      "explanation": "The reflections guided safe movement."
+    },
+    {
+      "id": "zelda-depths-ecology-q7",
+      "type": "multiple-choice",
+      "prompt": "Which lighting worked best for reading medical guides?",
+      "options": [
+        "Brightblooms",
+        "Plankton jars",
+        "No light"
+      ],
+      "answer": 0,
+      "explanation": "Brightblooms provided steady light."
+    },
+    {
+      "id": "zelda-depths-ecology-q8",
+      "type": "short-answer",
+      "prompt": "How did recording temperatures help explorers?",
+      "acceptableAnswers": [
+        "Hotter, glowing rocks signaled where gloom hazards might hide.",
+        "Temperature data showed which caves needed extra caution."
+      ],
+      "explanation": "Heat readings revealed danger zones."
+    },
+    {
+      "id": "zelda-depths-ecology-q9",
+      "type": "multiple-choice",
+      "prompt": "What did the report teach about water creatures?",
+      "options": [
+        "They flash when disturbed",
+        "They prefer sunlight",
+        "They never glow"
+      ],
+      "answer": 0,
+      "explanation": "Movement triggered plankton glows."
+    },
+    {
+      "id": "zelda-depths-ecology-q10",
+      "type": "multiple-choice",
+      "prompt": "Where was the survey archived?",
+      "options": [
+        "Purah's archive",
+        "Ganon's lair",
+        "A Bokoblin camp"
+      ],
+      "answer": 0,
+      "explanation": "Purah's archive preserves scientific findings."
+    }
+  ],
+  "keywords": [
+    "Depths",
+    "bioluminescence",
+    "Brightbloom",
+    "ecosystem",
+    "survey"
+  ],
+  "prompts": [
+    "Create a field guide entry for a new glowing plant in the Depths and explain how explorers should use it.",
+    "Write a plan for collecting light data without disturbing the creatures you observe."
+  ]
+}

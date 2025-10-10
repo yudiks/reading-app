@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Zonaite Energy Cover</title>
+  <desc id="desc">Glowing Zonaite crystals with energy cells.</desc>
+  <defs>
+    <linearGradient id="depth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1b29" />
+      <stop offset="100%" stop-color="#071018" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#depth)" />
+  <g transform="translate(50 120)">
+    <path d="M40 200L0 120l60-120 60 120-40 80z" fill="#1c4d63" stroke="#6cf0ff" stroke-width="4" />
+    <path d="M150 200l-30-70 45-90 55 120-20 40z" fill="#246b7a" stroke="#94fff6" stroke-width="4" />
+    <circle cx="80" cy="210" r="26" fill="#0f1f2b" stroke="#6cf0ff" stroke-width="4" />
+    <rect x="64" y="180" width="32" height="60" rx="10" fill="#142d3d" stroke="#94fff6" stroke-width="3" />
+  </g>
+  <g stroke="#6cf0ff" stroke-width="4" stroke-linecap="round" opacity="0.4">
+    <path d="M40 320c40-30 80-10 120-10s80-20 120-30" />
+    <path d="M40 350c40-20 90-2 120-2s80-12 120-24" opacity="0.3" />
+  </g>
+</svg>

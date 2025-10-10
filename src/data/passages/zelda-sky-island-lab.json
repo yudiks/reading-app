@@ -1,0 +1,147 @@
+{
+  "id": "zelda-sky-island-lab",
+  "title": "Sky Island Lab: Link's Wind Experiments",
+  "category": "technology",
+  "categoryLabel": "Technology",
+  "summary": "On a floating lab above Hyrule, Zelda and Link test wind power gliders to map air currents across Tears of the Kingdom's sky islands.",
+  "coverImage": "assets/covers/zelda-sky-island-lab.svg",
+  "imageAlt": "Stylized sky island laboratory with glider and wind turbines.",
+  "author": "Jacob Sutanto",
+  "wordCount": 345,
+  "readingLevel": "Grade 3",
+  "body": [
+    "The Sky Islands above Hyrule glowed gold as Zelda and Link rolled open the doors of their new Wind Field Lab. Using Zonaite parts and Purah's guidance, they built a platform filled with spinning anemometers, wind socks, and a device that measured air pressure called a barograph. Their mission: understand the strong gusts that power Zonai gliders.",
+    "Link activated a Zonai fan while Zelda read numbers from a tablet. The fan's breeze nudged a glider wing hanging from the ceiling. Zelda noticed that when the wing tilted slightly, the lift numbers climbed. She explained that air moving faster over the curved top of the wing creates lower pressure, helping the glider rise—just like scientists describe with Bernoulli’s principle.",
+    "Next, the duo launched a glider off the floating deck. Link steered toward a gust that curled around a tall sky island. Zelda dropped colored leaves that trailed behind him. From the lab, students from Lookout Landing drew the swirling leaf paths on a map. The curves showed where wind deflected around islands, creating invisible ramps that pilots could ride.",
+    "At midday, Mineru's Construct delivered crystals that recorded temperature. Zelda placed them along a chain of islands from the sunny top layer to a shaded cavern pocket. Later the crystals reported a ten-degree difference. Warm air rose and flowed toward cooler pockets, producing a steady breeze. Zelda compared the pattern to sea breezes that scientists study near real-world coasts.",
+    "To test renewable energy, the team attached Zonai turbines to a rail cart. When Link pushed it downhill, wind turned the blades and charged energy cells. The data showed that even gentle slopes produced enough power to run cooking pots and lights for sky explorers.",
+    "That evening, Zelda met the students to turn their findings into a Sky Island Wind Atlas. They marked safe glide lanes, energy-rich gust corridors, and calm zones for camping. Link added a safety note reminding travelers to check wind direction before jumping. Their atlas proved that careful measurements and Hylian curiosity could make every flight across Tears of the Kingdom smarter and safer."
+  ],
+  "questions": [
+    {
+      "id": "zelda-sky-island-lab-q1",
+      "type": "multiple-choice",
+      "prompt": "What was the main goal of the Sky Island Wind Field Lab?",
+      "options": [
+        "To understand air currents that help Zonai gliders fly",
+        "To bake apple pies",
+        "To grow Korok seeds"
+      ],
+      "answer": 0,
+      "explanation": "Zelda and Link collected wind data to improve flights."
+    },
+    {
+      "id": "zelda-sky-island-lab-q2",
+      "type": "fill-blank",
+      "prompt": "The curved wing showed Bernoulli's principle because fast air over the top created lower ______.",
+      "answer": "pressure",
+      "explanation": "Lower pressure above the wing increased lift."
+    },
+    {
+      "id": "zelda-sky-island-lab-q3",
+      "type": "multiple-choice",
+      "prompt": "Why did Zelda drop colored leaves from the glider?",
+      "options": [
+        "To map how wind curved around the islands",
+        "To feed Loftwings",
+        "To decorate the lab"
+      ],
+      "answer": 0,
+      "explanation": "The leaves traced the invisible airflow for students to record."
+    },
+    {
+      "id": "zelda-sky-island-lab-q4",
+      "type": "matching",
+      "prompt": "Match each tool with what it measured.",
+      "pairs": [
+        { "id": "a", "left": "Anemometer", "right": "" },
+        { "id": "b", "left": "Barograph", "right": "" },
+        { "id": "c", "left": "Crystals", "right": "" },
+        { "id": "d", "left": "Turbine cart", "right": "" }
+      ],
+      "answer": {
+        "a": "Wind speed",
+        "b": "Air pressure",
+        "c": "Temperature changes",
+        "d": "Energy from moving air"
+      },
+      "explanation": "Each instrument captured a different wind detail."
+    },
+    {
+      "id": "zelda-sky-island-lab-q5",
+      "type": "sequence",
+      "prompt": "Put the experiment events in order.",
+      "sequence": [
+        "Link tested the glider wing inside the lab",
+        "Leaves traced gusts around the islands",
+        "Crystals measured warm and cool air",
+        "Turbines charged energy cells"
+      ],
+      "explanation": "The story moves from indoor tests to mapping, temperature data, and energy."
+    },
+    {
+      "id": "zelda-sky-island-lab-q6",
+      "type": "fill-blank",
+      "prompt": "Warm air rising toward cooler pockets created a steady ______ across the islands.",
+      "answer": "breeze",
+      "explanation": "The temperature difference drove the wind."
+    },
+    {
+      "id": "zelda-sky-island-lab-q7",
+      "type": "multiple-choice",
+      "prompt": "What did the Wind Atlas include?",
+      "options": [
+        "Safe glide lanes and energy-rich gust corridors",
+        "Recipes for monster stew",
+        "Locations of ancient bananas"
+      ],
+      "answer": 0,
+      "explanation": "The atlas shared practical flight information."
+    },
+    {
+      "id": "zelda-sky-island-lab-q8",
+      "type": "short-answer",
+      "prompt": "How did turbines on the rail cart help sky explorers?",
+      "acceptableAnswers": [
+        "They generated power for tools like cooking pots and lights.",
+        "Wind turning the blades charged energy cells for travelers."
+      ],
+      "explanation": "Capturing wind energy made life easier on the islands."
+    },
+    {
+      "id": "zelda-sky-island-lab-q9",
+      "type": "multiple-choice",
+      "prompt": "Who helped deliver temperature crystals?",
+      "options": [
+        "Mineru's Construct",
+        "A Korok merchant",
+        "Prince Sidon"
+      ],
+      "answer": 0,
+      "explanation": "Mineru's Construct provided scientific supplies."
+    },
+    {
+      "id": "zelda-sky-island-lab-q10",
+      "type": "multiple-choice",
+      "prompt": "Why did Link add a safety note to the atlas?",
+      "options": [
+        "To remind travelers to check wind direction before jumping",
+        "To advertise mushroom stew",
+        "To forbid gliders"
+      ],
+      "answer": 0,
+      "explanation": "Safety tips help pilots use the atlas responsibly."
+    }
+  ],
+  "keywords": [
+    "Sky Islands",
+    "Bernoulli",
+    "wind",
+    "Zonai",
+    "energy"
+  ],
+  "prompts": [
+    "Design a Sky Island experiment that tests another weather pattern and describe the tools you would use.",
+    "Explain how you would teach a new explorer to read the Sky Island Wind Atlas."
+  ]
+}

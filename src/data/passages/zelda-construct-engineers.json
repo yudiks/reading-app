@@ -1,0 +1,148 @@
+{
+  "id": "zelda-construct-engineers",
+  "title": "Construct Engineers of Hyrule",
+  "category": "engineering",
+  "categoryLabel": "Engineering",
+  "summary": "Link teams up with a group of friendly Constructs to design bridges and test materials across Tears of the Kingdom's canyons.",
+  "coverImage": "assets/covers/zelda-construct-engineers.svg",
+  "imageAlt": "Stylized Zonai construct building a bridge with Link.",
+  "author": "Jacob Sutanto",
+  "wordCount": 337,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Near the Tabantha Frontier, Link met a cluster of friendly Constructs humming beside a canyon. Their leader, Unit R-47, projected a blueprint showing how to build safer bridges for travelers. The plan called for testing different materials: Zonaite beams, Hylian timber, and recycled stone slabs.",
+    "First, Link and the Constructs built three mini bridges spanning wooden crates. Each bridge held the same length but used different support shapes. The Zonaite version used triangular trusses, the timber version used arches, and the stone slabs formed a simple flat deck. Sensors measured how much the bridges bent when Link walked across them wearing heavy Zonai armor.",
+    "Data showed the triangular truss barely moved. Unit R-47 explained that triangles lock angles, sharing weight evenly along each side. Timber arches flexed gently, which absorbed shocks but sagged after repeated jumps. The stone deck bent the most, warning them that flat beams need extra support.",
+    "Next, the engineers built full-size prototypes over a shallow ravine. They filled carts with ore to mimic caravan loads. Constructs pulled each cart while Link watched the sensors. The truss bridge carried the ore without dipping. The arch bridge worked if cargo moved slowly. The stone bridge needed additional pillars.",
+    "To test weather, the team set up wind fans and sprinkle sprayers. Gusts added sideways pressure, while water made surfaces slippery. Zonaite trusses handled the wind well, but Link noticed the metal deck became slick. They added grooved grip plates and R-47 logged the change as Upgrade 3B.",
+    "Finally, the engineers taught nearby travelers how to read the blueprint. They included icons for weight limits, suggested maintenance schedules, and emergency rope anchors. Link carved Korok fronds into the posts so explorers remembered to tighten bolts before storm season.",
+    "Before sunset, the Construct team archived their findings in Purah's Research Terminal. The entry highlighted how careful testing, repeated measurements, and community lessons keep Hyrule bridges steady. Link saluted Unit R-47, grateful that engineering smarts could turn Tears of the Kingdom's wild canyons into safe pathways for every traveler."
+  ],
+  "questions": [
+    {
+      "id": "zelda-construct-engineers-q1",
+      "type": "multiple-choice",
+      "prompt": "What were the engineers testing?",
+      "options": [
+        "Different bridge designs and materials",
+        "How fast Link could cook",
+        "Ways to grow Silent Shrooms"
+      ],
+      "answer": 0,
+      "explanation": "They compared bridges to choose the safest design."
+    },
+    {
+      "id": "zelda-construct-engineers-q2",
+      "type": "fill-blank",
+      "prompt": "Triangles share weight because they lock their ______.",
+      "answer": "angles",
+      "explanation": "Triangular trusses distribute forces evenly."
+    },
+    {
+      "id": "zelda-construct-engineers-q3",
+      "type": "multiple-choice",
+      "prompt": "Which bridge sagged the most during testing?",
+      "options": [
+        "The stone slab deck",
+        "The triangular truss",
+        "The Zonaite hover pad"
+      ],
+      "answer": 0,
+      "explanation": "Flat stone beams bent more than supported designs."
+    },
+    {
+      "id": "zelda-construct-engineers-q4",
+      "type": "matching",
+      "prompt": "Match each test with what it revealed.",
+      "pairs": [
+        { "id": "a", "left": "Ore cart run", "right": "" },
+        { "id": "b", "left": "Wind fans", "right": "" },
+        { "id": "c", "left": "Sprinklers", "right": "" },
+        { "id": "d", "left": "Armor walk", "right": "" }
+      ],
+      "answer": {
+        "a": "Load strength",
+        "b": "Sideways pressure handling",
+        "c": "Need for grip plates",
+        "d": "Bridge bending"
+      },
+      "explanation": "Each test stressed the bridges in a different way."
+    },
+    {
+      "id": "zelda-construct-engineers-q5",
+      "type": "sequence",
+      "prompt": "Order the engineering steps.",
+      "sequence": [
+        "Built mini bridges",
+        "Measured bending",
+        "Tested full-size prototypes",
+        "Added weather upgrades"
+      ],
+      "explanation": "They moved from models to real bridges and improvements."
+    },
+    {
+      "id": "zelda-construct-engineers-q6",
+      "type": "fill-blank",
+      "prompt": "Grooved plates improved ______ on the metal deck.",
+      "answer": "grip",
+      "explanation": "The grooves kept travelers from slipping."
+    },
+    {
+      "id": "zelda-construct-engineers-q7",
+      "type": "multiple-choice",
+      "prompt": "What information did the blueprint teach travelers?",
+      "options": [
+        "Weight limits and maintenance tips",
+        "Recipes for hot milk",
+        "Korok hiding spots"
+      ],
+      "answer": 0,
+      "explanation": "The blueprint shared how to keep bridges safe."
+    },
+    {
+      "id": "zelda-construct-engineers-q8",
+      "type": "short-answer",
+      "prompt": "Why did Link carve Korok fronds into the posts?",
+      "acceptableAnswers": [
+        "To remind explorers to tighten bolts before storms.",
+        "The carvings acted as maintenance reminders."
+      ],
+      "explanation": "The symbols encouraged regular safety checks."
+    },
+    {
+      "id": "zelda-construct-engineers-q9",
+      "type": "multiple-choice",
+      "prompt": "Which material handled gusts best?",
+      "options": [
+        "Zonaite truss",
+        "Stone slab",
+        "Floating plank"
+      ],
+      "answer": 0,
+      "explanation": "The truss stayed steady under wind pressure."
+    },
+    {
+      "id": "zelda-construct-engineers-q10",
+      "type": "multiple-choice",
+      "prompt": "Where were the findings stored?",
+      "options": [
+        "Purah's Research Terminal",
+        "A Bokoblin camp",
+        "The Lost Woods"
+      ],
+      "answer": 0,
+      "explanation": "Archiving keeps the data available to builders."
+    }
+  ],
+  "keywords": [
+    "bridge",
+    "truss",
+    "Construct",
+    "engineering",
+    "Tabantha"
+  ],
+  "prompts": [
+    "Sketch your own Zonai bridge design and list tests you would run before explorers use it.",
+    "Write a maintenance checklist for travelers who want to keep canyon bridges strong."
+  ]
+}

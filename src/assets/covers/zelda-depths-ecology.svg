@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Depths Ecology Cover</title>
+  <desc id="desc">Glowing plants in the Depths.</desc>
+  <defs>
+    <linearGradient id="gloom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08121c" />
+      <stop offset="100%" stop-color="#04080d" />
+    </linearGradient>
+    <radialGradient id="bloom" cx="0.5" cy="0.3" r="0.5">
+      <stop offset="0%" stop-color="#85f7ff" />
+      <stop offset="100%" stop-color="#1b3a49" />
+    </radialGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#gloom)" />
+  <g transform="translate(30 180)">
+    <ellipse cx="60" cy="120" rx="60" ry="24" fill="#102028" />
+    <path d="M60 120l-18-70 18-40 18 40z" fill="#1f3845" stroke="#94fff6" stroke-width="3" />
+    <circle cx="60" cy="32" r="32" fill="url(#bloom)" />
+  </g>
+  <g transform="translate(190 160)">
+    <ellipse cx="50" cy="140" rx="54" ry="22" fill="#102028" />
+    <path d="M50 140l-14-60 14-44 14 44z" fill="#223c4c" stroke="#6ef7ff" stroke-width="3" />
+    <circle cx="50" cy="44" r="36" fill="url(#bloom)" />
+  </g>
+  <g stroke="#6ef7ff" stroke-width="3" stroke-linecap="round" opacity="0.4">
+    <path d="M40 320c40 16 80 16 120 0s80-16 120 0" />
+    <path d="M60 350c30 12 60 12 90 0s60-12 90 0" opacity="0.6" />
+  </g>
+</svg>

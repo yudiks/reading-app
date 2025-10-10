@@ -49,6 +49,7 @@ Update or add files, then import them through `src/data/passages.js` if you crea
 - **Accessibility**: keyboard-friendly navigation, readable focus states, and motion respecting `prefers-reduced-motion`.
 - **Expanded Biographies** featuring Harriet Tubman and Katherine Johnson for cross-curricular reading.
 - **Tech Journeys** exploring smartphones, augmented reality, computer history, and Python coding projects.
+- **Hyrule Field Labs**: five science adventures inspired by Tears of the Kingdom covering wind, energy, engineering, weather, and glowing ecosystems.
 
 ## Commands
 | Command            | Purpose                                   |

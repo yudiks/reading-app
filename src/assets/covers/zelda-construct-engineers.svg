@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 420" role="img" aria-labelledby="title desc">
+  <title id="title">Construct Engineers Cover</title>
+  <desc id="desc">Zonai construct and Link building a bridge.</desc>
+  <defs>
+    <linearGradient id="canyon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1f2f54" />
+      <stop offset="100%" stop-color="#0e1a32" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="420" rx="24" fill="url(#canyon)" />
+  <path d="M0 280h320v140H0z" fill="#2f3c52" />
+  <path d="M0 320c70-40 140-40 210 0s140 40 210 0v100H0z" fill="#3a4a63" />
+  <g transform="translate(50 180)">
+    <rect x="0" y="60" width="220" height="30" rx="6" fill="#1a2c48" stroke="#7df0ff" stroke-width="3" />
+    <path d="M20 60l30-50 40 50 40-50 30 50" fill="none" stroke="#7df0ff" stroke-width="4" stroke-linecap="round" />
+  </g>
+  <g transform="translate(60 120)">
+    <rect x="0" y="0" width="80" height="110" rx="14" fill="#243d57" stroke="#a8ffef" stroke-width="3" />
+    <circle cx="40" cy="32" r="18" fill="#0f1a2f" stroke="#a8ffef" stroke-width="3" />
+    <rect x="18" y="60" width="44" height="40" fill="#16273d" />
+  </g>
+  <g transform="translate(180 140)">
+    <rect x="0" y="0" width="60" height="100" rx="12" fill="#324661" stroke="#7df0ff" stroke-width="3" />
+    <path d="M30 12v40" stroke="#7df0ff" stroke-width="4" stroke-linecap="round" />
+    <path d="M12 74l36-24" stroke="#7df0ff" stroke-width="4" stroke-linecap="round" />
+  </g>
+</svg>
