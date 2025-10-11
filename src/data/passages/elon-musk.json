@@ -1,0 +1,146 @@
+{
+  "id": "elon-musk",
+  "title": "Elon Musk: Building the Future",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Elon Musk is an inventor who builds reusable rockets with SpaceX and electric cars with Tesla, always dreaming of a better future.",
+  "coverImage": "assets/covers/elon-musk.svg",
+  "imageAlt": "Stylized illustration of Elon Musk with a rocket launching behind one shoulder and an electric car on the other.",
+  "author": "Jacob Sutanto",
+  "wordCount": 341,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Elon Musk grew up in South Africa, reading books about science fiction and dreaming of space. As a boy, he taught himself how to code and created his own video game. He loved thinking about big problems and imagining new inventions that could change the world. This curiosity pushed him to move to North America for college, where he studied physics and business.",
+    "After college, Elon started companies that used the internet in new ways. One of his first big successes was a company called PayPal, which made it easier and safer for people to send money online. Selling that company gave him the funds to chase his biggest dreams: space travel and clean energy.",
+    "Elon founded SpaceX with a giant goal: to make it possible for humans to travel to other planets, like Mars. At first, many people thought it was impossible. His first few rockets failed, but he never gave up. His team learned from each mistake and finally built the Falcon 1, the first privately funded rocket to reach orbit. Later, they designed rockets that could land themselves back on Earth, making space travel much cheaper.",
+    "At the same time, Elon took charge of Tesla, a company building electric cars. He wanted to prove that electric cars could be fast, fun, and better for the planet than gasoline cars. Tesla's cars use powerful batteries and smart software, and they helped make electric vehicles popular around the world. The company also builds solar panels and batteries to power homes with clean energy.",
+    "Elon is always working on new ideas. He started The Boring Company to dig tunnels under cities to solve traffic jams, and Neuralink to create brain-computer interfaces to help people with injuries. He believes technology can solve humanity's biggest challenges.",
+    "From video games to rockets and electric cars, Elon Musk's story shows how a childhood dream can grow into world-changing inventions. He encourages people to learn, work hard, and think big, proving that with enough determination, even the wildest ideas can take flight."
+  ],
+  "questions": [
+    {
+      "id": "elon-musk-q1",
+      "type": "multiple-choice",
+      "prompt": "What did Elon Musk teach himself to do as a boy?",
+      "options": [
+        "How to code a video game",
+        "How to bake a cake",
+        "How to fly a plane"
+      ],
+      "answer": 0,
+      "explanation": "He taught himself how to code and even created his own video game when he was young."
+    },
+    {
+      "id": "elon-musk-q2",
+      "type": "fill-blank",
+      "prompt": "His company, SpaceX, designed rockets that could ______ themselves back on Earth.",
+      "answer": "land",
+      "explanation": "SpaceX's reusable rockets can land after a launch, which makes them cheaper to use again."
+    },
+    {
+      "id": "elon-musk-q3",
+      "type": "multiple-choice",
+      "prompt": "What is the main goal of Tesla?",
+      "options": [
+        "To build popular electric cars and promote clean energy",
+        "To sell gasoline and diesel trucks",
+        "To make the fastest bicycles"
+      ],
+      "answer": 0,
+      "explanation": "Tesla's mission is to accelerate the world's transition to sustainable energy with electric cars and solar products."
+    },
+    {
+      "id": "elon-musk-q4",
+      "type": "matching",
+      "prompt": "Match the company with its main project.",
+      "pairs": [
+        { "id": "a", "left": "SpaceX", "right": "" },
+        { "id": "b", "left": "Tesla", "right": "" },
+        { "id": "c", "left": "The Boring Company", "right": "" }
+      ],
+      "answer": {
+        "a": "Building reusable rockets for space travel",
+        "b": "Making electric cars and solar panels",
+        "c": "Digging tunnels to reduce city traffic"
+      },
+      "explanation": "Each of Elon Musk's companies focuses on a different technological challenge."
+    },
+    {
+      "id": "elon-musk-q5",
+      "type": "sequence",
+      "prompt": "Place these events from Elon Musk's life in the correct order.",
+      "sequence": [
+        "He created a video game as a boy",
+        "He co-founded PayPal to send money online",
+        "He founded SpaceX to build rockets",
+        "He became the CEO of Tesla to build electric cars"
+      ],
+      "explanation": "His interest in coding came first, followed by his internet companies, and then his work in space and clean energy."
+    },
+    {
+      "id": "elon-musk-q6",
+      "type": "multiple-choice",
+      "prompt": "What was special about the Falcon 1 rocket?",
+      "options": [
+        "It was made of wood.",
+        "It was the first privately funded rocket to reach orbit.",
+        "It could travel through time."
+      ],
+      "answer": 1,
+      "explanation": "The success of Falcon 1 was a major milestone for SpaceX and private spaceflight."
+    },
+    {
+      "id": "elon-musk-q7",
+      "type": "fill-blank",
+      "prompt": "Elon Musk believes that ______ can solve many of humanity's biggest challenges.",
+      "answer": "technology",
+      "explanation": "He uses technology and engineering to work on problems like transportation, energy, and space exploration."
+    },
+    {
+      "id": "elon-musk-q8",
+      "type": "short-answer",
+      "prompt": "Why was it important for SpaceX's rockets to be reusable?",
+      "acceptableAnswers": [
+        "It made space travel much cheaper.",
+        "Because it costs less if you don't have to build a new rocket every time."
+      ],
+      "explanation": "Reusability drastically reduces the cost of launching things into space."
+    },
+    {
+      "id": "elon-musk-q9",
+      "type": "multiple-choice",
+      "prompt": "What quality does Elon Musk's story show is important for an inventor?",
+      "options": [
+        "Giving up after the first failure",
+        "Never trying new things",
+        "Determination and not giving up"
+      ],
+      "answer": 2,
+      "explanation": "He faced many failures, especially with his early rockets, but he kept trying until he succeeded."
+    },
+    {
+      "id": "elon-musk-q10",
+      "type": "multiple-choice",
+      "prompt": "What is the main lesson from Elon Musk's story?",
+      "options": [
+        "Thinking big and working hard can turn dreams into reality.",
+        "It is best to only focus on one small idea.",
+        "Science fiction books are not useful."
+      ],
+      "answer": 0,
+      "explanation": "His life shows that ambitious goals can be achieved with persistence and hard work."
+    }
+  ],
+  "keywords": [
+    "SpaceX",
+    "Tesla",
+    "rocket",
+    "innovation",
+    "engineer",
+    "electric car"
+  ],
+  "prompts": [
+    "If you could invent something to change the world, what would it be?",
+    "Elon Musk failed many times before his rockets worked. Why is it important to learn from mistakes?"
+  ]
+}

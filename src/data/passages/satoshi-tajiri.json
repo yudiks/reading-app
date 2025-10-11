@@ -1,0 +1,146 @@
+{
+  "id": "satoshi-tajiri",
+  "title": "Satoshi Tajiri: The Creator of Pokémon",
+  "category": "biography",
+  "categoryLabel": "Biography",
+  "summary": "Satoshi Tajiri turned his childhood love of collecting insects into Pokémon, a worldwide phenomenon about catching and trading creatures.",
+  "coverImage": "assets/covers/satoshi-tajiri.svg",
+  "imageAlt": "Stylized illustration of Satoshi Tajiri with a bug net and a classic handheld game console.",
+  "author": "Jacob Sutanto",
+  "wordCount": 349,
+  "readingLevel": "Grade 3",
+  "body": [
+    "Long before he created Pokémon, Satoshi Tajiri was a boy who loved exploring the fields and forests of rural Tokyo, Japan. He spent his days searching for insects, which he would catch, study, and trade with his friends. His collection grew so large that his friends nicknamed him \"Dr. Bug.\" He loved the thrill of finding a rare beetle. But as he grew up, the fields and ponds he loved were replaced by buildings and parking lots. He worried that future kids wouldn't get to experience the joy of discovering and collecting creatures.",
+    "As a teenager, Satoshi's passion shifted from bugs to arcade games. He spent hours at the local arcade, mastering games and learning their secrets. He wanted to share his knowledge with others, so he started a handmade magazine called *Game Freak*. He and his friend, Ken Sugimori, who drew the art, would write, print, and staple the magazines themselves. *Game Freak* became popular with other gamers who wanted to learn tips and tricks.",
+    "One day, Satoshi saw two people playing on their Nintendo Game Boys, connected by a Link Cable. An idea sparked in his mind. He imagined insects crawling across the cable, from one Game Boy to the other. This made him think of his childhood bug-collecting days. What if he could create a game where players could catch, train, and trade creatures just like he did with his insects? He wanted to give all kids the same feeling of discovery he had.",
+    "Satoshi turned his magazine, *Game Freak*, into a video game company. He and his team spent six long years working on his idea. It was a difficult process, and they almost ran out of money. But Satoshi believed in his dream. He presented his idea to Nintendo, who saw the magic in catching and trading monsters.",
+    "Finally, in 1996, *Pokémon Red* and *Pokémon Green* were released in Japan. The games were a huge success! Players loved exploring the world, catching all 151 original Pokémon, and trading with friends to complete their Pokédex. The game fulfilled Satoshi's dream of letting everyone experience the joy of collecting.",
+    "Satoshi Tajiri's story shows how a childhood passion can turn into a creative idea that connects people all over the world. His love for bug collecting became a game that has been enjoyed by millions for decades, reminding us all to \"Gotta Catch 'Em All!\""
+  ],
+  "questions": [
+    {
+      "id": "satoshi-tajiri-q1",
+      "type": "multiple-choice",
+      "prompt": "What was Satoshi Tajiri's nickname as a child?",
+      "options": [
+        "Dr. Bug",
+        "Captain Game",
+        "The Collector"
+      ],
+      "answer": 0,
+      "explanation": "His friends called him 'Dr. Bug' because he loved collecting insects."
+    },
+    {
+      "id": "satoshi-tajiri-q2",
+      "type": "fill-blank",
+      "prompt": "Satoshi started a handmade magazine for gamers called ______, which later became his company.",
+      "answer": "Game Freak",
+      "explanation": "Game Freak started as a magazine and grew into the company that developed Pokémon."
+    },
+    {
+      "id": "satoshi-tajiri-q3",
+      "type": "multiple-choice",
+      "prompt": "What gave Satoshi the main idea for Pokémon?",
+      "options": [
+        "Seeing two Game Boys connected with a Link Cable",
+        "Reading a book about dragons",
+        "Watching a movie about space"
+      ],
+      "answer": 0,
+      "explanation": "The Link Cable made him imagine creatures moving between devices, reminding him of trading bugs."
+    },
+    {
+      "id": "satoshi-tajiri-q4",
+      "type": "matching",
+      "prompt": "Match the item from Satoshi's life with its description.",
+      "pairs": [
+        { "id": "a", "left": "Insects", "right": "" },
+        { "id": "b", "left": "Game Freak", "right": "" },
+        { "id": "c", "left": "Link Cable", "right": "" }
+      ],
+      "answer": {
+        "a": "His childhood passion for collecting creatures",
+        "b": "The magazine he created, which became his company",
+        "c": "The wire that sparked the idea of trading Pokémon"
+      },
+      "explanation": "Each item played an important role in his journey to creating Pokémon."
+    },
+    {
+      "id": "satoshi-tajiri-q5",
+      "type": "sequence",
+      "prompt": "Place these events from Satoshi Tajiri's life in the correct order.",
+      "sequence": [
+        "He collected insects as a boy",
+        "He created the 'Game Freak' magazine",
+        "He got the idea for Pokémon from the Game Boy Link Cable",
+        "The first Pokémon games were released"
+      ],
+      "explanation": "His story progressed from his childhood hobby to creating a magazine, developing an idea, and finally releasing the game."
+    },
+    {
+      "id": "satoshi-tajiri-q6",
+      "type": "multiple-choice",
+      "prompt": "Why did Satoshi want to create Pokémon?",
+      "options": [
+        "He wanted to become a famous artist.",
+        "He wanted to give kids the same joy of discovery he felt when collecting bugs.",
+        "He wanted to build a faster computer."
+      ],
+      "answer": 1,
+      "explanation": "He was inspired by his childhood and wanted to share that experience with others."
+    },
+    {
+      "id": "satoshi-tajiri-q7",
+      "type": "fill-blank",
+      "prompt": "The first two Pokémon games released in Japan were Pokémon Red and Pokémon ______.",
+      "answer": "Green",
+      "explanation": "Pokémon Red and Green were the original pair of games released in Japan in 1996."
+    },
+    {
+      "id": "satoshi-tajiri-q8",
+      "type": "short-answer",
+      "prompt": "What problem did Satoshi and his team face while making Pokémon?",
+      "acceptableAnswers": [
+        "They almost ran out of money.",
+        "It took six long years and was very difficult."
+      ],
+      "explanation": "The development process was long and challenging, and they struggled with funding."
+    },
+    {
+      "id": "satoshi-tajiri-q9",
+      "type": "multiple-choice",
+      "prompt": "Who was Ken Sugimori?",
+      "options": [
+        "Satoshi's teacher",
+        "The friend who drew the art for Game Freak magazine",
+        "The president of Nintendo"
+      ],
+      "answer": 1,
+      "explanation": "Ken Sugimori was Satoshi's friend and collaborator who created the artwork."
+    },
+    {
+      "id": "satoshi-tajiri-q10",
+      "type": "multiple-choice",
+      "prompt": "What is the main lesson from Satoshi Tajiri's story?",
+      "options": [
+        "A childhood passion can grow into a world-changing idea.",
+        "You should never share your ideas with friends.",
+        "Video games are easy to make."
+      ],
+      "answer": 0,
+      "explanation": "His story shows that your hobbies and interests can inspire amazing creations."
+    }
+  ],
+  "keywords": [
+    "Pokémon",
+    "Game Freak",
+    "bug collecting",
+    "Game Boy",
+    "Nintendo",
+    "creator"
+  ],
+  "prompts": [
+    "If you could turn one of your hobbies into a game, what would it be about?",
+    "Why do you think trading was such an important part of the first Pokémon games?"
+  ]
+}

@@ -18,6 +18,8 @@ import zeldaZoneiteResearch from "./passages/zelda-zoneite-research.json" assert
 import zeldaConstructEngineers from "./passages/zelda-construct-engineers.json" assert { type: "json" };
 import zeldaWeatherResearch from "./passages/zelda-weather-research.json" assert { type: "json" };
 import zeldaDepthsEcology from "./passages/zelda-depths-ecology.json" assert { type: "json" };
+import elonMusk from "./passages/elon-musk.json" assert { type: "json" };
+import satoshiTajiri from "./passages/satoshi-tajiri.json" assert { type: "json" };
 
 const withCovers = passage => ({
   ...passage,
@@ -35,6 +37,8 @@ const passages = [
   clockworkClub,
   mesaSkywatchers,
   harrietTubman,
+  elonMusk,
+  satoshiTajiri,
   katherineJohnson,
   smartphoneInnovation,
   pokemonGoAdventure,
